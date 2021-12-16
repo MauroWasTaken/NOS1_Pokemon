@@ -1,3 +1,8 @@
+import { Fetcher } from './app/Fetcher';
 import { createPokemonJsonFile } from './scripts/script';
 
-createPokemonJsonFile().catch(reason => console.error(reason));
+(async () => {
+  await Fetcher.setUp();
+  createPokemonJsonFile().catch(reason => console.error(reason));
+})();
+

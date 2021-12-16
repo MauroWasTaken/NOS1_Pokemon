@@ -9,9 +9,9 @@ import { PokemonJSON } from '../model/PokemonJSON';
 
 export async function createPokemonJsonFile() {
   const firstGen: number[] = _.range(1, 151 + 1);
+  const pokemons: PokemonJSON[] = [];
   const pokemonConverter = new PokemonConverter();
   const endPoint = `${BaseURL.REST}${Endpoints.Pokemon}`;
-  let pokemons: PokemonJSON[] = [];
 
   const promises: Promise<void>[] = firstGen.map(dexNumber => {
     return new Promise<void>(async resolve => {
@@ -23,7 +23,11 @@ export async function createPokemonJsonFile() {
         }).catch(reason => Log.error(reason));
       }
 
-      Fetcher.axiosInstance.get(`${endPoint}/${dexNumber}`).then(convertToPokemonJSON).catch(reason => Log.error(reason));
+      Fetcher.axiosInstance.then(axiosInstance => {
+        axiosInstance.get(`${endPoint}/${dexNumber}`)
+                     .then(response => { convertToPokemonJSON(response); })
+                     .catch(reason => Log.error(reason));
+      });
     });
   });
 
@@ -31,7 +35,7 @@ export async function createPokemonJsonFile() {
     pokemonConverter.cleanValues(pokemons);
     new FileWriter().write('src/data/pokemons.min.dev.json', pokemonConverter.toJSONString(pokemons));
     new FileWriter().write('src/data/pokemons.dev.json', pokemonConverter.toJSONString(pokemons, true));
-    Log.info('Process terminated successfully.')
+    Log.info('Process terminated successfully.');
   }).catch(reason => Log.error(reason));
 }
 

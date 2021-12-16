@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { Pokemon, PokemonStat, PokemonType, Type } from 'pokenode-ts';
+import { Pokemon, PokemonStat, Type } from 'pokenode-ts';
 import { PokemonJSON } from '../model/PokemonJSON';
 import { StatsJSON } from '../model/StatJSON';
 import { TypeJSON } from '../model/TypeJSON';
@@ -48,10 +48,12 @@ export class PokemonConverter {
   }
 
   private static getTypes(pokemonFromApi: Pokemon): Promise<TypeJSON[]> {
-    const promises = pokemonFromApi.types.map((pokemonType: PokemonType) => {
-      return Fetcher.axiosInstance.get(pokemonType.type.url).then(response => {
-        Log.info('Getting type :', pokemonType.type.name);
-        return typeApiToTypeApp(response.data);
+    const promises = pokemonFromApi.types.map(pokemonType => {
+      return Fetcher.axiosInstance.then(axiosInstance => {
+        return axiosInstance.get(pokemonType.type.url).then(response => {
+          Log.info('Getting type :', pokemonType.type.name);
+          return typeApiToTypeApp(response.data);
+        });
       });
     });
 
