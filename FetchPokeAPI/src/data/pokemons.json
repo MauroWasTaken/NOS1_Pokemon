@@ -2,6 +2,76 @@
   {
     "dex": 1,
     "name": "bulbasaur",
+    "types": [
+      {
+        "name": "grass",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "flying",
+          "poison",
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "ground",
+          "water",
+          "grass",
+          "electric"
+        ],
+        "weakAgainst": [
+          "flying",
+          "poison",
+          "bug",
+          "fire",
+          "ice"
+        ]
+      },
+      {
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "fairy"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "ground",
+          "rock",
+          "ghost"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "poison",
+          "bug",
+          "grass",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "psychic"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 45
+    },
     "moves": [
       "razor-wind",
       "swords-dance",
@@ -81,15 +151,11 @@
       "work-up",
       "grassy-terrain",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 45,
-      "attack": 49,
-      "defense": 49,
-      "spAttack": 65,
-      "spDefense": 65,
-      "speed": 45
-    },
+    ]
+  },
+  {
+    "dex": 2,
+    "name": "ivysaur",
     "types": [
       {
         "name": "grass",
@@ -151,11 +217,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 2,
-    "name": "ivysaur",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 60
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -223,15 +293,11 @@
       "grass-pledge",
       "work-up",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 62,
-      "defense": 63,
-      "spAttack": 80,
-      "spDefense": 80,
-      "speed": 60
-    },
+    ]
+  },
+  {
+    "dex": 3,
+    "name": "venusaur",
     "types": [
       {
         "name": "grass",
@@ -293,11 +359,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 3,
-    "name": "venusaur",
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 80
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -376,81 +446,51 @@
       "work-up",
       "petal-blizzard",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 82,
-      "defense": 83,
-      "spAttack": 100,
-      "spDefense": 100,
-      "speed": 80
-    },
-    "types": [
-      {
-        "name": "grass",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "water"
-        ],
-        "notVeryEffectiveTo": [
-          "flying",
-          "poison",
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "ground",
-          "water",
-          "grass",
-          "electric"
-        ],
-        "weakAgainst": [
-          "flying",
-          "poison",
-          "bug",
-          "fire",
-          "ice"
-        ]
-      },
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
-      }
     ]
   },
   {
     "dex": 4,
     "name": "charmander",
+    "types": [
+      {
+        "name": "fire",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "bug",
+          "steel",
+          "grass",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "fire",
+          "water",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "ice",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "rock",
+          "water"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 65
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -545,15 +585,11 @@
       "work-up",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 39,
-      "attack": 52,
-      "defense": 43,
-      "spAttack": 60,
-      "spDefense": 50,
-      "speed": 65
-    },
+    ]
+  },
+  {
+    "dex": 5,
+    "name": "charmeleon",
     "types": [
       {
         "name": "fire",
@@ -585,11 +621,15 @@
           "water"
         ]
       }
-    ]
-  },
-  {
-    "dex": 5,
-    "name": "charmeleon",
+    ],
+    "baseStats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "spAttack": 80,
+      "spDefense": 65,
+      "speed": 80
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -675,15 +715,11 @@
       "work-up",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 58,
-      "attack": 64,
-      "defense": 58,
-      "spAttack": 80,
-      "spDefense": 65,
-      "speed": 80
-    },
+    ]
+  },
+  {
+    "dex": 6,
+    "name": "charizard",
     "types": [
       {
         "name": "fire",
@@ -714,12 +750,43 @@
           "rock",
           "water"
         ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 6,
-    "name": "charizard",
+    ],
+    "baseStats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "spAttack": 109,
+      "spDefense": 85,
+      "speed": 100
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -829,78 +896,46 @@
       "confide",
       "power-up-punch",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 78,
-      "attack": 84,
-      "defense": 78,
-      "spAttack": 109,
-      "spDefense": 85,
-      "speed": 100
-    },
-    "types": [
-      {
-        "name": "fire",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "bug",
-          "steel",
-          "grass",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "fire",
-          "water",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "ice",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "rock",
-          "water"
-        ]
-      },
-      {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel",
-          "electric"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 7,
     "name": "squirtle",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "spAttack": 50,
+      "spDefense": 64,
+      "speed": 43
+    },
     "moves": [
       "mega-punch",
       "ice-punch",
@@ -993,15 +1028,11 @@
       "work-up",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 44,
-      "attack": 48,
-      "defense": 65,
-      "spAttack": 50,
-      "spDefense": 64,
-      "speed": 43
-    },
+    ]
+  },
+  {
+    "dex": 8,
+    "name": "wartortle",
     "types": [
       {
         "name": "water",
@@ -1028,11 +1059,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 8,
-    "name": "wartortle",
+    ],
+    "baseStats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "spAttack": 65,
+      "spDefense": 80,
+      "speed": 58
+    },
     "moves": [
       "mega-punch",
       "ice-punch",
@@ -1110,15 +1145,11 @@
       "work-up",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 59,
-      "attack": 63,
-      "defense": 80,
-      "spAttack": 65,
-      "spDefense": 80,
-      "speed": 58
-    },
+    ]
+  },
+  {
+    "dex": 9,
+    "name": "blastoise",
     "types": [
       {
         "name": "water",
@@ -1145,11 +1176,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 9,
-    "name": "blastoise",
+    ],
+    "baseStats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "spAttack": 85,
+      "spDefense": 105,
+      "speed": 78
+    },
     "moves": [
       "mega-punch",
       "ice-punch",
@@ -1244,52 +1279,41 @@
       "work-up",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 79,
-      "attack": 83,
-      "defense": 100,
-      "spAttack": 85,
-      "spDefense": 105,
-      "speed": 78
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      }
     ]
   },
   {
     "dex": 10,
     "name": "caterpie",
-    "moves": [
-      "tackle",
-      "string-shot",
-      "snore",
-      "bug-bite",
-      "electroweb"
+    "types": [
+      {
+        "name": "bug",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "psychic",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "fighting",
+          "flying",
+          "poison",
+          "ghost",
+          "steel",
+          "fire",
+          "fairy"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "ground",
+          "grass"
+        ],
+        "weakAgainst": [
+          "flying",
+          "rock",
+          "fire"
+        ]
+      }
     ],
     "baseStats": {
       "hp": 45,
@@ -1299,6 +1323,17 @@
       "spDefense": 20,
       "speed": 45
     },
+    "moves": [
+      "tackle",
+      "string-shot",
+      "snore",
+      "bug-bite",
+      "electroweb"
+    ]
+  },
+  {
+    "dex": 11,
+    "name": "metapod",
     "types": [
       {
         "name": "bug",
@@ -1329,17 +1364,6 @@
           "fire"
         ]
       }
-    ]
-  },
-  {
-    "dex": 11,
-    "name": "metapod",
-    "moves": [
-      "string-shot",
-      "harden",
-      "iron-defense",
-      "bug-bite",
-      "electroweb"
     ],
     "baseStats": {
       "hp": 50,
@@ -1349,6 +1373,17 @@
       "spDefense": 25,
       "speed": 30
     },
+    "moves": [
+      "string-shot",
+      "harden",
+      "iron-defense",
+      "bug-bite",
+      "electroweb"
+    ]
+  },
+  {
+    "dex": 12,
+    "name": "butterfree",
     "types": [
       {
         "name": "bug",
@@ -1378,12 +1413,43 @@
           "rock",
           "fire"
         ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 12,
-    "name": "butterfree",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "spAttack": 90,
+      "spDefense": 80,
+      "speed": 70
+    },
     "moves": [
       "razor-wind",
       "gust",
@@ -1462,15 +1528,11 @@
       "electroweb",
       "confide",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 45,
-      "defense": 50,
-      "spAttack": 90,
-      "spDefense": 80,
-      "speed": 70
-    },
+    ]
+  },
+  {
+    "dex": 13,
+    "name": "weedle",
     "types": [
       {
         "name": "bug",
@@ -1502,42 +1564,33 @@
         ]
       },
       {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
         ],
+        "noDamageFrom": [],
         "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
+          "grass",
+          "fairy"
         ],
         "notVeryEffectiveTo": [
+          "poison",
+          "ground",
           "rock",
-          "steel",
-          "electric"
+          "ghost"
         ],
         "strongAgainst": [
           "fighting",
+          "poison",
           "bug",
-          "grass"
+          "grass",
+          "fairy"
         ],
         "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
+          "ground",
+          "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 13,
-    "name": "weedle",
-    "moves": [
-      "poison-sting",
-      "string-shot",
-      "bug-bite",
-      "electroweb"
     ],
     "baseStats": {
       "hp": 40,
@@ -1547,6 +1600,16 @@
       "spDefense": 20,
       "speed": 50
     },
+    "moves": [
+      "poison-sting",
+      "string-shot",
+      "bug-bite",
+      "electroweb"
+    ]
+  },
+  {
+    "dex": 14,
+    "name": "kakuna",
     "types": [
       {
         "name": "bug",
@@ -1605,17 +1668,6 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 14,
-    "name": "kakuna",
-    "moves": [
-      "string-shot",
-      "harden",
-      "iron-defense",
-      "bug-bite",
-      "electroweb"
     ],
     "baseStats": {
       "hp": 45,
@@ -1625,6 +1677,17 @@
       "spDefense": 25,
       "speed": 35
     },
+    "moves": [
+      "string-shot",
+      "harden",
+      "iron-defense",
+      "bug-bite",
+      "electroweb"
+    ]
+  },
+  {
+    "dex": 15,
+    "name": "beedrill",
     "types": [
       {
         "name": "bug",
@@ -1683,11 +1746,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 15,
-    "name": "beedrill",
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "spAttack": 45,
+      "spDefense": 80,
+      "speed": 75
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -1764,78 +1831,66 @@
       "confide",
       "infestation",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 90,
-      "defense": 40,
-      "spAttack": 45,
-      "spDefense": 80,
-      "speed": 75
-    },
-    "types": [
-      {
-        "name": "bug",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "psychic",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "fighting",
-          "flying",
-          "poison",
-          "ghost",
-          "steel",
-          "fire",
-          "fairy"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "ground",
-          "grass"
-        ],
-        "weakAgainst": [
-          "flying",
-          "rock",
-          "fire"
-        ]
-      },
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
-      }
     ]
   },
   {
     "dex": 16,
     "name": "pidgey",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 56
+    },
     "moves": [
       "razor-wind",
       "gust",
@@ -1900,15 +1955,11 @@
       "work-up",
       "hurricane",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 40,
-      "spAttack": 35,
-      "spDefense": 35,
-      "speed": 56
-    },
+    ]
+  },
+  {
+    "dex": 17,
+    "name": "pidgeotto",
     "types": [
       {
         "name": "normal",
@@ -1955,11 +2006,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 17,
-    "name": "pidgeotto",
+    ],
+    "baseStats": {
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 71
+    },
     "moves": [
       "razor-wind",
       "gust",
@@ -2020,15 +2075,11 @@
       "work-up",
       "hurricane",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 63,
-      "attack": 60,
-      "defense": 55,
-      "spAttack": 50,
-      "spDefense": 50,
-      "speed": 71
-    },
+    ]
+  },
+  {
+    "dex": 18,
+    "name": "pidgeot",
     "types": [
       {
         "name": "normal",
@@ -2075,11 +2126,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 18,
-    "name": "pidgeot",
+    ],
+    "baseStats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 101
+    },
     "moves": [
       "razor-wind",
       "gust",
@@ -2142,15 +2197,11 @@
       "work-up",
       "hurricane",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 83,
-      "attack": 80,
-      "defense": 75,
-      "spAttack": 70,
-      "spDefense": 70,
-      "speed": 101
-    },
+    ]
+  },
+  {
+    "dex": 19,
+    "name": "rattata",
     "types": [
       {
         "name": "normal",
@@ -2169,39 +2220,16 @@
         "weakAgainst": [
           "fighting"
         ]
-      },
-      {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel",
-          "electric"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
-        ]
       }
-    ]
-  },
-  {
-    "dex": 19,
-    "name": "rattata",
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "spAttack": 25,
+      "spDefense": 35,
+      "speed": 72
+    },
     "moves": [
       "cut",
       "headbutt",
@@ -2283,15 +2311,11 @@
       "work-up",
       "wild-charge",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 30,
-      "attack": 56,
-      "defense": 35,
-      "spAttack": 25,
-      "spDefense": 35,
-      "speed": 72
-    },
+    ]
+  },
+  {
+    "dex": 20,
+    "name": "raticate",
     "types": [
       {
         "name": "normal",
@@ -2311,11 +2335,15 @@
           "fighting"
         ]
       }
-    ]
-  },
-  {
-    "dex": 20,
-    "name": "raticate",
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "spAttack": 50,
+      "spDefense": 70,
+      "speed": 97
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -2396,15 +2424,11 @@
       "work-up",
       "wild-charge",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "attack": 81,
-      "defense": 60,
-      "spAttack": 50,
-      "spDefense": 70,
-      "speed": 97
-    },
+    ]
+  },
+  {
+    "dex": 21,
+    "name": "spearow",
     "types": [
       {
         "name": "normal",
@@ -2423,12 +2447,43 @@
         "weakAgainst": [
           "fighting"
         ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 21,
-    "name": "spearow",
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "spAttack": 31,
+      "spDefense": 31,
+      "speed": 70
+    },
     "moves": [
       "razor-wind",
       "whirlwind",
@@ -2497,15 +2552,11 @@
       "work-up",
       "drill-run",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 60,
-      "defense": 30,
-      "spAttack": 31,
-      "spDefense": 31,
-      "speed": 70
-    },
+    ]
+  },
+  {
+    "dex": 22,
+    "name": "fearow",
     "types": [
       {
         "name": "normal",
@@ -2552,11 +2603,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 22,
-    "name": "fearow",
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "spAttack": 61,
+      "spDefense": 61,
+      "speed": 100
+    },
     "moves": [
       "razor-wind",
       "whirlwind",
@@ -2621,66 +2676,49 @@
       "work-up",
       "drill-run",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 90,
-      "defense": 65,
-      "spAttack": 61,
-      "spDefense": 61,
-      "speed": 100
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      },
-      {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel",
-          "electric"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 23,
     "name": "ekans",
+    "types": [
+      {
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "fairy"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "ground",
+          "rock",
+          "ghost"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "poison",
+          "bug",
+          "grass",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "psychic"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "spAttack": 40,
+      "spDefense": 54,
+      "speed": 55
+    },
     "moves": [
       "bind",
       "slam",
@@ -2764,15 +2802,11 @@
       "confide",
       "infestation",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 35,
-      "attack": 60,
-      "defense": 44,
-      "spAttack": 40,
-      "spDefense": 54,
-      "speed": 55
-    },
+    ]
+  },
+  {
+    "dex": 24,
+    "name": "arbok",
     "types": [
       {
         "name": "poison",
@@ -2802,11 +2836,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 24,
-    "name": "arbok",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "spAttack": 65,
+      "spDefense": 79,
+      "speed": 80
+    },
     "moves": [
       "bind",
       "headbutt",
@@ -2887,49 +2925,45 @@
       "confide",
       "infestation",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 95,
-      "defense": 69,
-      "spAttack": 65,
-      "spDefense": 79,
-      "speed": 80
-    },
-    "types": [
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
-      }
     ]
   },
   {
     "dex": 25,
     "name": "pikachu",
+    "types": [
+      {
+        "name": "electric",
+        "noDamageTo": [
+          "ground"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "grass",
+          "electric",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "flying",
+          "steel",
+          "electric"
+        ],
+        "weakAgainst": [
+          "ground"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 90
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -3012,15 +3046,11 @@
       "play-nice",
       "confide",
       "nuzzle"
-    ],
-    "baseStats": {
-      "hp": 35,
-      "attack": 55,
-      "defense": 40,
-      "spAttack": 50,
-      "spDefense": 50,
-      "speed": 90
-    },
+    ]
+  },
+  {
+    "dex": 26,
+    "name": "raichu",
     "types": [
       {
         "name": "electric",
@@ -3046,11 +3076,15 @@
           "ground"
         ]
       }
-    ]
-  },
-  {
-    "dex": 26,
-    "name": "raichu",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "spAttack": 90,
+      "spDefense": 80,
+      "speed": 110
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -3128,45 +3162,50 @@
       "electroweb",
       "wild-charge",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 90,
-      "defense": 55,
-      "spAttack": 90,
-      "spDefense": 80,
-      "speed": 110
-    },
-    "types": [
-      {
-        "name": "electric",
-        "noDamageTo": [
-          "ground"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "water"
-        ],
-        "notVeryEffectiveTo": [
-          "grass",
-          "electric",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "flying",
-          "steel",
-          "electric"
-        ],
-        "weakAgainst": [
-          "ground"
-        ]
-      }
     ]
   },
   {
     "dex": 27,
     "name": "sandshrew",
+    "types": [
+      {
+        "name": "ground",
+        "noDamageTo": [
+          "flying"
+        ],
+        "noDamageFrom": [
+          "electric"
+        ],
+        "supperEffectiveTo": [
+          "poison",
+          "rock",
+          "steel",
+          "fire",
+          "electric"
+        ],
+        "notVeryEffectiveTo": [
+          "bug",
+          "grass"
+        ],
+        "strongAgainst": [
+          "poison",
+          "rock"
+        ],
+        "weakAgainst": [
+          "water",
+          "grass",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "spAttack": 20,
+      "spDefense": 30,
+      "speed": 40
+    },
     "moves": [
       "scratch",
       "swords-dance",
@@ -3251,15 +3290,11 @@
       "bulldoze",
       "rototiller",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 50,
-      "attack": 75,
-      "defense": 85,
-      "spAttack": 20,
-      "spDefense": 30,
-      "speed": 40
-    },
+    ]
+  },
+  {
+    "dex": 28,
+    "name": "sandslash",
     "types": [
       {
         "name": "ground",
@@ -3290,11 +3325,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 28,
-    "name": "sandslash",
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 65
+    },
     "moves": [
       "scratch",
       "swords-dance",
@@ -3377,50 +3416,49 @@
       "round",
       "bulldoze",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "attack": 100,
-      "defense": 110,
-      "spAttack": 45,
-      "spDefense": 55,
-      "speed": 65
-    },
-    "types": [
-      {
-        "name": "ground",
-        "noDamageTo": [
-          "flying"
-        ],
-        "noDamageFrom": [
-          "electric"
-        ],
-        "supperEffectiveTo": [
-          "poison",
-          "rock",
-          "steel",
-          "fire",
-          "electric"
-        ],
-        "notVeryEffectiveTo": [
-          "bug",
-          "grass"
-        ],
-        "strongAgainst": [
-          "poison",
-          "rock"
-        ],
-        "weakAgainst": [
-          "water",
-          "grass",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 29,
     "name": "nidoranf",
+    "types": [
+      {
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "fairy"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "ground",
+          "rock",
+          "ghost"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "poison",
+          "bug",
+          "grass",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "psychic"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 41
+    },
     "moves": [
       "scratch",
       "cut",
@@ -3499,15 +3537,11 @@
       "chip-away",
       "confide",
       "venom-drench"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "attack": 47,
-      "defense": 52,
-      "spAttack": 40,
-      "spDefense": 40,
-      "speed": 41
-    },
+    ]
+  },
+  {
+    "dex": 30,
+    "name": "nidorina",
     "types": [
       {
         "name": "poison",
@@ -3537,11 +3571,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 30,
-    "name": "nidorina",
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 56
+    },
     "moves": [
       "scratch",
       "cut",
@@ -3614,15 +3652,11 @@
       "round",
       "echoed-voice",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "attack": 62,
-      "defense": 67,
-      "spAttack": 55,
-      "spDefense": 55,
-      "speed": 56
-    },
+    ]
+  },
+  {
+    "dex": 31,
+    "name": "nidoqueen",
     "types": [
       {
         "name": "poison",
@@ -3651,12 +3685,45 @@
           "ground",
           "psychic"
         ]
+      },
+      {
+        "name": "ground",
+        "noDamageTo": [
+          "flying"
+        ],
+        "noDamageFrom": [
+          "electric"
+        ],
+        "supperEffectiveTo": [
+          "poison",
+          "rock",
+          "steel",
+          "fire",
+          "electric"
+        ],
+        "notVeryEffectiveTo": [
+          "bug",
+          "grass"
+        ],
+        "strongAgainst": [
+          "poison",
+          "rock"
+        ],
+        "weakAgainst": [
+          "water",
+          "grass",
+          "ice"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 31,
-    "name": "nidoqueen",
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 87,
+      "spAttack": 75,
+      "spDefense": 85,
+      "speed": 76
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -3771,15 +3838,11 @@
       "drill-run",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 92,
-      "defense": 87,
-      "spAttack": 75,
-      "spDefense": 85,
-      "speed": 76
-    },
+    ]
+  },
+  {
+    "dex": 32,
+    "name": "nidoranm",
     "types": [
       {
         "name": "poison",
@@ -3808,41 +3871,16 @@
           "ground",
           "psychic"
         ]
-      },
-      {
-        "name": "ground",
-        "noDamageTo": [
-          "flying"
-        ],
-        "noDamageFrom": [
-          "electric"
-        ],
-        "supperEffectiveTo": [
-          "poison",
-          "rock",
-          "steel",
-          "fire",
-          "electric"
-        ],
-        "notVeryEffectiveTo": [
-          "bug",
-          "grass"
-        ],
-        "strongAgainst": [
-          "poison",
-          "rock"
-        ],
-        "weakAgainst": [
-          "water",
-          "grass",
-          "ice"
-        ]
       }
-    ]
-  },
-  {
-    "dex": 32,
-    "name": "nidoranm",
+    ],
+    "baseStats": {
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 50
+    },
     "moves": [
       "cut",
       "double-kick",
@@ -3922,15 +3960,11 @@
       "confide",
       "venom-drench",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 46,
-      "attack": 57,
-      "defense": 40,
-      "spAttack": 40,
-      "spDefense": 40,
-      "speed": 50
-    },
+    ]
+  },
+  {
+    "dex": 33,
+    "name": "nidorino",
     "types": [
       {
         "name": "poison",
@@ -3960,11 +3994,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 33,
-    "name": "nidorino",
+    ],
+    "baseStats": {
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 65
+    },
     "moves": [
       "cut",
       "double-kick",
@@ -4037,15 +4075,11 @@
       "drill-run",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 61,
-      "attack": 72,
-      "defense": 57,
-      "spAttack": 55,
-      "spDefense": 55,
-      "speed": 65
-    },
+    ]
+  },
+  {
+    "dex": 34,
+    "name": "nidoking",
     "types": [
       {
         "name": "poison",
@@ -4074,12 +4108,45 @@
           "ground",
           "psychic"
         ]
+      },
+      {
+        "name": "ground",
+        "noDamageTo": [
+          "flying"
+        ],
+        "noDamageFrom": [
+          "electric"
+        ],
+        "supperEffectiveTo": [
+          "poison",
+          "rock",
+          "steel",
+          "fire",
+          "electric"
+        ],
+        "notVeryEffectiveTo": [
+          "bug",
+          "grass"
+        ],
+        "strongAgainst": [
+          "poison",
+          "rock"
+        ],
+        "weakAgainst": [
+          "water",
+          "grass",
+          "ice"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 34,
-    "name": "nidoking",
+    ],
+    "baseStats": {
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 85
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -4198,78 +4265,47 @@
       "confide",
       "power-up-punch",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 81,
-      "attack": 102,
-      "defense": 77,
-      "spAttack": 85,
-      "spDefense": 75,
-      "speed": 85
-    },
-    "types": [
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
-      },
-      {
-        "name": "ground",
-        "noDamageTo": [
-          "flying"
-        ],
-        "noDamageFrom": [
-          "electric"
-        ],
-        "supperEffectiveTo": [
-          "poison",
-          "rock",
-          "steel",
-          "fire",
-          "electric"
-        ],
-        "notVeryEffectiveTo": [
-          "bug",
-          "grass"
-        ],
-        "strongAgainst": [
-          "poison",
-          "rock"
-        ],
-        "weakAgainst": [
-          "water",
-          "grass",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 35,
     "name": "clefairy",
+    "types": [
+      {
+        "name": "fairy",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "dragon"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "dragon",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "steel",
+          "fire"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "dark"
+        ],
+        "weakAgainst": [
+          "poison",
+          "steel"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "spAttack": 60,
+      "spDefense": 65,
+      "speed": 35
+    },
     "moves": [
       "pound",
       "double-slap",
@@ -4398,15 +4434,11 @@
       "dazzling-gleam",
       "power-up-punch",
       "spotlight"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "attack": 45,
-      "defense": 48,
-      "spAttack": 60,
-      "spDefense": 65,
-      "speed": 35
-    },
+    ]
+  },
+  {
+    "dex": 36,
+    "name": "clefable",
     "types": [
       {
         "name": "fairy",
@@ -4434,11 +4466,15 @@
           "steel"
         ]
       }
-    ]
-  },
-  {
-    "dex": 36,
-    "name": "clefable",
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "spAttack": 95,
+      "spDefense": 90,
+      "speed": 60
+    },
     "moves": [
       "double-slap",
       "mega-punch",
@@ -4558,47 +4594,51 @@
       "dazzling-gleam",
       "power-up-punch",
       "spotlight"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "attack": 70,
-      "defense": 73,
-      "spAttack": 95,
-      "spDefense": 90,
-      "speed": 60
-    },
-    "types": [
-      {
-        "name": "fairy",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "dragon"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "dragon",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "steel",
-          "fire"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "dark"
-        ],
-        "weakAgainst": [
-          "poison",
-          "steel"
-        ]
-      }
     ]
   },
   {
     "dex": 37,
     "name": "vulpix",
+    "types": [
+      {
+        "name": "fire",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "bug",
+          "steel",
+          "grass",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "fire",
+          "water",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "ice",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "rock",
+          "water"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 65,
+      "speed": 65
+    },
     "moves": [
       "headbutt",
       "body-slam",
@@ -4673,15 +4713,11 @@
       "tail-slap",
       "confide",
       "baby-doll-eyes"
-    ],
-    "baseStats": {
-      "hp": 38,
-      "attack": 41,
-      "defense": 40,
-      "spAttack": 50,
-      "spDefense": 65,
-      "speed": 65
-    },
+    ]
+  },
+  {
+    "dex": 38,
+    "name": "ninetales",
     "types": [
       {
         "name": "fire",
@@ -4713,11 +4749,15 @@
           "water"
         ]
       }
-    ]
-  },
-  {
-    "dex": 38,
-    "name": "ninetales",
+    ],
+    "baseStats": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "spAttack": 81,
+      "spDefense": 100,
+      "speed": 100
+    },
     "moves": [
       "headbutt",
       "body-slam",
@@ -4785,51 +4825,65 @@
       "round",
       "incinerate",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 73,
-      "attack": 76,
-      "defense": 75,
-      "spAttack": 81,
-      "spDefense": 100,
-      "speed": 100
-    },
-    "types": [
-      {
-        "name": "fire",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "bug",
-          "steel",
-          "grass",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "fire",
-          "water",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "ice",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "rock",
-          "water"
-        ]
-      }
     ]
   },
   {
     "dex": 39,
     "name": "jigglypuff",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      },
+      {
+        "name": "fairy",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "dragon"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "dragon",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "steel",
+          "fire"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "dark"
+        ],
+        "weakAgainst": [
+          "poison",
+          "steel"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "spAttack": 45,
+      "spDefense": 25,
+      "speed": 20
+    },
     "moves": [
       "pound",
       "double-slap",
@@ -4941,15 +4995,11 @@
       "confide",
       "dazzling-gleam",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 115,
-      "attack": 45,
-      "defense": 20,
-      "spAttack": 45,
-      "spDefense": 25,
-      "speed": 20
-    },
+    ]
+  },
+  {
+    "dex": 40,
+    "name": "wigglytuff",
     "types": [
       {
         "name": "normal",
@@ -4995,11 +5045,15 @@
           "steel"
         ]
       }
-    ]
-  },
-  {
-    "dex": 40,
-    "name": "wigglytuff",
+    ],
+    "baseStats": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "spAttack": 85,
+      "spDefense": 50,
+      "speed": 45
+    },
     "moves": [
       "double-slap",
       "mega-punch",
@@ -5109,65 +5163,76 @@
       "confide",
       "dazzling-gleam",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 140,
-      "attack": 70,
-      "defense": 45,
-      "spAttack": 85,
-      "spDefense": 50,
-      "speed": 45
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      },
-      {
-        "name": "fairy",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "dragon"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "dragon",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "steel",
-          "fire"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "dark"
-        ],
-        "weakAgainst": [
-          "poison",
-          "steel"
-        ]
-      }
     ]
   },
   {
     "dex": 41,
     "name": "zubat",
+    "types": [
+      {
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "fairy"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "ground",
+          "rock",
+          "ghost"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "poison",
+          "bug",
+          "grass",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "psychic"
+        ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "spAttack": 30,
+      "spDefense": 40,
+      "speed": 55
+    },
     "moves": [
       "razor-wind",
       "gust",
@@ -5246,15 +5311,11 @@
       "acrobatics",
       "confide",
       "venom-drench"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 35,
-      "spAttack": 30,
-      "spDefense": 40,
-      "speed": 55
-    },
+    ]
+  },
+  {
+    "dex": 42,
+    "name": "golbat",
     "types": [
       {
         "name": "poison",
@@ -5311,11 +5372,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 42,
-    "name": "golbat",
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 90
+    },
     "moves": [
       "razor-wind",
       "wing-attack",
@@ -5389,16 +5454,44 @@
       "quick-guard",
       "acrobatics",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "attack": 80,
-      "defense": 70,
-      "spAttack": 65,
-      "spDefense": 75,
-      "speed": 90
-    },
+    ]
+  },
+  {
+    "dex": 43,
+    "name": "oddish",
     "types": [
+      {
+        "name": "grass",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "flying",
+          "poison",
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "ground",
+          "water",
+          "grass",
+          "electric"
+        ],
+        "weakAgainst": [
+          "flying",
+          "poison",
+          "bug",
+          "fire",
+          "ice"
+        ]
+      },
       {
         "name": "poison",
         "noDamageTo": [
@@ -5426,39 +5519,16 @@
           "ground",
           "psychic"
         ]
-      },
-      {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel",
-          "electric"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
-        ]
       }
-    ]
-  },
-  {
-    "dex": 43,
-    "name": "oddish",
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 55,
+      "spAttack": 75,
+      "spDefense": 65,
+      "speed": 30
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -5525,15 +5595,11 @@
       "dazzling-gleam",
       "infestation",
       "strength-sap"
-    ],
-    "baseStats": {
-      "hp": 45,
-      "attack": 50,
-      "defense": 55,
-      "spAttack": 75,
-      "spDefense": 65,
-      "speed": 30
-    },
+    ]
+  },
+  {
+    "dex": 44,
+    "name": "gloom",
     "types": [
       {
         "name": "grass",
@@ -5595,11 +5661,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 44,
-    "name": "gloom",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 40
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -5661,15 +5731,11 @@
       "confide",
       "dazzling-gleam",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 65,
-      "defense": 70,
-      "spAttack": 85,
-      "spDefense": 75,
-      "speed": 40
-    },
+    ]
+  },
+  {
+    "dex": 45,
+    "name": "vileplume",
     "types": [
       {
         "name": "grass",
@@ -5731,11 +5797,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 45,
-    "name": "vileplume",
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "spAttack": 110,
+      "spDefense": 90,
+      "speed": 50
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -5798,16 +5868,41 @@
       "confide",
       "dazzling-gleam",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "attack": 80,
-      "defense": 85,
-      "spAttack": 110,
-      "spDefense": 90,
-      "speed": 50
-    },
+    ]
+  },
+  {
+    "dex": 46,
+    "name": "paras",
     "types": [
+      {
+        "name": "bug",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "psychic",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "fighting",
+          "flying",
+          "poison",
+          "ghost",
+          "steel",
+          "fire",
+          "fairy"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "ground",
+          "grass"
+        ],
+        "weakAgainst": [
+          "flying",
+          "rock",
+          "fire"
+        ]
+      },
       {
         "name": "grass",
         "noDamageTo": [],
@@ -5839,40 +5934,16 @@
           "fire",
           "ice"
         ]
-      },
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
       }
-    ]
-  },
-  {
-    "dex": 46,
-    "name": "paras",
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 70,
+      "defense": 55,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 25
+    },
     "moves": [
       "scratch",
       "swords-dance",
@@ -5957,15 +6028,11 @@
       "fell-stinger",
       "grassy-terrain",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 35,
-      "attack": 70,
-      "defense": 55,
-      "spAttack": 45,
-      "spDefense": 55,
-      "speed": 25
-    },
+    ]
+  },
+  {
+    "dex": 47,
+    "name": "parasect",
     "types": [
       {
         "name": "bug",
@@ -6028,11 +6095,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 47,
-    "name": "parasect",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 80,
+      "speed": 30
+    },
     "moves": [
       "scratch",
       "swords-dance",
@@ -6108,15 +6179,11 @@
       "round",
       "struggle-bug",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 95,
-      "defense": 80,
-      "spAttack": 60,
-      "spDefense": 80,
-      "speed": 30
-    },
+    ]
+  },
+  {
+    "dex": 48,
+    "name": "venonat",
     "types": [
       {
         "name": "bug",
@@ -6148,42 +6215,42 @@
         ]
       },
       {
-        "name": "grass",
-        "noDamageTo": [],
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
+        ],
         "noDamageFrom": [],
         "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "water"
+          "grass",
+          "fairy"
         ],
         "notVeryEffectiveTo": [
-          "flying",
           "poison",
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "dragon"
+          "ground",
+          "rock",
+          "ghost"
         ],
         "strongAgainst": [
-          "ground",
-          "water",
-          "grass",
-          "electric"
-        ],
-        "weakAgainst": [
-          "flying",
+          "fighting",
           "poison",
           "bug",
-          "fire",
-          "ice"
+          "grass",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 48,
-    "name": "venonat",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 55,
+      "speed": 45
+    },
     "moves": [
       "tackle",
       "take-down",
@@ -6247,15 +6314,11 @@
       "struggle-bug",
       "confide",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 55,
-      "defense": 50,
-      "spAttack": 40,
-      "spDefense": 55,
-      "speed": 45
-    },
+    ]
+  },
+  {
+    "dex": 49,
+    "name": "venomoth",
     "types": [
       {
         "name": "bug",
@@ -6314,11 +6377,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 49,
-    "name": "venomoth",
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 90,
+      "spDefense": 75,
+      "speed": 90
+    },
     "moves": [
       "razor-wind",
       "gust",
@@ -6395,78 +6462,50 @@
       "struggle-bug",
       "confide",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "attack": 65,
-      "defense": 60,
-      "spAttack": 90,
-      "spDefense": 75,
-      "speed": 90
-    },
-    "types": [
-      {
-        "name": "bug",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "psychic",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "fighting",
-          "flying",
-          "poison",
-          "ghost",
-          "steel",
-          "fire",
-          "fairy"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "ground",
-          "grass"
-        ],
-        "weakAgainst": [
-          "flying",
-          "rock",
-          "fire"
-        ]
-      },
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
-      }
     ]
   },
   {
     "dex": 50,
     "name": "diglett",
+    "types": [
+      {
+        "name": "ground",
+        "noDamageTo": [
+          "flying"
+        ],
+        "noDamageFrom": [
+          "electric"
+        ],
+        "supperEffectiveTo": [
+          "poison",
+          "rock",
+          "steel",
+          "fire",
+          "electric"
+        ],
+        "notVeryEffectiveTo": [
+          "bug",
+          "grass"
+        ],
+        "strongAgainst": [
+          "poison",
+          "rock"
+        ],
+        "weakAgainst": [
+          "water",
+          "grass",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 95
+    },
     "moves": [
       "scratch",
       "cut",
@@ -6532,15 +6571,11 @@
       "final-gambit",
       "bulldoze",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 10,
-      "attack": 55,
-      "defense": 25,
-      "spAttack": 35,
-      "spDefense": 45,
-      "speed": 95
-    },
+    ]
+  },
+  {
+    "dex": 51,
+    "name": "dugtrio",
     "types": [
       {
         "name": "ground",
@@ -6571,11 +6606,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 51,
-    "name": "dugtrio",
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 70,
+      "speed": 120
+    },
     "moves": [
       "scratch",
       "cut",
@@ -6640,50 +6679,39 @@
       "bulldoze",
       "rototiller",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 35,
-      "attack": 100,
-      "defense": 50,
-      "spAttack": 50,
-      "spDefense": 70,
-      "speed": 120
-    },
-    "types": [
-      {
-        "name": "ground",
-        "noDamageTo": [
-          "flying"
-        ],
-        "noDamageFrom": [
-          "electric"
-        ],
-        "supperEffectiveTo": [
-          "poison",
-          "rock",
-          "steel",
-          "fire",
-          "electric"
-        ],
-        "notVeryEffectiveTo": [
-          "bug",
-          "grass"
-        ],
-        "strongAgainst": [
-          "poison",
-          "rock"
-        ],
-        "weakAgainst": [
-          "water",
-          "grass",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 52,
     "name": "meowth",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 90
+    },
     "moves": [
       "pay-day",
       "scratch",
@@ -6778,15 +6806,11 @@
       "retaliate",
       "work-up",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 35,
-      "spAttack": 40,
-      "spDefense": 40,
-      "speed": 90
-    },
+    ]
+  },
+  {
+    "dex": 53,
+    "name": "persian",
     "types": [
       {
         "name": "normal",
@@ -6806,11 +6830,15 @@
           "fighting"
         ]
       }
-    ]
-  },
-  {
-    "dex": 53,
-    "name": "persian",
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 115
+    },
     "moves": [
       "pay-day",
       "scratch",
@@ -6904,39 +6932,46 @@
       "work-up",
       "play-rough",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 70,
-      "defense": 60,
-      "spAttack": 65,
-      "spDefense": 65,
-      "speed": 115
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      }
     ]
   },
   {
     "dex": 54,
     "name": "psyduck",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "spAttack": 65,
+      "spDefense": 50,
+      "speed": 55
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -7037,15 +7072,11 @@
       "scald",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 50,
-      "attack": 52,
-      "defense": 48,
-      "spAttack": 65,
-      "spDefense": 50,
-      "speed": 55
-    },
+    ]
+  },
+  {
+    "dex": 55,
+    "name": "golduck",
     "types": [
       {
         "name": "water",
@@ -7072,11 +7103,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 55,
-    "name": "golduck",
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "spAttack": 95,
+      "spDefense": 80,
+      "speed": 85
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -7173,46 +7208,52 @@
       "scald",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 82,
-      "defense": 78,
-      "spAttack": 95,
-      "spDefense": 80,
-      "speed": 85
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      }
     ]
   },
   {
     "dex": 56,
     "name": "mankey",
+    "types": [
+      {
+        "name": "fighting",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "normal",
+          "rock",
+          "steel",
+          "ice",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "flying",
+          "poison",
+          "bug",
+          "psychic",
+          "fairy"
+        ],
+        "strongAgainst": [
+          "rock",
+          "bug",
+          "dark"
+        ],
+        "weakAgainst": [
+          "flying",
+          "psychic",
+          "fairy"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 70
+    },
     "moves": [
       "karate-chop",
       "mega-punch",
@@ -7325,15 +7366,11 @@
       "power-up-punch",
       "power-trip",
       "stomping-tantrum"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 80,
-      "defense": 35,
-      "spAttack": 35,
-      "spDefense": 45,
-      "speed": 70
-    },
+    ]
+  },
+  {
+    "dex": 57,
+    "name": "primeape",
     "types": [
       {
         "name": "fighting",
@@ -7366,11 +7403,15 @@
           "fairy"
         ]
       }
-    ]
-  },
-  {
-    "dex": 57,
-    "name": "primeape",
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 95
+    },
     "moves": [
       "karate-chop",
       "mega-punch",
@@ -7477,52 +7518,51 @@
       "confide",
       "power-up-punch",
       "stomping-tantrum"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 105,
-      "defense": 60,
-      "spAttack": 60,
-      "spDefense": 70,
-      "speed": 95
-    },
-    "types": [
-      {
-        "name": "fighting",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "normal",
-          "rock",
-          "steel",
-          "ice",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "flying",
-          "poison",
-          "bug",
-          "psychic",
-          "fairy"
-        ],
-        "strongAgainst": [
-          "rock",
-          "bug",
-          "dark"
-        ],
-        "weakAgainst": [
-          "flying",
-          "psychic",
-          "fairy"
-        ]
-      }
     ]
   },
   {
     "dex": 58,
     "name": "growlithe",
+    "types": [
+      {
+        "name": "fire",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "bug",
+          "steel",
+          "grass",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "fire",
+          "water",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "ice",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "rock",
+          "water"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "spAttack": 70,
+      "spDefense": 50,
+      "speed": 60
+    },
     "moves": [
       "double-kick",
       "headbutt",
@@ -7597,15 +7637,11 @@
       "snarl",
       "confide",
       "burn-up"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "attack": 70,
-      "defense": 45,
-      "spAttack": 70,
-      "spDefense": 50,
-      "speed": 60
-    },
+    ]
+  },
+  {
+    "dex": 59,
+    "name": "arcanine",
     "types": [
       {
         "name": "fire",
@@ -7637,11 +7673,15 @@
           "water"
         ]
       }
-    ]
-  },
-  {
-    "dex": 59,
-    "name": "arcanine",
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 95
+    },
     "moves": [
       "headbutt",
       "body-slam",
@@ -7714,51 +7754,46 @@
       "wild-charge",
       "snarl",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 110,
-      "defense": 80,
-      "spAttack": 100,
-      "spDefense": 80,
-      "speed": 95
-    },
-    "types": [
-      {
-        "name": "fire",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "bug",
-          "steel",
-          "grass",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "fire",
-          "water",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "ice",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "rock",
-          "water"
-        ]
-      }
     ]
   },
   {
     "dex": 60,
     "name": "poliwag",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 90
+    },
     "moves": [
       "double-slap",
       "headbutt",
@@ -7825,15 +7860,11 @@
       "round",
       "scald",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 50,
-      "defense": 40,
-      "spAttack": 40,
-      "spDefense": 40,
-      "speed": 90
-    },
+    ]
+  },
+  {
+    "dex": 61,
+    "name": "poliwhirl",
     "types": [
       {
         "name": "water",
@@ -7860,11 +7891,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 61,
-    "name": "poliwhirl",
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 90
+    },
     "moves": [
       "double-slap",
       "mega-punch",
@@ -7942,15 +7977,11 @@
       "bulldoze",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 65,
-      "defense": 65,
-      "spAttack": 50,
-      "spDefense": 50,
-      "speed": 90
-    },
+    ]
+  },
+  {
+    "dex": 62,
+    "name": "poliwrath",
     "types": [
       {
         "name": "water",
@@ -7976,12 +8007,47 @@
           "grass",
           "electric"
         ]
+      },
+      {
+        "name": "fighting",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "normal",
+          "rock",
+          "steel",
+          "ice",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "flying",
+          "poison",
+          "bug",
+          "psychic",
+          "fairy"
+        ],
+        "strongAgainst": [
+          "rock",
+          "bug",
+          "dark"
+        ],
+        "weakAgainst": [
+          "flying",
+          "psychic",
+          "fairy"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 62,
-    "name": "poliwrath",
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 95,
+      "spAttack": 70,
+      "spDefense": 90,
+      "speed": 70
+    },
     "moves": [
       "double-slap",
       "mega-punch",
@@ -8066,77 +8132,45 @@
       "work-up",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 95,
-      "defense": 95,
-      "spAttack": 70,
-      "spDefense": 90,
-      "speed": 70
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      },
-      {
-        "name": "fighting",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "normal",
-          "rock",
-          "steel",
-          "ice",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "flying",
-          "poison",
-          "bug",
-          "psychic",
-          "fairy"
-        ],
-        "strongAgainst": [
-          "rock",
-          "bug",
-          "dark"
-        ],
-        "weakAgainst": [
-          "flying",
-          "psychic",
-          "fairy"
-        ]
-      }
     ]
   },
   {
     "dex": 63,
     "name": "abra",
+    "types": [
+      {
+        "name": "psychic",
+        "noDamageTo": [
+          "dark"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "fighting",
+          "poison"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "psychic"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "psychic"
+        ],
+        "weakAgainst": [
+          "bug",
+          "ghost",
+          "dark"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "spAttack": 105,
+      "spDefense": 55,
+      "speed": 90
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -8230,15 +8264,11 @@
       "confide",
       "dazzling-gleam",
       "psychic-terrain"
-    ],
-    "baseStats": {
-      "hp": 25,
-      "attack": 20,
-      "defense": 15,
-      "spAttack": 105,
-      "spDefense": 55,
-      "speed": 90
-    },
+    ]
+  },
+  {
+    "dex": 64,
+    "name": "kadabra",
     "types": [
       {
         "name": "psychic",
@@ -8264,11 +8294,15 @@
           "dark"
         ]
       }
-    ]
-  },
-  {
-    "dex": 64,
-    "name": "kadabra",
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "spAttack": 120,
+      "spDefense": 70,
+      "speed": 105
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -8364,15 +8398,11 @@
       "ally-switch",
       "confide",
       "dazzling-gleam"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 35,
-      "defense": 30,
-      "spAttack": 120,
-      "spDefense": 70,
-      "speed": 105
-    },
+    ]
+  },
+  {
+    "dex": 65,
+    "name": "alakazam",
     "types": [
       {
         "name": "psychic",
@@ -8398,11 +8428,15 @@
           "dark"
         ]
       }
-    ]
-  },
-  {
-    "dex": 65,
-    "name": "alakazam",
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "spAttack": 135,
+      "spDefense": 95,
+      "speed": 120
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -8501,45 +8535,52 @@
       "ally-switch",
       "confide",
       "dazzling-gleam"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "attack": 50,
-      "defense": 45,
-      "spAttack": 135,
-      "spDefense": 95,
-      "speed": 120
-    },
-    "types": [
-      {
-        "name": "psychic",
-        "noDamageTo": [
-          "dark"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "fighting",
-          "poison"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "psychic"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "psychic"
-        ],
-        "weakAgainst": [
-          "bug",
-          "ghost",
-          "dark"
-        ]
-      }
     ]
   },
   {
     "dex": 66,
     "name": "machop",
+    "types": [
+      {
+        "name": "fighting",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "normal",
+          "rock",
+          "steel",
+          "ice",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "flying",
+          "poison",
+          "bug",
+          "psychic",
+          "fairy"
+        ],
+        "strongAgainst": [
+          "rock",
+          "bug",
+          "dark"
+        ],
+        "weakAgainst": [
+          "flying",
+          "psychic",
+          "fairy"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 35
+    },
     "moves": [
       "karate-chop",
       "mega-punch",
@@ -8635,15 +8676,11 @@
       "dual-chop",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "attack": 80,
-      "defense": 50,
-      "spAttack": 35,
-      "spDefense": 35,
-      "speed": 35
-    },
+    ]
+  },
+  {
+    "dex": 67,
+    "name": "machoke",
     "types": [
       {
         "name": "fighting",
@@ -8676,11 +8713,15 @@
           "fairy"
         ]
       }
-    ]
-  },
-  {
-    "dex": 67,
-    "name": "machoke",
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 50,
+      "spDefense": 60,
+      "speed": 45
+    },
     "moves": [
       "karate-chop",
       "mega-punch",
@@ -8766,15 +8807,11 @@
       "dual-chop",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 100,
-      "defense": 70,
-      "spAttack": 50,
-      "spDefense": 60,
-      "speed": 45
-    },
+    ]
+  },
+  {
+    "dex": 68,
+    "name": "machamp",
     "types": [
       {
         "name": "fighting",
@@ -8807,11 +8844,15 @@
           "fairy"
         ]
       }
-    ]
-  },
-  {
-    "dex": 68,
-    "name": "machamp",
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "spAttack": 65,
+      "spDefense": 85,
+      "speed": 55
+    },
     "moves": [
       "karate-chop",
       "mega-punch",
@@ -8901,52 +8942,81 @@
       "dual-chop",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 130,
-      "defense": 80,
-      "spAttack": 65,
-      "spDefense": 85,
-      "speed": 55
-    },
-    "types": [
-      {
-        "name": "fighting",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "normal",
-          "rock",
-          "steel",
-          "ice",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "flying",
-          "poison",
-          "bug",
-          "psychic",
-          "fairy"
-        ],
-        "strongAgainst": [
-          "rock",
-          "bug",
-          "dark"
-        ],
-        "weakAgainst": [
-          "flying",
-          "psychic",
-          "fairy"
-        ]
-      }
     ]
   },
   {
     "dex": 69,
     "name": "bellsprout",
+    "types": [
+      {
+        "name": "grass",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "flying",
+          "poison",
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "ground",
+          "water",
+          "grass",
+          "electric"
+        ],
+        "weakAgainst": [
+          "flying",
+          "poison",
+          "bug",
+          "fire",
+          "ice"
+        ]
+      },
+      {
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "fairy"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "ground",
+          "rock",
+          "ghost"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "poison",
+          "bug",
+          "grass",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "psychic"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 35,
+      "spAttack": 70,
+      "spDefense": 30,
+      "speed": 40
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -9019,15 +9089,11 @@
       "confide",
       "infestation",
       "strength-sap"
-    ],
-    "baseStats": {
-      "hp": 50,
-      "attack": 75,
-      "defense": 35,
-      "spAttack": 70,
-      "spDefense": 30,
-      "speed": 40
-    },
+    ]
+  },
+  {
+    "dex": 70,
+    "name": "weepinbell",
     "types": [
       {
         "name": "grass",
@@ -9089,11 +9155,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 70,
-    "name": "weepinbell",
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "spAttack": 85,
+      "spDefense": 45,
+      "speed": 55
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -9156,15 +9226,11 @@
       "round",
       "confide",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 90,
-      "defense": 50,
-      "spAttack": 85,
-      "spDefense": 45,
-      "speed": 55
-    },
+    ]
+  },
+  {
+    "dex": 71,
+    "name": "victreebel",
     "types": [
       {
         "name": "grass",
@@ -9226,11 +9292,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 71,
-    "name": "victreebel",
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "spAttack": 100,
+      "spDefense": 70,
+      "speed": 70
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -9299,46 +9369,35 @@
       "leaf-tornado",
       "confide",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 105,
-      "defense": 65,
-      "spAttack": 100,
-      "spDefense": 70,
-      "speed": 70
-    },
+    ]
+  },
+  {
+    "dex": 72,
+    "name": "tentacool",
     "types": [
       {
-        "name": "grass",
+        "name": "water",
         "noDamageTo": [],
         "noDamageFrom": [],
         "supperEffectiveTo": [
           "ground",
           "rock",
-          "water"
+          "fire"
         ],
         "notVeryEffectiveTo": [
-          "flying",
-          "poison",
-          "bug",
-          "steel",
-          "fire",
+          "water",
           "grass",
           "dragon"
         ],
         "strongAgainst": [
-          "ground",
+          "steel",
+          "fire",
           "water",
-          "grass",
-          "electric"
+          "ice"
         ],
         "weakAgainst": [
-          "flying",
-          "poison",
-          "bug",
-          "fire",
-          "ice"
+          "grass",
+          "electric"
         ]
       },
       {
@@ -9369,11 +9428,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 72,
-    "name": "tentacool",
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "spAttack": 50,
+      "spDefense": 100,
+      "speed": 70
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -9454,15 +9517,11 @@
       "confide",
       "dazzling-gleam",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 40,
-      "defense": 35,
-      "spAttack": 50,
-      "spDefense": 100,
-      "speed": 70
-    },
+    ]
+  },
+  {
+    "dex": 73,
+    "name": "tentacruel",
     "types": [
       {
         "name": "water",
@@ -9517,11 +9576,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 73,
-    "name": "tentacruel",
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 120,
+      "speed": 100
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -9595,74 +9658,79 @@
       "confide",
       "dazzling-gleam",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 70,
-      "defense": 65,
-      "spAttack": 80,
-      "spDefense": 120,
-      "speed": 100
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      },
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
-      }
     ]
   },
   {
     "dex": 74,
     "name": "geodude",
+    "types": [
+      {
+        "name": "rock",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "bug",
+          "fire",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "fighting",
+          "ground",
+          "steel"
+        ],
+        "strongAgainst": [
+          "normal",
+          "flying",
+          "poison",
+          "fire"
+        ],
+        "weakAgainst": [
+          "fighting",
+          "ground",
+          "steel",
+          "water",
+          "grass"
+        ]
+      },
+      {
+        "name": "ground",
+        "noDamageTo": [
+          "flying"
+        ],
+        "noDamageFrom": [
+          "electric"
+        ],
+        "supperEffectiveTo": [
+          "poison",
+          "rock",
+          "steel",
+          "fire",
+          "electric"
+        ],
+        "notVeryEffectiveTo": [
+          "bug",
+          "grass"
+        ],
+        "strongAgainst": [
+          "poison",
+          "rock"
+        ],
+        "weakAgainst": [
+          "water",
+          "grass",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 20
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -9744,15 +9812,11 @@
       "bulldoze",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 80,
-      "defense": 100,
-      "spAttack": 30,
-      "spDefense": 30,
-      "speed": 20
-    },
+    ]
+  },
+  {
+    "dex": 75,
+    "name": "graveler",
     "types": [
       {
         "name": "rock",
@@ -9812,11 +9876,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 75,
-    "name": "graveler",
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 35
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -9894,15 +9962,11 @@
       "bulldoze",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "attack": 95,
-      "defense": 115,
-      "spAttack": 45,
-      "spDefense": 45,
-      "speed": 35
-    },
+    ]
+  },
+  {
+    "dex": 76,
+    "name": "golem",
     "types": [
       {
         "name": "rock",
@@ -9962,11 +10026,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 76,
-    "name": "golem",
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 45
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -10053,79 +10121,51 @@
       "steamroller",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 120,
-      "defense": 130,
-      "spAttack": 55,
-      "spDefense": 65,
-      "speed": 45
-    },
-    "types": [
-      {
-        "name": "rock",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "bug",
-          "fire",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "fighting",
-          "ground",
-          "steel"
-        ],
-        "strongAgainst": [
-          "normal",
-          "flying",
-          "poison",
-          "fire"
-        ],
-        "weakAgainst": [
-          "fighting",
-          "ground",
-          "steel",
-          "water",
-          "grass"
-        ]
-      },
-      {
-        "name": "ground",
-        "noDamageTo": [
-          "flying"
-        ],
-        "noDamageFrom": [
-          "electric"
-        ],
-        "supperEffectiveTo": [
-          "poison",
-          "rock",
-          "steel",
-          "fire",
-          "electric"
-        ],
-        "notVeryEffectiveTo": [
-          "bug",
-          "grass"
-        ],
-        "strongAgainst": [
-          "poison",
-          "rock"
-        ],
-        "weakAgainst": [
-          "water",
-          "grass",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 77,
     "name": "ponyta",
+    "types": [
+      {
+        "name": "fire",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "bug",
+          "steel",
+          "grass",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "fire",
+          "water",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "ice",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "rock",
+          "water"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 90
+    },
     "moves": [
       "stomp",
       "double-kick",
@@ -10191,15 +10231,11 @@
       "wild-charge",
       "confide",
       "high-horsepower"
-    ],
-    "baseStats": {
-      "hp": 50,
-      "attack": 85,
-      "defense": 55,
-      "spAttack": 65,
-      "spDefense": 65,
-      "speed": 90
-    },
+    ]
+  },
+  {
+    "dex": 78,
+    "name": "rapidash",
     "types": [
       {
         "name": "fire",
@@ -10231,11 +10267,15 @@
           "water"
         ]
       }
-    ]
-  },
-  {
-    "dex": 78,
-    "name": "rapidash",
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 105
+    },
     "moves": [
       "stomp",
       "headbutt",
@@ -10301,51 +10341,70 @@
       "drill-run",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 100,
-      "defense": 70,
-      "spAttack": 80,
-      "spDefense": 80,
-      "speed": 105
-    },
-    "types": [
-      {
-        "name": "fire",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "bug",
-          "steel",
-          "grass",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "fire",
-          "water",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "ice",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "rock",
-          "water"
-        ]
-      }
     ]
   },
   {
     "dex": 79,
     "name": "slowpoke",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      },
+      {
+        "name": "psychic",
+        "noDamageTo": [
+          "dark"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "fighting",
+          "poison"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "psychic"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "psychic"
+        ],
+        "weakAgainst": [
+          "bug",
+          "ghost",
+          "dark"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 15
+    },
     "moves": [
       "pay-day",
       "stomp",
@@ -10445,15 +10504,11 @@
       "bulldoze",
       "belch",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 65,
-      "defense": 65,
-      "spAttack": 40,
-      "spDefense": 40,
-      "speed": 15
-    },
+    ]
+  },
+  {
+    "dex": 80,
+    "name": "slowbro",
     "types": [
       {
         "name": "water",
@@ -10504,11 +10559,15 @@
           "dark"
         ]
       }
-    ]
-  },
-  {
-    "dex": 80,
-    "name": "slowbro",
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 30
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -10623,70 +10682,80 @@
       "incinerate",
       "bulldoze",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "attack": 75,
-      "defense": 110,
-      "spAttack": 100,
-      "spDefense": 80,
-      "speed": 30
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      },
-      {
-        "name": "psychic",
-        "noDamageTo": [
-          "dark"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "fighting",
-          "poison"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "psychic"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "psychic"
-        ],
-        "weakAgainst": [
-          "bug",
-          "ghost",
-          "dark"
-        ]
-      }
     ]
   },
   {
     "dex": 81,
     "name": "magnemite",
+    "types": [
+      {
+        "name": "electric",
+        "noDamageTo": [
+          "ground"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "grass",
+          "electric",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "flying",
+          "steel",
+          "electric"
+        ],
+        "weakAgainst": [
+          "ground"
+        ]
+      },
+      {
+        "name": "steel",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "poison"
+        ],
+        "supperEffectiveTo": [
+          "rock",
+          "ice",
+          "fairy"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "fire",
+          "water",
+          "electric"
+        ],
+        "strongAgainst": [
+          "normal",
+          "flying",
+          "rock",
+          "bug",
+          "steel",
+          "grass",
+          "psychic",
+          "ice",
+          "dragon",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "fighting",
+          "ground",
+          "fire"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "spAttack": 95,
+      "spDefense": 55,
+      "speed": 45
+    },
     "moves": [
       "tackle",
       "take-down",
@@ -10750,15 +10819,11 @@
       "electroweb",
       "wild-charge",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 25,
-      "attack": 35,
-      "defense": 70,
-      "spAttack": 95,
-      "spDefense": 55,
-      "speed": 45
-    },
+    ]
+  },
+  {
+    "dex": 82,
+    "name": "magneton",
     "types": [
       {
         "name": "electric",
@@ -10819,11 +10884,15 @@
           "fire"
         ]
       }
-    ]
-  },
-  {
-    "dex": 82,
-    "name": "magneton",
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "spAttack": 120,
+      "spDefense": 70,
+      "speed": 70
+    },
     "moves": [
       "tackle",
       "take-down",
@@ -10891,80 +10960,66 @@
       "wild-charge",
       "confide",
       "electric-terrain"
-    ],
-    "baseStats": {
-      "hp": 50,
-      "attack": 60,
-      "defense": 95,
-      "spAttack": 120,
-      "spDefense": 70,
-      "speed": 70
-    },
-    "types": [
-      {
-        "name": "electric",
-        "noDamageTo": [
-          "ground"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "water"
-        ],
-        "notVeryEffectiveTo": [
-          "grass",
-          "electric",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "flying",
-          "steel",
-          "electric"
-        ],
-        "weakAgainst": [
-          "ground"
-        ]
-      },
-      {
-        "name": "steel",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "poison"
-        ],
-        "supperEffectiveTo": [
-          "rock",
-          "ice",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "fire",
-          "water",
-          "electric"
-        ],
-        "strongAgainst": [
-          "normal",
-          "flying",
-          "rock",
-          "bug",
-          "steel",
-          "grass",
-          "psychic",
-          "ice",
-          "dragon",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "fighting",
-          "ground",
-          "fire"
-        ]
-      }
     ]
   },
   {
     "dex": 83,
     "name": "farfetchd",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 52,
+      "attack": 90,
+      "defense": 55,
+      "spAttack": 58,
+      "spDefense": 62,
+      "speed": 60
+    },
     "moves": [
       "razor-wind",
       "swords-dance",
@@ -11053,15 +11108,11 @@
       "confide",
       "first-impression",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 52,
-      "attack": 90,
-      "defense": 55,
-      "spAttack": 58,
-      "spDefense": 62,
-      "speed": 60
-    },
+    ]
+  },
+  {
+    "dex": 84,
+    "name": "doduo",
     "types": [
       {
         "name": "normal",
@@ -11108,11 +11159,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 84,
-    "name": "doduo",
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 85,
+      "defense": 45,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 75
+    },
     "moves": [
       "swords-dance",
       "whirlwind",
@@ -11179,15 +11234,11 @@
       "echoed-voice",
       "work-up",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 35,
-      "attack": 85,
-      "defense": 45,
-      "spAttack": 35,
-      "spDefense": 35,
-      "speed": 75
-    },
+    ]
+  },
+  {
+    "dex": 85,
+    "name": "dodrio",
     "types": [
       {
         "name": "normal",
@@ -11234,11 +11285,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 85,
-    "name": "dodrio",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 110
+    },
     "moves": [
       "swords-dance",
       "whirlwind",
@@ -11303,66 +11358,46 @@
       "echoed-voice",
       "work-up",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 110,
-      "defense": 70,
-      "spAttack": 60,
-      "spDefense": 60,
-      "speed": 110
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      },
-      {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel",
-          "electric"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 86,
     "name": "seel",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 45,
+      "defense": 55,
+      "spAttack": 45,
+      "spDefense": 70,
+      "speed": 45
+    },
     "moves": [
       "pay-day",
       "slam",
@@ -11436,15 +11471,11 @@
       "belch",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 45,
-      "defense": 55,
-      "spAttack": 45,
-      "spDefense": 70,
-      "speed": 45
-    },
+    ]
+  },
+  {
+    "dex": 87,
+    "name": "dewgong",
     "types": [
       {
         "name": "water",
@@ -11470,12 +11501,42 @@
           "grass",
           "electric"
         ]
+      },
+      {
+        "name": "ice",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "ground",
+          "grass",
+          "dragon"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "strongAgainst": [
+          "ice"
+        ],
+        "weakAgainst": [
+          "fighting",
+          "rock",
+          "steel",
+          "fire"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 87,
-    "name": "dewgong",
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "spAttack": 70,
+      "spDefense": 95,
+      "speed": 70
+    },
     "moves": [
       "pay-day",
       "headbutt",
@@ -11541,72 +11602,49 @@
       "drill-run",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 70,
-      "defense": 80,
-      "spAttack": 70,
-      "spDefense": 95,
-      "speed": 70
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      },
-      {
-        "name": "ice",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "ground",
-          "grass",
-          "dragon"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "strongAgainst": [
-          "ice"
-        ],
-        "weakAgainst": [
-          "fighting",
-          "rock",
-          "steel",
-          "fire"
-        ]
-      }
     ]
   },
   {
     "dex": 88,
     "name": "grimer",
+    "types": [
+      {
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "fairy"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "ground",
+          "rock",
+          "ghost"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "poison",
+          "bug",
+          "grass",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "psychic"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 25
+    },
     "moves": [
       "pound",
       "fire-punch",
@@ -11690,15 +11728,11 @@
       "confide",
       "infestation",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 80,
-      "defense": 50,
-      "spAttack": 40,
-      "spDefense": 50,
-      "speed": 25
-    },
+    ]
+  },
+  {
+    "dex": 89,
+    "name": "muk",
     "types": [
       {
         "name": "poison",
@@ -11728,11 +11762,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 89,
-    "name": "muk",
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "spAttack": 65,
+      "spDefense": 100,
+      "speed": 50
+    },
     "moves": [
       "pound",
       "fire-punch",
@@ -11814,49 +11852,46 @@
       "venom-drench",
       "infestation",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 105,
-      "attack": 105,
-      "defense": 75,
-      "spAttack": 65,
-      "spDefense": 100,
-      "speed": 50
-    },
-    "types": [
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
-      }
     ]
   },
   {
     "dex": 90,
     "name": "shellder",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "spAttack": 45,
+      "spDefense": 25,
+      "speed": 40
+    },
     "moves": [
       "tackle",
       "take-down",
@@ -11922,15 +11957,11 @@
       "shell-smash",
       "razor-shell",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 30,
-      "attack": 65,
-      "defense": 100,
-      "spAttack": 45,
-      "spDefense": 25,
-      "speed": 40
-    },
+    ]
+  },
+  {
+    "dex": 91,
+    "name": "cloyster",
     "types": [
       {
         "name": "water",
@@ -11956,12 +11987,42 @@
           "grass",
           "electric"
         ]
+      },
+      {
+        "name": "ice",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "ground",
+          "grass",
+          "dragon"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "strongAgainst": [
+          "ice"
+        ],
+        "weakAgainst": [
+          "fighting",
+          "rock",
+          "steel",
+          "fire"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 91,
-    "name": "cloyster",
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "spAttack": 85,
+      "spDefense": 45,
+      "speed": 70
+    },
     "moves": [
       "take-down",
       "double-edge",
@@ -12026,72 +12087,74 @@
       "icicle-crash",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 50,
-      "attack": 95,
-      "defense": 180,
-      "spAttack": 85,
-      "spDefense": 45,
-      "speed": 70
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      },
-      {
-        "name": "ice",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "ground",
-          "grass",
-          "dragon"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "strongAgainst": [
-          "ice"
-        ],
-        "weakAgainst": [
-          "fighting",
-          "rock",
-          "steel",
-          "fire"
-        ]
-      }
     ]
   },
   {
     "dex": 92,
     "name": "gastly",
+    "types": [
+      {
+        "name": "ghost",
+        "noDamageTo": [
+          "normal"
+        ],
+        "noDamageFrom": [
+          "normal",
+          "fighting"
+        ],
+        "supperEffectiveTo": [
+          "ghost",
+          "psychic"
+        ],
+        "notVeryEffectiveTo": [
+          "dark"
+        ],
+        "strongAgainst": [
+          "poison",
+          "bug"
+        ],
+        "weakAgainst": [
+          "ghost",
+          "dark"
+        ]
+      },
+      {
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "fairy"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "ground",
+          "rock",
+          "ghost"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "poison",
+          "bug",
+          "grass",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "psychic"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "spAttack": 100,
+      "spDefense": 35,
+      "speed": 80
+    },
     "moves": [
       "fire-punch",
       "ice-punch",
@@ -12176,15 +12239,11 @@
       "confide",
       "dazzling-gleam",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 30,
-      "attack": 35,
-      "defense": 30,
-      "spAttack": 100,
-      "spDefense": 35,
-      "speed": 80
-    },
+    ]
+  },
+  {
+    "dex": 93,
+    "name": "haunter",
     "types": [
       {
         "name": "ghost",
@@ -12239,11 +12298,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 93,
-    "name": "haunter",
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "spAttack": 115,
+      "spDefense": 55,
+      "speed": 95
+    },
     "moves": [
       "fire-punch",
       "ice-punch",
@@ -12323,15 +12386,11 @@
       "confide",
       "dazzling-gleam",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 45,
-      "attack": 50,
-      "defense": 45,
-      "spAttack": 115,
-      "spDefense": 55,
-      "speed": 95
-    },
+    ]
+  },
+  {
+    "dex": 94,
+    "name": "gengar",
     "types": [
       {
         "name": "ghost",
@@ -12386,11 +12445,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 94,
-    "name": "gengar",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 130,
+      "spDefense": 75,
+      "speed": 110
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -12492,74 +12555,79 @@
       "dazzling-gleam",
       "infestation",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 65,
-      "defense": 60,
-      "spAttack": 130,
-      "spDefense": 75,
-      "speed": 110
-    },
-    "types": [
-      {
-        "name": "ghost",
-        "noDamageTo": [
-          "normal"
-        ],
-        "noDamageFrom": [
-          "normal",
-          "fighting"
-        ],
-        "supperEffectiveTo": [
-          "ghost",
-          "psychic"
-        ],
-        "notVeryEffectiveTo": [
-          "dark"
-        ],
-        "strongAgainst": [
-          "poison",
-          "bug"
-        ],
-        "weakAgainst": [
-          "ghost",
-          "dark"
-        ]
-      },
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
-      }
     ]
   },
   {
     "dex": 95,
     "name": "onix",
+    "types": [
+      {
+        "name": "rock",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "bug",
+          "fire",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "fighting",
+          "ground",
+          "steel"
+        ],
+        "strongAgainst": [
+          "normal",
+          "flying",
+          "poison",
+          "fire"
+        ],
+        "weakAgainst": [
+          "fighting",
+          "ground",
+          "steel",
+          "water",
+          "grass"
+        ]
+      },
+      {
+        "name": "ground",
+        "noDamageTo": [
+          "flying"
+        ],
+        "noDamageFrom": [
+          "electric"
+        ],
+        "supperEffectiveTo": [
+          "poison",
+          "rock",
+          "steel",
+          "fire",
+          "electric"
+        ],
+        "notVeryEffectiveTo": [
+          "bug",
+          "grass"
+        ],
+        "strongAgainst": [
+          "poison",
+          "rock"
+        ],
+        "weakAgainst": [
+          "water",
+          "grass",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "spAttack": 30,
+      "spDefense": 45,
+      "speed": 70
+    },
     "moves": [
       "bind",
       "slam",
@@ -12640,79 +12708,45 @@
       "rototiller",
       "confide",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 35,
-      "attack": 45,
-      "defense": 160,
-      "spAttack": 30,
-      "spDefense": 45,
-      "speed": 70
-    },
-    "types": [
-      {
-        "name": "rock",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "bug",
-          "fire",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "fighting",
-          "ground",
-          "steel"
-        ],
-        "strongAgainst": [
-          "normal",
-          "flying",
-          "poison",
-          "fire"
-        ],
-        "weakAgainst": [
-          "fighting",
-          "ground",
-          "steel",
-          "water",
-          "grass"
-        ]
-      },
-      {
-        "name": "ground",
-        "noDamageTo": [
-          "flying"
-        ],
-        "noDamageFrom": [
-          "electric"
-        ],
-        "supperEffectiveTo": [
-          "poison",
-          "rock",
-          "steel",
-          "fire",
-          "electric"
-        ],
-        "notVeryEffectiveTo": [
-          "bug",
-          "grass"
-        ],
-        "strongAgainst": [
-          "poison",
-          "rock"
-        ],
-        "weakAgainst": [
-          "water",
-          "grass",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 96,
     "name": "drowzee",
+    "types": [
+      {
+        "name": "psychic",
+        "noDamageTo": [
+          "dark"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "fighting",
+          "poison"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "psychic"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "psychic"
+        ],
+        "weakAgainst": [
+          "bug",
+          "ghost",
+          "dark"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "spAttack": 43,
+      "spDefense": 90,
+      "speed": 42
+    },
     "moves": [
       "pound",
       "mega-punch",
@@ -12812,15 +12846,11 @@
       "dazzling-gleam",
       "power-up-punch",
       "psychic-terrain"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 48,
-      "defense": 45,
-      "spAttack": 43,
-      "spDefense": 90,
-      "speed": 42
-    },
+    ]
+  },
+  {
+    "dex": 97,
+    "name": "hypno",
     "types": [
       {
         "name": "psychic",
@@ -12846,11 +12876,15 @@
           "dark"
         ]
       }
-    ]
-  },
-  {
-    "dex": 97,
-    "name": "hypno",
+    ],
+    "baseStats": {
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "spAttack": 73,
+      "spDefense": 115,
+      "speed": 67
+    },
     "moves": [
       "pound",
       "mega-punch",
@@ -12947,45 +12981,46 @@
       "confide",
       "dazzling-gleam",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 85,
-      "attack": 73,
-      "defense": 70,
-      "spAttack": 73,
-      "spDefense": 115,
-      "speed": 67
-    },
-    "types": [
-      {
-        "name": "psychic",
-        "noDamageTo": [
-          "dark"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "fighting",
-          "poison"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "psychic"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "psychic"
-        ],
-        "weakAgainst": [
-          "bug",
-          "ghost",
-          "dark"
-        ]
-      }
     ]
   },
   {
     "dex": 98,
     "name": "krabby",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 50
+    },
     "moves": [
       "vise-grip",
       "guillotine",
@@ -13063,15 +13098,11 @@
       "ally-switch",
       "scald",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 30,
-      "attack": 105,
-      "defense": 90,
-      "spAttack": 25,
-      "spDefense": 25,
-      "speed": 50
-    },
+    ]
+  },
+  {
+    "dex": 99,
+    "name": "kingler",
     "types": [
       {
         "name": "water",
@@ -13098,11 +13129,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 99,
-    "name": "kingler",
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 130,
+      "defense": 115,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 75
+    },
     "moves": [
       "vise-grip",
       "guillotine",
@@ -13178,46 +13213,45 @@
       "scald",
       "quash",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "attack": 130,
-      "defense": 115,
-      "spAttack": 50,
-      "spDefense": 50,
-      "speed": 75
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      }
     ]
   },
   {
     "dex": 100,
     "name": "voltorb",
+    "types": [
+      {
+        "name": "electric",
+        "noDamageTo": [
+          "ground"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "grass",
+          "electric",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "flying",
+          "steel",
+          "electric"
+        ],
+        "weakAgainst": [
+          "ground"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 100
+    },
     "moves": [
       "headbutt",
       "tackle",
@@ -13277,15 +13311,11 @@
       "wild-charge",
       "confide",
       "eerie-impulse"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 30,
-      "defense": 50,
-      "spAttack": 55,
-      "spDefense": 55,
-      "speed": 100
-    },
+    ]
+  },
+  {
+    "dex": 101,
+    "name": "electrode",
     "types": [
       {
         "name": "electric",
@@ -13311,11 +13341,15 @@
           "ground"
         ]
       }
-    ]
-  },
-  {
-    "dex": 101,
-    "name": "electrode",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 150
+    },
     "moves": [
       "headbutt",
       "tackle",
@@ -13379,45 +13413,77 @@
       "confide",
       "eerie-impulse",
       "magnetic-flux"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 50,
-      "defense": 70,
-      "spAttack": 80,
-      "spDefense": 80,
-      "speed": 150
-    },
-    "types": [
-      {
-        "name": "electric",
-        "noDamageTo": [
-          "ground"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "water"
-        ],
-        "notVeryEffectiveTo": [
-          "grass",
-          "electric",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "flying",
-          "steel",
-          "electric"
-        ],
-        "weakAgainst": [
-          "ground"
-        ]
-      }
     ]
   },
   {
     "dex": 102,
     "name": "exeggcute",
+    "types": [
+      {
+        "name": "grass",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "flying",
+          "poison",
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "ground",
+          "water",
+          "grass",
+          "electric"
+        ],
+        "weakAgainst": [
+          "flying",
+          "poison",
+          "bug",
+          "fire",
+          "ice"
+        ]
+      },
+      {
+        "name": "psychic",
+        "noDamageTo": [
+          "dark"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "fighting",
+          "poison"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "psychic"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "psychic"
+        ],
+        "weakAgainst": [
+          "bug",
+          "ghost",
+          "dark"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 45,
+      "speed": 40
+    },
     "moves": [
       "swords-dance",
       "take-down",
@@ -13495,15 +13561,11 @@
       "grassy-terrain",
       "confide",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 40,
-      "defense": 80,
-      "spAttack": 60,
-      "spDefense": 45,
-      "speed": 40
-    },
+    ]
+  },
+  {
+    "dex": 103,
+    "name": "exeggutor",
     "types": [
       {
         "name": "grass",
@@ -13561,11 +13623,15 @@
           "dark"
         ]
       }
-    ]
-  },
-  {
-    "dex": 103,
-    "name": "exeggutor",
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85,
+      "spAttack": 125,
+      "spDefense": 75,
+      "speed": 55
+    },
     "moves": [
       "swords-dance",
       "stomp",
@@ -13639,77 +13705,50 @@
       "round",
       "confide",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "attack": 95,
-      "defense": 85,
-      "spAttack": 125,
-      "spDefense": 75,
-      "speed": 55
-    },
-    "types": [
-      {
-        "name": "grass",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "water"
-        ],
-        "notVeryEffectiveTo": [
-          "flying",
-          "poison",
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "ground",
-          "water",
-          "grass",
-          "electric"
-        ],
-        "weakAgainst": [
-          "flying",
-          "poison",
-          "bug",
-          "fire",
-          "ice"
-        ]
-      },
-      {
-        "name": "psychic",
-        "noDamageTo": [
-          "dark"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "fighting",
-          "poison"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "psychic"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "psychic"
-        ],
-        "weakAgainst": [
-          "bug",
-          "ghost",
-          "dark"
-        ]
-      }
     ]
   },
   {
     "dex": 104,
     "name": "cubone",
+    "types": [
+      {
+        "name": "ground",
+        "noDamageTo": [
+          "flying"
+        ],
+        "noDamageFrom": [
+          "electric"
+        ],
+        "supperEffectiveTo": [
+          "poison",
+          "rock",
+          "steel",
+          "fire",
+          "electric"
+        ],
+        "notVeryEffectiveTo": [
+          "bug",
+          "grass"
+        ],
+        "strongAgainst": [
+          "poison",
+          "rock"
+        ],
+        "weakAgainst": [
+          "water",
+          "grass",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 35
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -13805,15 +13844,11 @@
       "power-up-punch",
       "brutal-swing",
       "stomping-tantrum"
-    ],
-    "baseStats": {
-      "hp": 50,
-      "attack": 50,
-      "defense": 95,
-      "spAttack": 40,
-      "spDefense": 50,
-      "speed": 35
-    },
+    ]
+  },
+  {
+    "dex": 105,
+    "name": "marowak",
     "types": [
       {
         "name": "ground",
@@ -13844,11 +13879,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 105,
-    "name": "marowak",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "spAttack": 50,
+      "spDefense": 80,
+      "speed": 45
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -13943,50 +13982,52 @@
       "power-up-punch",
       "brutal-swing",
       "stomping-tantrum"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 80,
-      "defense": 110,
-      "spAttack": 50,
-      "spDefense": 80,
-      "speed": 45
-    },
-    "types": [
-      {
-        "name": "ground",
-        "noDamageTo": [
-          "flying"
-        ],
-        "noDamageFrom": [
-          "electric"
-        ],
-        "supperEffectiveTo": [
-          "poison",
-          "rock",
-          "steel",
-          "fire",
-          "electric"
-        ],
-        "notVeryEffectiveTo": [
-          "bug",
-          "grass"
-        ],
-        "strongAgainst": [
-          "poison",
-          "rock"
-        ],
-        "weakAgainst": [
-          "water",
-          "grass",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 106,
     "name": "hitmonlee",
+    "types": [
+      {
+        "name": "fighting",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "normal",
+          "rock",
+          "steel",
+          "ice",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "flying",
+          "poison",
+          "bug",
+          "psychic",
+          "fairy"
+        ],
+        "strongAgainst": [
+          "rock",
+          "bug",
+          "dark"
+        ],
+        "weakAgainst": [
+          "flying",
+          "psychic",
+          "fairy"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "spAttack": 35,
+      "spDefense": 110,
+      "speed": 87
+    },
     "moves": [
       "mega-punch",
       "double-kick",
@@ -14070,15 +14111,11 @@
       "work-up",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 50,
-      "attack": 120,
-      "defense": 53,
-      "spAttack": 35,
-      "spDefense": 110,
-      "speed": 87
-    },
+    ]
+  },
+  {
+    "dex": 107,
+    "name": "hitmonchan",
     "types": [
       {
         "name": "fighting",
@@ -14111,11 +14148,15 @@
           "fairy"
         ]
       }
-    ]
-  },
-  {
-    "dex": 107,
-    "name": "hitmonchan",
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "spAttack": 35,
+      "spDefense": 110,
+      "speed": 76
+    },
     "moves": [
       "comet-punch",
       "mega-punch",
@@ -14194,52 +14235,39 @@
       "work-up",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 50,
-      "attack": 105,
-      "defense": 79,
-      "spAttack": 35,
-      "spDefense": 110,
-      "speed": 76
-    },
-    "types": [
-      {
-        "name": "fighting",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "normal",
-          "rock",
-          "steel",
-          "ice",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "flying",
-          "poison",
-          "bug",
-          "psychic",
-          "fairy"
-        ],
-        "strongAgainst": [
-          "rock",
-          "bug",
-          "dark"
-        ],
-        "weakAgainst": [
-          "flying",
-          "psychic",
-          "fairy"
-        ]
-      }
     ]
   },
   {
     "dex": 108,
     "name": "lickitung",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 30
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -14350,39 +14378,49 @@
       "confide",
       "power-up-punch",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 55,
-      "defense": 75,
-      "spAttack": 60,
-      "spDefense": 75,
-      "speed": 30
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      }
     ]
   },
   {
     "dex": 109,
     "name": "koffing",
+    "types": [
+      {
+        "name": "poison",
+        "noDamageTo": [
+          "steel"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "fairy"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "ground",
+          "rock",
+          "ghost"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "poison",
+          "bug",
+          "grass",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "psychic"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 95,
+      "spAttack": 60,
+      "spDefense": 45,
+      "speed": 35
+    },
     "moves": [
       "tackle",
       "flamethrower",
@@ -14454,15 +14492,11 @@
       "confide",
       "venom-drench",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 65,
-      "defense": 95,
-      "spAttack": 60,
-      "spDefense": 45,
-      "speed": 35
-    },
+    ]
+  },
+  {
+    "dex": 110,
+    "name": "weezing",
     "types": [
       {
         "name": "poison",
@@ -14492,11 +14526,15 @@
           "psychic"
         ]
       }
-    ]
-  },
-  {
-    "dex": 110,
-    "name": "weezing",
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "spAttack": 85,
+      "spDefense": 70,
+      "speed": 60
+    },
     "moves": [
       "tackle",
       "flamethrower",
@@ -14562,49 +14600,79 @@
       "belch",
       "confide",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 90,
-      "defense": 120,
-      "spAttack": 85,
-      "spDefense": 70,
-      "speed": 60
-    },
-    "types": [
-      {
-        "name": "poison",
-        "noDamageTo": [
-          "steel"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "fairy"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "ground",
-          "rock",
-          "ghost"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "poison",
-          "bug",
-          "grass",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "psychic"
-        ]
-      }
     ]
   },
   {
     "dex": 111,
     "name": "rhyhorn",
+    "types": [
+      {
+        "name": "ground",
+        "noDamageTo": [
+          "flying"
+        ],
+        "noDamageFrom": [
+          "electric"
+        ],
+        "supperEffectiveTo": [
+          "poison",
+          "rock",
+          "steel",
+          "fire",
+          "electric"
+        ],
+        "notVeryEffectiveTo": [
+          "bug",
+          "grass"
+        ],
+        "strongAgainst": [
+          "poison",
+          "rock"
+        ],
+        "weakAgainst": [
+          "water",
+          "grass",
+          "ice"
+        ]
+      },
+      {
+        "name": "rock",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "bug",
+          "fire",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "fighting",
+          "ground",
+          "steel"
+        ],
+        "strongAgainst": [
+          "normal",
+          "flying",
+          "poison",
+          "fire"
+        ],
+        "weakAgainst": [
+          "fighting",
+          "ground",
+          "steel",
+          "water",
+          "grass"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 25
+    },
     "moves": [
       "swords-dance",
       "stomp",
@@ -14702,15 +14770,11 @@
       "rototiller",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 85,
-      "defense": 95,
-      "spAttack": 30,
-      "spDefense": 30,
-      "speed": 25
-    },
+    ]
+  },
+  {
+    "dex": 112,
+    "name": "rhydon",
     "types": [
       {
         "name": "ground",
@@ -14770,11 +14834,15 @@
           "grass"
         ]
       }
-    ]
-  },
-  {
-    "dex": 112,
-    "name": "rhydon",
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 40
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -14888,79 +14956,39 @@
       "power-up-punch",
       "smart-strike",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 105,
-      "attack": 130,
-      "defense": 120,
-      "spAttack": 45,
-      "spDefense": 45,
-      "speed": 40
-    },
-    "types": [
-      {
-        "name": "ground",
-        "noDamageTo": [
-          "flying"
-        ],
-        "noDamageFrom": [
-          "electric"
-        ],
-        "supperEffectiveTo": [
-          "poison",
-          "rock",
-          "steel",
-          "fire",
-          "electric"
-        ],
-        "notVeryEffectiveTo": [
-          "bug",
-          "grass"
-        ],
-        "strongAgainst": [
-          "poison",
-          "rock"
-        ],
-        "weakAgainst": [
-          "water",
-          "grass",
-          "ice"
-        ]
-      },
-      {
-        "name": "rock",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "bug",
-          "fire",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "fighting",
-          "ground",
-          "steel"
-        ],
-        "strongAgainst": [
-          "normal",
-          "flying",
-          "poison",
-          "fire"
-        ],
-        "weakAgainst": [
-          "fighting",
-          "ground",
-          "steel",
-          "water",
-          "grass"
-        ]
-      }
     ]
   },
   {
     "dex": 113,
     "name": "chansey",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "spAttack": 35,
+      "spDefense": 105,
+      "speed": 50
+    },
     "moves": [
       "pound",
       "double-slap",
@@ -15083,39 +15111,53 @@
       "confide",
       "dazzling-gleam",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 250,
-      "attack": 5,
-      "defense": 5,
-      "spAttack": 35,
-      "spDefense": 105,
-      "speed": 50
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      }
     ]
   },
   {
     "dex": 114,
     "name": "tangela",
+    "types": [
+      {
+        "name": "grass",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "flying",
+          "poison",
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "ground",
+          "water",
+          "grass",
+          "electric"
+        ],
+        "weakAgainst": [
+          "flying",
+          "poison",
+          "bug",
+          "fire",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "spAttack": 100,
+      "spDefense": 40,
+      "speed": 60
+    },
     "moves": [
       "swords-dance",
       "cut",
@@ -15195,53 +15237,39 @@
       "grassy-terrain",
       "confide",
       "infestation"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 55,
-      "defense": 115,
-      "spAttack": 100,
-      "spDefense": 40,
-      "speed": 60
-    },
-    "types": [
-      {
-        "name": "grass",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "water"
-        ],
-        "notVeryEffectiveTo": [
-          "flying",
-          "poison",
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "ground",
-          "water",
-          "grass",
-          "electric"
-        ],
-        "weakAgainst": [
-          "flying",
-          "poison",
-          "bug",
-          "fire",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 115,
     "name": "kangaskhan",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "spAttack": 40,
+      "spDefense": 80,
+      "speed": 90
+    },
     "moves": [
       "comet-punch",
       "mega-punch",
@@ -15357,39 +15385,46 @@
       "work-up",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 105,
-      "attack": 95,
-      "defense": 80,
-      "spAttack": 40,
-      "spDefense": 80,
-      "speed": 90
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      }
     ]
   },
   {
     "dex": 116,
     "name": "horsea",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "spAttack": 70,
+      "spDefense": 25,
+      "speed": 60
+    },
     "moves": [
       "razor-wind",
       "headbutt",
@@ -15456,15 +15491,11 @@
       "clear-smog",
       "scald",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 30,
-      "attack": 40,
-      "defense": 70,
-      "spAttack": 70,
-      "spDefense": 25,
-      "speed": 60
-    },
+    ]
+  },
+  {
+    "dex": 117,
+    "name": "seadra",
     "types": [
       {
         "name": "water",
@@ -15491,11 +15522,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 117,
-    "name": "seadra",
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "spAttack": 95,
+      "spDefense": 45,
+      "speed": 85
+    },
     "moves": [
       "headbutt",
       "take-down",
@@ -15555,15 +15590,11 @@
       "round",
       "scald",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "attack": 65,
-      "defense": 95,
-      "spAttack": 95,
-      "spDefense": 45,
-      "speed": 85
-    },
+    ]
+  },
+  {
+    "dex": 118,
+    "name": "goldeen",
     "types": [
       {
         "name": "water",
@@ -15590,11 +15621,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 118,
-    "name": "goldeen",
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "spAttack": 35,
+      "spDefense": 50,
+      "speed": 63
+    },
     "moves": [
       "horn-attack",
       "fury-attack",
@@ -15663,15 +15698,11 @@
       "drill-run",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 45,
-      "attack": 67,
-      "defense": 60,
-      "spAttack": 35,
-      "spDefense": 50,
-      "speed": 63
-    },
+    ]
+  },
+  {
+    "dex": 119,
+    "name": "seaking",
     "types": [
       {
         "name": "water",
@@ -15698,11 +15729,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 119,
-    "name": "seaking",
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "spAttack": 65,
+      "spDefense": 80,
+      "speed": 68
+    },
     "moves": [
       "horn-attack",
       "fury-attack",
@@ -15767,15 +15802,11 @@
       "drill-run",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 92,
-      "defense": 65,
-      "spAttack": 65,
-      "spDefense": 80,
-      "speed": 68
-    },
+    ]
+  },
+  {
+    "dex": 120,
+    "name": "staryu",
     "types": [
       {
         "name": "water",
@@ -15802,11 +15833,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 120,
-    "name": "staryu",
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "spAttack": 70,
+      "spDefense": 55,
+      "speed": 85
+    },
     "moves": [
       "tackle",
       "take-down",
@@ -15884,15 +15919,11 @@
       "reflect-type",
       "confide",
       "dazzling-gleam"
-    ],
-    "baseStats": {
-      "hp": 30,
-      "attack": 45,
-      "defense": 55,
-      "spAttack": 70,
-      "spDefense": 55,
-      "speed": 85
-    },
+    ]
+  },
+  {
+    "dex": 121,
+    "name": "starmie",
     "types": [
       {
         "name": "water",
@@ -15918,12 +15949,40 @@
           "grass",
           "electric"
         ]
+      },
+      {
+        "name": "psychic",
+        "noDamageTo": [
+          "dark"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "fighting",
+          "poison"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "psychic"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "psychic"
+        ],
+        "weakAgainst": [
+          "bug",
+          "ghost",
+          "dark"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 121,
-    "name": "starmie",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "spAttack": 100,
+      "spDefense": 85,
+      "speed": 115
+    },
     "moves": [
       "tackle",
       "take-down",
@@ -16006,41 +16065,12 @@
       "confide",
       "dazzling-gleam",
       "spotlight"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 75,
-      "defense": 85,
-      "spAttack": 100,
-      "spDefense": 85,
-      "speed": 115
-    },
+    ]
+  },
+  {
+    "dex": 122,
+    "name": "mrmime",
     "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      },
       {
         "name": "psychic",
         "noDamageTo": [
@@ -16064,12 +16094,42 @@
           "ghost",
           "dark"
         ]
+      },
+      {
+        "name": "fairy",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "dragon"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "dragon",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "poison",
+          "steel",
+          "fire"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "dark"
+        ],
+        "weakAgainst": [
+          "poison",
+          "steel"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 122,
-    "name": "mrmime",
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "spAttack": 100,
+      "spDefense": 120,
+      "speed": 90
+    },
     "moves": [
       "pound",
       "double-slap",
@@ -16190,71 +16250,77 @@
       "infestation",
       "power-up-punch",
       "psychic-terrain"
-    ],
-    "baseStats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 65,
-      "spAttack": 100,
-      "spDefense": 120,
-      "speed": 90
-    },
-    "types": [
-      {
-        "name": "psychic",
-        "noDamageTo": [
-          "dark"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "fighting",
-          "poison"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "psychic"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "psychic"
-        ],
-        "weakAgainst": [
-          "bug",
-          "ghost",
-          "dark"
-        ]
-      },
-      {
-        "name": "fairy",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "dragon"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "dragon",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "poison",
-          "steel",
-          "fire"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "dark"
-        ],
-        "weakAgainst": [
-          "poison",
-          "steel"
-        ]
-      }
     ]
   },
   {
     "dex": 123,
     "name": "scyther",
+    "types": [
+      {
+        "name": "bug",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "psychic",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "fighting",
+          "flying",
+          "poison",
+          "ghost",
+          "steel",
+          "fire",
+          "fairy"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "ground",
+          "grass"
+        ],
+        "weakAgainst": [
+          "flying",
+          "rock",
+          "fire"
+        ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 105
+    },
     "moves": [
       "razor-wind",
       "swords-dance",
@@ -16329,77 +16395,71 @@
       "struggle-bug",
       "confide",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "attack": 110,
-      "defense": 80,
-      "spAttack": 55,
-      "spDefense": 80,
-      "speed": 105
-    },
-    "types": [
-      {
-        "name": "bug",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "psychic",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "fighting",
-          "flying",
-          "poison",
-          "ghost",
-          "steel",
-          "fire",
-          "fairy"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "ground",
-          "grass"
-        ],
-        "weakAgainst": [
-          "flying",
-          "rock",
-          "fire"
-        ]
-      },
-      {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel",
-          "electric"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 124,
     "name": "jynx",
+    "types": [
+      {
+        "name": "ice",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "ground",
+          "grass",
+          "dragon"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "strongAgainst": [
+          "ice"
+        ],
+        "weakAgainst": [
+          "fighting",
+          "rock",
+          "steel",
+          "fire"
+        ]
+      },
+      {
+        "name": "psychic",
+        "noDamageTo": [
+          "dark"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "fighting",
+          "poison"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "psychic"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "psychic"
+        ],
+        "weakAgainst": [
+          "bug",
+          "ghost",
+          "dark"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "spAttack": 115,
+      "spDefense": 95,
+      "speed": 95
+    },
     "moves": [
       "pound",
       "double-slap",
@@ -16504,71 +16564,45 @@
       "confide",
       "power-up-punch",
       "aurora-veil"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 50,
-      "defense": 35,
-      "spAttack": 115,
-      "spDefense": 95,
-      "speed": 95
-    },
-    "types": [
-      {
-        "name": "ice",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "ground",
-          "grass",
-          "dragon"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "strongAgainst": [
-          "ice"
-        ],
-        "weakAgainst": [
-          "fighting",
-          "rock",
-          "steel",
-          "fire"
-        ]
-      },
-      {
-        "name": "psychic",
-        "noDamageTo": [
-          "dark"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "fighting",
-          "poison"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "psychic"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "psychic"
-        ],
-        "weakAgainst": [
-          "bug",
-          "ghost",
-          "dark"
-        ]
-      }
     ]
   },
   {
     "dex": 125,
     "name": "electabuzz",
+    "types": [
+      {
+        "name": "electric",
+        "noDamageTo": [
+          "ground"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "grass",
+          "electric",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "flying",
+          "steel",
+          "electric"
+        ],
+        "weakAgainst": [
+          "ground"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "spAttack": 95,
+      "spDefense": 85,
+      "speed": 105
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -16652,45 +16686,51 @@
       "dual-chop",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 83,
-      "defense": 57,
-      "spAttack": 95,
-      "spDefense": 85,
-      "speed": 105
-    },
-    "types": [
-      {
-        "name": "electric",
-        "noDamageTo": [
-          "ground"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "water"
-        ],
-        "notVeryEffectiveTo": [
-          "grass",
-          "electric",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "flying",
-          "steel",
-          "electric"
-        ],
-        "weakAgainst": [
-          "ground"
-        ]
-      }
     ]
   },
   {
     "dex": 126,
     "name": "magmar",
+    "types": [
+      {
+        "name": "fire",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "bug",
+          "steel",
+          "grass",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "fire",
+          "water",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "ice",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "rock",
+          "water"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "spAttack": 100,
+      "spDefense": 85,
+      "speed": 93
+    },
     "moves": [
       "mega-punch",
       "fire-punch",
@@ -16769,51 +16809,50 @@
       "dual-chop",
       "confide",
       "power-up-punch"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 95,
-      "defense": 57,
-      "spAttack": 100,
-      "spDefense": 85,
-      "speed": 93
-    },
-    "types": [
-      {
-        "name": "fire",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "bug",
-          "steel",
-          "grass",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "fire",
-          "water",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "ice",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "rock",
-          "water"
-        ]
-      }
     ]
   },
   {
     "dex": 127,
     "name": "pinsir",
+    "types": [
+      {
+        "name": "bug",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "grass",
+          "psychic",
+          "dark"
+        ],
+        "notVeryEffectiveTo": [
+          "fighting",
+          "flying",
+          "poison",
+          "ghost",
+          "steel",
+          "fire",
+          "fairy"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "ground",
+          "grass"
+        ],
+        "weakAgainst": [
+          "flying",
+          "rock",
+          "fire"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "spAttack": 55,
+      "spDefense": 70,
+      "speed": 85
+    },
     "moves": [
       "vise-grip",
       "guillotine",
@@ -16895,50 +16934,39 @@
       "bulldoze",
       "confide",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 125,
-      "defense": 100,
-      "spAttack": 55,
-      "spDefense": 70,
-      "speed": 85
-    },
-    "types": [
-      {
-        "name": "bug",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "grass",
-          "psychic",
-          "dark"
-        ],
-        "notVeryEffectiveTo": [
-          "fighting",
-          "flying",
-          "poison",
-          "ghost",
-          "steel",
-          "fire",
-          "fairy"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "ground",
-          "grass"
-        ],
-        "weakAgainst": [
-          "flying",
-          "rock",
-          "fire"
-        ]
-      }
     ]
   },
   {
     "dex": 128,
     "name": "tauros",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "spAttack": 40,
+      "spDefense": 70,
+      "speed": 110
+    },
     "moves": [
       "stomp",
       "headbutt",
@@ -17019,53 +17047,11 @@
       "wild-charge",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "attack": 100,
-      "defense": 95,
-      "spAttack": 40,
-      "spDefense": 70,
-      "speed": 110
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      }
     ]
   },
   {
     "dex": 129,
     "name": "magikarp",
-    "moves": [
-      "tackle",
-      "splash",
-      "flail",
-      "bounce"
-    ],
-    "baseStats": {
-      "hp": 20,
-      "attack": 10,
-      "defense": 55,
-      "spAttack": 15,
-      "spDefense": 20,
-      "speed": 80
-    },
     "types": [
       {
         "name": "water",
@@ -17092,11 +17078,87 @@
           "electric"
         ]
       }
+    ],
+    "baseStats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "spAttack": 15,
+      "spDefense": 20,
+      "speed": 80
+    },
+    "moves": [
+      "tackle",
+      "splash",
+      "flail",
+      "bounce"
     ]
   },
   {
     "dex": 130,
     "name": "gyarados",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "spAttack": 60,
+      "spDefense": 100,
+      "speed": 81
+    },
     "moves": [
       "headbutt",
       "tackle",
@@ -17185,15 +17247,11 @@
       "hurricane",
       "confide",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "attack": 125,
-      "defense": 79,
-      "spAttack": 60,
-      "spDefense": 100,
-      "speed": 81
-    },
+    ]
+  },
+  {
+    "dex": 131,
+    "name": "lapras",
     "types": [
       {
         "name": "water",
@@ -17221,37 +17279,40 @@
         ]
       },
       {
-        "name": "flying",
+        "name": "ice",
         "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
+        "noDamageFrom": [],
         "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
+          "flying",
+          "ground",
+          "grass",
+          "dragon"
         ],
         "notVeryEffectiveTo": [
-          "rock",
           "steel",
-          "electric"
+          "fire",
+          "water",
+          "ice"
         ],
         "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
+          "ice"
         ],
         "weakAgainst": [
+          "fighting",
           "rock",
-          "electric",
-          "ice"
+          "steel",
+          "fire"
         ]
       }
-    ]
-  },
-  {
-    "dex": 131,
-    "name": "lapras",
+    ],
+    "baseStats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "spAttack": 85,
+      "spDefense": 95,
+      "speed": 60
+    },
     "moves": [
       "headbutt",
       "horn-drill",
@@ -17346,83 +17407,11 @@
       "freeze-dry",
       "confide",
       "smart-strike"
-    ],
-    "baseStats": {
-      "hp": 130,
-      "attack": 85,
-      "defense": 80,
-      "spAttack": 85,
-      "spDefense": 95,
-      "speed": 60
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      },
-      {
-        "name": "ice",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "ground",
-          "grass",
-          "dragon"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "strongAgainst": [
-          "ice"
-        ],
-        "weakAgainst": [
-          "fighting",
-          "rock",
-          "steel",
-          "fire"
-        ]
-      }
     ]
   },
   {
     "dex": 132,
     "name": "ditto",
-    "moves": [
-      "transform"
-    ],
-    "baseStats": {
-      "hp": 48,
-      "attack": 48,
-      "defense": 48,
-      "spAttack": 48,
-      "spDefense": 48,
-      "speed": 48
-    },
     "types": [
       {
         "name": "normal",
@@ -17442,11 +17431,50 @@
           "fighting"
         ]
       }
+    ],
+    "baseStats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "spAttack": 48,
+      "spDefense": 48,
+      "speed": 48
+    },
+    "moves": [
+      "transform"
     ]
   },
   {
     "dex": 133,
     "name": "eevee",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 65,
+      "speed": 55
+    },
     "moves": [
       "sand-attack",
       "headbutt",
@@ -17512,39 +17540,46 @@
       "work-up",
       "confide",
       "baby-doll-eyes"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "spAttack": 45,
-      "spDefense": 65,
-      "speed": 55
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      }
     ]
   },
   {
     "dex": 134,
     "name": "vaporeon",
+    "types": [
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 65
+    },
     "moves": [
       "sand-attack",
       "headbutt",
@@ -17624,46 +17659,45 @@
       "work-up",
       "confide",
       "baby-doll-eyes"
-    ],
-    "baseStats": {
-      "hp": 130,
-      "attack": 65,
-      "defense": 60,
-      "spAttack": 110,
-      "spDefense": 95,
-      "speed": 65
-    },
-    "types": [
-      {
-        "name": "water",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
-        ],
-        "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
-        ],
-        "weakAgainst": [
-          "grass",
-          "electric"
-        ]
-      }
     ]
   },
   {
     "dex": 135,
     "name": "jolteon",
+    "types": [
+      {
+        "name": "electric",
+        "noDamageTo": [
+          "ground"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "water"
+        ],
+        "notVeryEffectiveTo": [
+          "grass",
+          "electric",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "flying",
+          "steel",
+          "electric"
+        ],
+        "weakAgainst": [
+          "ground"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 130
+    },
     "moves": [
       "double-kick",
       "sand-attack",
@@ -17738,45 +17772,51 @@
       "wild-charge",
       "confide",
       "baby-doll-eyes"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 65,
-      "defense": 60,
-      "spAttack": 110,
-      "spDefense": 95,
-      "speed": 130
-    },
-    "types": [
-      {
-        "name": "electric",
-        "noDamageTo": [
-          "ground"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "water"
-        ],
-        "notVeryEffectiveTo": [
-          "grass",
-          "electric",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "flying",
-          "steel",
-          "electric"
-        ],
-        "weakAgainst": [
-          "ground"
-        ]
-      }
     ]
   },
   {
     "dex": 136,
     "name": "flareon",
+    "types": [
+      {
+        "name": "fire",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "bug",
+          "steel",
+          "grass",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "fire",
+          "water",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "ice",
+          "fairy"
+        ],
+        "weakAgainst": [
+          "ground",
+          "rock",
+          "water"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "spAttack": 95,
+      "spDefense": 110,
+      "speed": 65
+    },
     "moves": [
       "sand-attack",
       "headbutt",
@@ -17851,51 +17891,39 @@
       "work-up",
       "confide",
       "baby-doll-eyes"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 130,
-      "defense": 60,
-      "spAttack": 95,
-      "spDefense": 110,
-      "speed": 65
-    },
-    "types": [
-      {
-        "name": "fire",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "bug",
-          "steel",
-          "grass",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "fire",
-          "water",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "ice",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "rock",
-          "water"
-        ]
-      }
     ]
   },
   {
     "dex": 137,
     "name": "porygon",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 40
+    },
     "moves": [
       "tackle",
       "take-down",
@@ -17972,39 +18000,75 @@
       "round",
       "electroweb",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "attack": 60,
-      "defense": 70,
-      "spAttack": 85,
-      "spDefense": 75,
-      "speed": 40
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      }
     ]
   },
   {
     "dex": 138,
     "name": "omanyte",
+    "types": [
+      {
+        "name": "rock",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "bug",
+          "fire",
+          "ice"
+        ],
+        "notVeryEffectiveTo": [
+          "fighting",
+          "ground",
+          "steel"
+        ],
+        "strongAgainst": [
+          "normal",
+          "flying",
+          "poison",
+          "fire"
+        ],
+        "weakAgainst": [
+          "fighting",
+          "ground",
+          "steel",
+          "water",
+          "grass"
+        ]
+      },
+      {
+        "name": "water",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "notVeryEffectiveTo": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "strongAgainst": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "weakAgainst": [
+          "grass",
+          "electric"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "spAttack": 90,
+      "spDefense": 55,
+      "speed": 35
+    },
     "moves": [
       "bind",
       "slam",
@@ -18083,15 +18147,11 @@
       "shell-smash",
       "reflect-type",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 35,
-      "attack": 40,
-      "defense": 100,
-      "spAttack": 90,
-      "spDefense": 55,
-      "speed": 35
-    },
+    ]
+  },
+  {
+    "dex": 139,
+    "name": "omastar",
     "types": [
       {
         "name": "rock",
@@ -18147,11 +18207,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 139,
-    "name": "omastar",
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "spAttack": 115,
+      "spDefense": 70,
+      "speed": 55
+    },
     "moves": [
       "bind",
       "headbutt",
@@ -18229,15 +18293,11 @@
       "scald",
       "shell-smash",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "attack": 60,
-      "defense": 125,
-      "spAttack": 115,
-      "spDefense": 70,
-      "speed": 55
-    },
+    ]
+  },
+  {
+    "dex": 140,
+    "name": "kabuto",
     "types": [
       {
         "name": "rock",
@@ -18293,11 +18353,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 140,
-    "name": "kabuto",
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "spAttack": 55,
+      "spDefense": 45,
+      "speed": 55
+    },
     "moves": [
       "scratch",
       "sand-attack",
@@ -18375,15 +18439,11 @@
       "round",
       "scald",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 30,
-      "attack": 80,
-      "defense": 90,
-      "spAttack": 55,
-      "spDefense": 45,
-      "speed": 55
-    },
+    ]
+  },
+  {
+    "dex": 141,
+    "name": "kabutops",
     "types": [
       {
         "name": "rock",
@@ -18439,11 +18499,15 @@
           "electric"
         ]
       }
-    ]
-  },
-  {
-    "dex": 141,
-    "name": "kabutops",
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 115,
+      "defense": 105,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 80
+    },
     "moves": [
       "scratch",
       "razor-wind",
@@ -18537,15 +18601,11 @@
       "round",
       "scald",
       "confide"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 115,
-      "defense": 105,
-      "spAttack": 65,
-      "spDefense": 70,
-      "speed": 80
-    },
+    ]
+  },
+  {
+    "dex": 142,
+    "name": "aerodactyl",
     "types": [
       {
         "name": "rock",
@@ -18577,35 +18637,41 @@
         ]
       },
       {
-        "name": "water",
+        "name": "flying",
         "noDamageTo": [],
-        "noDamageFrom": [],
+        "noDamageFrom": [
+          "ground"
+        ],
         "supperEffectiveTo": [
-          "ground",
-          "rock",
-          "fire"
+          "fighting",
+          "bug",
+          "grass"
         ],
         "notVeryEffectiveTo": [
-          "water",
-          "grass",
-          "dragon"
+          "rock",
+          "steel",
+          "electric"
         ],
         "strongAgainst": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
+          "fighting",
+          "bug",
+          "grass"
         ],
         "weakAgainst": [
-          "grass",
-          "electric"
+          "rock",
+          "electric",
+          "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 142,
-    "name": "aerodactyl",
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 130
+    },
     "moves": [
       "razor-wind",
       "wing-attack",
@@ -18697,77 +18763,39 @@
       "bulldoze",
       "confide",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 80,
-      "attack": 105,
-      "defense": 65,
-      "spAttack": 60,
-      "spDefense": 75,
-      "speed": 130
-    },
-    "types": [
-      {
-        "name": "rock",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "flying",
-          "bug",
-          "fire",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "fighting",
-          "ground",
-          "steel"
-        ],
-        "strongAgainst": [
-          "normal",
-          "flying",
-          "poison",
-          "fire"
-        ],
-        "weakAgainst": [
-          "fighting",
-          "ground",
-          "steel",
-          "water",
-          "grass"
-        ]
-      },
-      {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel",
-          "electric"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 143,
     "name": "snorlax",
+    "types": [
+      {
+        "name": "normal",
+        "noDamageTo": [
+          "ghost"
+        ],
+        "noDamageFrom": [
+          "ghost"
+        ],
+        "supperEffectiveTo": [],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel"
+        ],
+        "strongAgainst": [],
+        "weakAgainst": [
+          "fighting"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "spAttack": 65,
+      "spDefense": 110,
+      "speed": 30
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -18881,39 +18909,74 @@
       "confide",
       "power-up-punch",
       "high-horsepower"
-    ],
-    "baseStats": {
-      "hp": 160,
-      "attack": 110,
-      "defense": 65,
-      "spAttack": 65,
-      "spDefense": 110,
-      "speed": 30
-    },
-    "types": [
-      {
-        "name": "normal",
-        "noDamageTo": [
-          "ghost"
-        ],
-        "noDamageFrom": [
-          "ghost"
-        ],
-        "supperEffectiveTo": [],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel"
-        ],
-        "strongAgainst": [],
-        "weakAgainst": [
-          "fighting"
-        ]
-      }
     ]
   },
   {
     "dex": 144,
     "name": "articuno",
+    "types": [
+      {
+        "name": "ice",
+        "noDamageTo": [],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "flying",
+          "ground",
+          "grass",
+          "dragon"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "strongAgainst": [
+          "ice"
+        ],
+        "weakAgainst": [
+          "fighting",
+          "rock",
+          "steel",
+          "fire"
+        ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "spAttack": 95,
+      "spDefense": 125,
+      "speed": 85
+    },
     "moves": [
       "razor-wind",
       "gust",
@@ -18986,40 +19049,34 @@
       "freeze-dry",
       "confide",
       "aurora-veil"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 85,
-      "defense": 100,
-      "spAttack": 95,
-      "spDefense": 125,
-      "speed": 85
-    },
+    ]
+  },
+  {
+    "dex": 145,
+    "name": "zapdos",
     "types": [
       {
-        "name": "ice",
-        "noDamageTo": [],
+        "name": "electric",
+        "noDamageTo": [
+          "ground"
+        ],
         "noDamageFrom": [],
         "supperEffectiveTo": [
           "flying",
-          "ground",
-          "grass",
-          "dragon"
+          "water"
         ],
         "notVeryEffectiveTo": [
-          "steel",
-          "fire",
-          "water",
-          "ice"
+          "grass",
+          "electric",
+          "dragon"
         ],
         "strongAgainst": [
-          "ice"
+          "flying",
+          "steel",
+          "electric"
         ],
         "weakAgainst": [
-          "fighting",
-          "rock",
-          "steel",
-          "fire"
+          "ground"
         ]
       },
       {
@@ -19049,11 +19106,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 145,
-    "name": "zapdos",
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "spAttack": 125,
+      "spDefense": 90,
+      "speed": 100
+    },
     "moves": [
       "razor-wind",
       "whirlwind",
@@ -19124,38 +19185,40 @@
       "wild-charge",
       "confide",
       "magnetic-flux"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 90,
-      "defense": 85,
-      "spAttack": 125,
-      "spDefense": 90,
-      "speed": 100
-    },
+    ]
+  },
+  {
+    "dex": 146,
+    "name": "moltres",
     "types": [
       {
-        "name": "electric",
-        "noDamageTo": [
-          "ground"
-        ],
+        "name": "fire",
+        "noDamageTo": [],
         "noDamageFrom": [],
         "supperEffectiveTo": [
-          "flying",
-          "water"
+          "bug",
+          "steel",
+          "grass",
+          "ice"
         ],
         "notVeryEffectiveTo": [
-          "grass",
-          "electric",
+          "rock",
+          "fire",
+          "water",
           "dragon"
         ],
         "strongAgainst": [
-          "flying",
+          "bug",
           "steel",
-          "electric"
+          "fire",
+          "grass",
+          "ice",
+          "fairy"
         ],
         "weakAgainst": [
-          "ground"
+          "ground",
+          "rock",
+          "water"
         ]
       },
       {
@@ -19185,11 +19248,15 @@
           "ice"
         ]
       }
-    ]
-  },
-  {
-    "dex": 146,
-    "name": "moltres",
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "spAttack": 125,
+      "spDefense": 85,
+      "speed": 90
+    },
     "moves": [
       "razor-wind",
       "wing-attack",
@@ -19259,78 +19326,45 @@
       "hurricane",
       "confide",
       "burn-up"
-    ],
-    "baseStats": {
-      "hp": 90,
-      "attack": 100,
-      "defense": 90,
-      "spAttack": 125,
-      "spDefense": 85,
-      "speed": 90
-    },
-    "types": [
-      {
-        "name": "fire",
-        "noDamageTo": [],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "bug",
-          "steel",
-          "grass",
-          "ice"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "fire",
-          "water",
-          "dragon"
-        ],
-        "strongAgainst": [
-          "bug",
-          "steel",
-          "fire",
-          "grass",
-          "ice",
-          "fairy"
-        ],
-        "weakAgainst": [
-          "ground",
-          "rock",
-          "water"
-        ]
-      },
-      {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel",
-          "electric"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 147,
     "name": "dratini",
+    "types": [
+      {
+        "name": "dragon",
+        "noDamageTo": [
+          "fairy"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "dragon"
+        ],
+        "notVeryEffectiveTo": [
+          "steel"
+        ],
+        "strongAgainst": [
+          "fire",
+          "water",
+          "grass",
+          "electric"
+        ],
+        "weakAgainst": [
+          "ice",
+          "dragon",
+          "fairy"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 50
+    },
     "moves": [
       "bind",
       "slam",
@@ -19408,15 +19442,11 @@
       "dragon-tail",
       "confide",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 41,
-      "attack": 64,
-      "defense": 45,
-      "spAttack": 50,
-      "spDefense": 50,
-      "speed": 50
-    },
+    ]
+  },
+  {
+    "dex": 148,
+    "name": "dragonair",
     "types": [
       {
         "name": "dragon",
@@ -19442,11 +19472,15 @@
           "fairy"
         ]
       }
-    ]
-  },
-  {
-    "dex": 148,
-    "name": "dragonair",
+    ],
+    "baseStats": {
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 70
+    },
     "moves": [
       "bind",
       "slam",
@@ -19520,15 +19554,11 @@
       "dragon-tail",
       "confide",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 61,
-      "attack": 84,
-      "defense": 65,
-      "spAttack": 70,
-      "spDefense": 70,
-      "speed": 70
-    },
+    ]
+  },
+  {
+    "dex": 149,
+    "name": "dragonite",
     "types": [
       {
         "name": "dragon",
@@ -19553,12 +19583,43 @@
           "dragon",
           "fairy"
         ]
+      },
+      {
+        "name": "flying",
+        "noDamageTo": [],
+        "noDamageFrom": [
+          "ground"
+        ],
+        "supperEffectiveTo": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "notVeryEffectiveTo": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "weakAgainst": [
+          "rock",
+          "electric",
+          "ice"
+        ]
       }
-    ]
-  },
-  {
-    "dex": 149,
-    "name": "dragonite",
+    ],
+    "baseStats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 80
+    },
     "moves": [
       "fire-punch",
       "ice-punch",
@@ -19672,72 +19733,45 @@
       "confide",
       "power-up-punch",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 91,
-      "attack": 134,
-      "defense": 95,
-      "spAttack": 100,
-      "spDefense": 100,
-      "speed": 80
-    },
-    "types": [
-      {
-        "name": "dragon",
-        "noDamageTo": [
-          "fairy"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "dragon"
-        ],
-        "notVeryEffectiveTo": [
-          "steel"
-        ],
-        "strongAgainst": [
-          "fire",
-          "water",
-          "grass",
-          "electric"
-        ],
-        "weakAgainst": [
-          "ice",
-          "dragon",
-          "fairy"
-        ]
-      },
-      {
-        "name": "flying",
-        "noDamageTo": [],
-        "noDamageFrom": [
-          "ground"
-        ],
-        "supperEffectiveTo": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "notVeryEffectiveTo": [
-          "rock",
-          "steel",
-          "electric"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "bug",
-          "grass"
-        ],
-        "weakAgainst": [
-          "rock",
-          "electric",
-          "ice"
-        ]
-      }
     ]
   },
   {
     "dex": 150,
     "name": "mewtwo",
+    "types": [
+      {
+        "name": "psychic",
+        "noDamageTo": [
+          "dark"
+        ],
+        "noDamageFrom": [],
+        "supperEffectiveTo": [
+          "fighting",
+          "poison"
+        ],
+        "notVeryEffectiveTo": [
+          "steel",
+          "psychic"
+        ],
+        "strongAgainst": [
+          "fighting",
+          "psychic"
+        ],
+        "weakAgainst": [
+          "bug",
+          "ghost",
+          "dark"
+        ]
+      }
+    ],
+    "baseStats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "spAttack": 154,
+      "spDefense": 90,
+      "speed": 130
+    },
     "moves": [
       "mega-punch",
       "pay-day",
@@ -19875,15 +19909,11 @@
       "power-up-punch",
       "laser-focus",
       "brutal-swing"
-    ],
-    "baseStats": {
-      "hp": 106,
-      "attack": 110,
-      "defense": 90,
-      "spAttack": 154,
-      "spDefense": 90,
-      "speed": 130
-    },
+    ]
+  },
+  {
+    "dex": 151,
+    "name": "mew",
     "types": [
       {
         "name": "psychic",
@@ -19909,11 +19939,15 @@
           "dark"
         ]
       }
-    ]
-  },
-  {
-    "dex": 151,
-    "name": "mew",
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 100
+    },
     "moves": [
       "pound",
       "mega-punch",
@@ -20161,40 +20195,6 @@
       "smart-strike",
       "brutal-swing",
       "aurora-veil"
-    ],
-    "baseStats": {
-      "hp": 100,
-      "attack": 100,
-      "defense": 100,
-      "spAttack": 100,
-      "spDefense": 100,
-      "speed": 100
-    },
-    "types": [
-      {
-        "name": "psychic",
-        "noDamageTo": [
-          "dark"
-        ],
-        "noDamageFrom": [],
-        "supperEffectiveTo": [
-          "fighting",
-          "poison"
-        ],
-        "notVeryEffectiveTo": [
-          "steel",
-          "psychic"
-        ],
-        "strongAgainst": [
-          "fighting",
-          "psychic"
-        ],
-        "weakAgainst": [
-          "bug",
-          "ghost",
-          "dark"
-        ]
-      }
     ]
   }
 ]

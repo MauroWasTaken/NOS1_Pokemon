@@ -1,8 +1,11 @@
-import { Fetcher } from './app/Fetcher';
-import { createPokemonJsonFile } from './scripts/script';
+import { Fetcher } from './app/api/Fetcher';
+import { Log } from './app/Log';
+import { createMoveJsonFile, createPokemonJsonFile } from './scripts/script';
 
 (async () => {
   await Fetcher.setUp();
-  createPokemonJsonFile().catch(reason => console.error(reason));
+  await Promise.all([ createPokemonJsonFile(), createMoveJsonFile() ]).then(() => {
+    Log.info('Process terminated successfully.');
+    process.exit(0);
+  });
 })();
-

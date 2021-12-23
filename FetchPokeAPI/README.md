@@ -1,7 +1,9 @@
 # FetchPokeAPI
 
-FetchPokeAPI is a nodejs application written in typescript designed to fetch the PokeAPIv2 and convert it into JSON 
+FetchPokeAPI is a nodejs application written in typescript designed to fetch the PokeAPIv2 and convert it into JSON
 files that can be used in a MongoDB database.
+
+The JSON outputs are light versions of the ones from the API, because we don't need all the data of the API.
 
 ## Requirements
 
@@ -21,22 +23,28 @@ npm install
 
 ## Usage
 
-_These commands will create 2 JSON files in the folder `src/data` :_
+There are two ways to run the script that fetch the API :
 
-- _`pokemon.dev.json`_
-- _`pokemon.min.dev.json`_
+1. Run directly the TypeScript files :
+    ```bash
+    npm run start:dev
+    ```
+2. To run javascript build files :
+    ```bash
+    npm run build
+    npm start
+    ```
 
-_Rename the by deleting the '.json' if you want to update the production files._
+These commands will create 2 JSON files in the folder `src/data` :
 
-### Development
+- `pokemon.dev.json`
+- `pokemon.min.dev.json`
+
+Once you finish the development, build JSON production files with the npm script :
 
 ```bash
-npm run start:dev
+npm run build:json-file
 ```
 
-### Production
-
-```bash
-npm run build
-npm start
-```
+It uses the file `buildJsonProduction.js` to copy the `.dev.json` files to `.json` files - .dev.json files are ignored
+from git.
