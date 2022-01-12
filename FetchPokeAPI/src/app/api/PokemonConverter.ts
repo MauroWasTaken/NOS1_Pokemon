@@ -1,8 +1,6 @@
 import _ from 'lodash';
 import { Pokemon, PokemonStat } from 'pokenode-ts';
-import { PokemonJSON } from '../../model/PokemonJSON';
-import { StatsJSON } from '../../model/StatJSON';
-import { TypeJSON } from '../../model/TypeJSON';
+import { PokemonJSON, StatsJSON, TypeJSON } from '../../model';
 import { AbstractConverter } from './AbstractConverter';
 import { Fetcher } from './Fetcher';
 

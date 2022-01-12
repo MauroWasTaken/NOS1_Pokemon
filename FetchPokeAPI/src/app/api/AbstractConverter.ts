@@ -1,6 +1,5 @@
 import { Move, Pokemon, Type } from 'pokenode-ts';
-import { Convertible } from '../../model/Convertible';
-import { TypeJSON } from '../../model/TypeJSON';
+import { Convertible, TypeJSON } from '../../model';
 
 export abstract class AbstractConverter {
 
