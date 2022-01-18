@@ -10,11 +10,6 @@ export class MongoDatabase {
 
   //region Constants
 
-  private static readonly username = 'pokesim_user';
-  private static readonly password = 'CPNV_poke_sim_pass';
-  private static readonly db = 'pokesim.1chjv.mongodb.net/pokesim';
-  private static readonly params = '?retryWrites=true&w=majority';
-
   private static readonly collectionsName: [ 'pokemons', 'moves' ] = [ 'pokemons', 'moves' ];
 
   //endregion
@@ -39,7 +34,7 @@ export class MongoDatabase {
   //region Private methods
 
   private static async connect(): Promise<void> {
-    const uri = 'mongodb+srv://' + this.username + ':' + this.password + '@' + this.db + this.params;
+    const uri = 'mongodb://localhost:27017/pokesim';
 
     await mongoose.connect(uri).then(() => Log.info('Connected to Mongo database'));
   }
