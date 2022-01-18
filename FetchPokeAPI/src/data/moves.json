@@ -897,9 +897,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 453,
@@ -1274,9 +1274,9 @@
     "power": 120,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 454,
@@ -1424,9 +1424,9 @@
     "power": 110,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 62,
@@ -1657,12 +1657,12 @@
     },
     "damageClass": "special",
     "pp": 15,
-    "power": 90,
-    "accuracy": 100,
+    "power": 80,
+    "accuracy": 95,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 661,
@@ -1919,9 +1919,9 @@
     "power": 100,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 781,
@@ -1966,9 +1966,9 @@
     "power": 100,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 562,
@@ -2562,9 +2562,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 34,
@@ -2628,9 +2628,9 @@
     "power": 85,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 550,
@@ -2889,13 +2889,13 @@
       ]
     },
     "damageClass": "special",
-    "pp": 15,
-    "power": 90,
+    "pp": 20,
+    "power": 60,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 100
   },
   {
     "id": 785,
@@ -2937,9 +2937,9 @@
     "power": 40,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 413,
@@ -3012,9 +3012,9 @@
     "power": 60,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 622,
@@ -3604,9 +3604,9 @@
     "power": 70,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "burn",
+    "ailmentChance": 100,
+    "recoilAmount": 0
   },
   {
     "id": 734,
@@ -3636,13 +3636,13 @@
       ]
     },
     "damageClass": "special",
-    "pp": 15,
-    "power": 90,
+    "pp": 20,
+    "power": 60,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "paralysis",
+    "ailmentChance": 100,
+    "recoilAmount": 0
   },
   {
     "id": 347,
@@ -4133,9 +4133,9 @@
     "power": null,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 728,
@@ -4295,9 +4295,9 @@
     "power": null,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 489,
@@ -4840,9 +4840,9 @@
     "power": null,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 322,
@@ -5037,9 +5037,9 @@
     "power": null,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 343,
@@ -5576,9 +5576,9 @@
     "power": null,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 455,
@@ -6245,9 +6245,9 @@
     "power": 60,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 24,
@@ -6567,9 +6567,9 @@
     "power": 50,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 820,
@@ -6603,9 +6603,9 @@
     "power": 150,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 692,
@@ -7024,9 +7024,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 530,
@@ -7099,9 +7099,9 @@
     "power": 40,
     "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 744,
@@ -7135,9 +7135,9 @@
     "power": 100,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 223,
@@ -7362,9 +7362,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 121,
@@ -7857,9 +7857,9 @@
     "power": 160,
     "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 797,
@@ -7893,9 +7893,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 153,
@@ -8229,9 +8229,9 @@
     "power": 80,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 206,
@@ -8485,9 +8485,9 @@
     "power": 90,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 515,
@@ -8858,9 +8858,9 @@
     "power": 85,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 90,
@@ -9365,9 +9365,9 @@
     "power": 60,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 731,
@@ -9404,9 +9404,9 @@
     "power": 90,
     "accuracy": 95,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 666,
@@ -9974,9 +9974,9 @@
     "power": 90,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "freeze",
+    "ailmentChance": 10,
+    "recoilAmount": 0
   },
   {
     "id": 739,
@@ -10008,13 +10008,13 @@
       ]
     },
     "damageClass": "special",
-    "pp": 15,
-    "power": 90,
-    "accuracy": 100,
+    "pp": 10,
+    "power": 100,
+    "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 338,
@@ -10731,9 +10731,9 @@
     "power": 130,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 549,
@@ -10832,12 +10832,12 @@
     },
     "damageClass": "special",
     "pp": 15,
-    "power": 90,
-    "accuracy": 100,
+    "power": 80,
+    "accuracy": 95,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 447,
@@ -11011,9 +11011,9 @@
     "power": 70,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 580,
@@ -11099,9 +11099,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 356,
@@ -13877,9 +13877,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 449,
@@ -13994,9 +13994,9 @@
     "power": null,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 2,
@@ -14265,9 +14265,9 @@
     "power": 75,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 387,
@@ -14740,9 +14740,9 @@
     "power": null,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 617,
@@ -15291,9 +15291,9 @@
     "power": null,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 478,
@@ -15687,14 +15687,14 @@
         "ice"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 772,
@@ -15724,14 +15724,14 @@
         "fairy"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 757,
@@ -15766,14 +15766,14 @@
         "water"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 100,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 758,
@@ -15807,14 +15807,14 @@
         "fire"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 765,
@@ -15844,14 +15844,14 @@
         "electric"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 743,
@@ -15875,13 +15875,13 @@
       ]
     },
     "damageClass": "status",
-    "pp": null,
+    "pp": 10,
     "power": null,
     "accuracy": null,
     "priority": 4,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 763,
@@ -15912,14 +15912,14 @@
         "fire"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 761,
@@ -15955,14 +15955,14 @@
         "fairy"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 759,
@@ -15991,14 +15991,14 @@
         "ground"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 769,
@@ -16027,14 +16027,14 @@
         "dark"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 764,
@@ -16067,14 +16067,14 @@
         "psychic"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 773,
@@ -16111,14 +16111,14 @@
         "ice"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 762,
@@ -16148,14 +16148,14 @@
         "dark"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 771,
@@ -16189,14 +16189,14 @@
         "ice"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 770,
@@ -16230,14 +16230,14 @@
         "grass"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 767,
@@ -16268,14 +16268,14 @@
         "steel"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 774,
@@ -16315,14 +16315,14 @@
         "fire"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 760,
@@ -16345,14 +16345,14 @@
         "fighting"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 768,
@@ -16381,14 +16381,14 @@
         "fairy"
       ]
     },
-    "damageClass": null,
-    "pp": null,
-    "power": null,
+    "damageClass": "physical",
+    "pp": 10,
+    "power": 10,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 382,
@@ -16885,9 +16885,9 @@
     "power": 150,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 800,
@@ -16926,9 +16926,9 @@
     "power": 120,
     "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 100,
+    "recoilAmount": 0
   },
   {
     "id": 309,
@@ -17435,9 +17435,9 @@
     "power": 100,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 581,
@@ -17844,7 +17844,7 @@
     },
     "damageClass": "physical",
     "pp": 10,
-    "power": 90,
+    "power": 120,
     "accuracy": 100,
     "priority": 0,
     "ailment": "none",
@@ -18333,9 +18333,9 @@
     "power": null,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 568,
@@ -18475,9 +18475,9 @@
     "power": null,
     "accuracy": 100,
     "priority": 4,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 697,
@@ -18592,9 +18592,9 @@
     "power": null,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 316,
@@ -18768,9 +18768,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 315,
@@ -19246,9 +19246,9 @@
     "power": null,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 42,
@@ -19748,9 +19748,9 @@
     "power": 110,
     "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 1,
@@ -20843,9 +20843,9 @@
     "power": 120,
     "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "burn",
+    "ailmentChance": 10,
+    "recoilAmount": 0
   },
   {
     "id": 511,
@@ -21677,9 +21677,9 @@
     "power": 70,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 46,
@@ -22570,13 +22570,13 @@
       ]
     },
     "damageClass": "physical",
-    "pp": 15,
-    "power": 90,
-    "accuracy": 100,
+    "pp": 10,
+    "power": 100,
+    "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "leech-seed",
+    "ailmentChance": 100,
+    "recoilAmount": 0
   },
   {
     "id": 634,
@@ -22729,9 +22729,9 @@
     "power": 25,
     "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 184,
@@ -22800,9 +22800,9 @@
     "power": 70,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "burn",
+    "ailmentChance": 30,
+    "recoilAmount": 0
   },
   {
     "id": 10,
@@ -23585,9 +23585,9 @@
     "power": 90,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "poison",
+    "ailmentChance": 20,
+    "recoilAmount": 0
   },
   {
     "id": 504,
@@ -23998,13 +23998,13 @@
       ]
     },
     "damageClass": "physical",
-    "pp": 15,
-    "power": 90,
+    "pp": 20,
+    "power": 60,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "burn",
+    "ailmentChance": 100,
+    "recoilAmount": 0
   },
   {
     "id": 166,
@@ -24109,9 +24109,9 @@
     "power": 70,
     "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 130,
@@ -24776,9 +24776,9 @@
     "power": 35,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "trap",
+    "ailmentChance": 100,
+    "recoilAmount": 0
   },
   {
     "id": 555,
@@ -24887,9 +24887,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 173,
@@ -25282,13 +25282,13 @@
       ]
     },
     "damageClass": "special",
-    "pp": 15,
-    "power": 90,
-    "accuracy": 100,
+    "pp": 5,
+    "power": 120,
+    "accuracy": 85,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 712,
@@ -25553,9 +25553,9 @@
     "power": 75,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 662,
@@ -25765,9 +25765,9 @@
     "power": 90,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "paralysis",
+    "ailmentChance": 30,
+    "recoilAmount": 0
   },
   {
     "id": 147,
@@ -26005,9 +26005,9 @@
     "power": 140,
     "accuracy": 95,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 798,
@@ -26052,9 +26052,9 @@
     "power": 130,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 211,
@@ -26435,9 +26435,9 @@
     "power": 90,
     "accuracy": 95,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "confusion",
+    "ailmentChance": 20,
+    "recoilAmount": 0
   },
   {
     "id": 70,
@@ -26651,9 +26651,9 @@
     "power": null,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 78,
@@ -27225,9 +27225,9 @@
     "power": 25,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 207,
@@ -27771,9 +27771,9 @@
     "power": null,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "tar-shot",
+    "ailmentChance": 100,
+    "recoilAmount": 0
   },
   {
     "id": 269,
@@ -27868,9 +27868,9 @@
     "power": null,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 546,
@@ -28081,7 +28081,7 @@
     "pp": 20,
     "power": null,
     "accuracy": null,
-    "priority": 0,
+    "priority": -6,
     "ailment": "none",
     "ailmentChance": 0,
     "recoilAmount": 0
@@ -28112,9 +28112,9 @@
     "power": 50,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 168,
@@ -28370,9 +28370,9 @@
     "power": 80,
     "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "trap",
+    "ailmentChance": 100,
+    "recoilAmount": 0
   },
   {
     "id": 422,
@@ -28593,9 +28593,9 @@
     "power": 90,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 321,
@@ -29024,9 +29024,9 @@
     "power": 20,
     "accuracy": 90,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 167,
@@ -29480,9 +29480,9 @@
     "power": null,
     "accuracy": null,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 599,
@@ -29565,6 +29565,36 @@
     "recoilAmount": 0
   },
   {
+    "id": 11,
+    "name": "vice-grip",
+    "type": {
+      "name": "normal",
+      "noDamageTo": [
+        "ghost"
+      ],
+      "noDamageFrom": [
+        "ghost"
+      ],
+      "supperEffectiveTo": [],
+      "notVeryEffectiveTo": [
+        "rock",
+        "steel"
+      ],
+      "strongAgainst": [],
+      "weakAgainst": [
+        "fighting"
+      ]
+    },
+    "damageClass": "physical",
+    "pp": 30,
+    "power": 55,
+    "accuracy": 100,
+    "priority": 0,
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
+  },
+  {
     "id": 22,
     "name": "vine-whip",
     "type": {
@@ -29602,36 +29632,6 @@
     "damageClass": "physical",
     "pp": 25,
     "power": 45,
-    "accuracy": 100,
-    "priority": 0,
-    "ailment": "none",
-    "ailmentChance": 0,
-    "recoilAmount": 0
-  },
-  {
-    "id": 11,
-    "name": "vise-grip",
-    "type": {
-      "name": "normal",
-      "noDamageTo": [
-        "ghost"
-      ],
-      "noDamageFrom": [
-        "ghost"
-      ],
-      "supperEffectiveTo": [],
-      "notVeryEffectiveTo": [
-        "rock",
-        "steel"
-      ],
-      "strongAgainst": [],
-      "weakAgainst": [
-        "fighting"
-      ]
-    },
-    "damageClass": "physical",
-    "pp": 30,
-    "power": 55,
     "accuracy": 100,
     "priority": 0,
     "ailment": "none",
@@ -30185,9 +30185,9 @@
     "power": 80,
     "accuracy": 100,
     "priority": 0,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   },
   {
     "id": 469,
@@ -30835,12 +30835,12 @@
       ]
     },
     "damageClass": "physical",
-    "pp": 15,
-    "power": 50,
+    "pp": 10,
+    "power": 80,
     "accuracy": 100,
     "priority": 2,
-    "ailment": null,
-    "ailmentChance": null,
-    "recoilAmount": null
+    "ailment": "none",
+    "ailmentChance": 0,
+    "recoilAmount": 0
   }
 ]

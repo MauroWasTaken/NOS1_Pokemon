@@ -26,13 +26,17 @@ export class Fetcher {
         const store = await this.createRedisStore();
         this._axiosInstance = setup({
           headers: { 'Content-Type': 'application/json' },
-          timeout: 1000 * 60 * 5, // 5 minutes,
+          timeout: 1000 * 60 * 30, // 30 minutes,
           cache: {
             maxAge: 1000 * 60 * 60 * 24, // 24 hours
-            store: store
+            store: store,
+            clearOnError: false
           }
         });
-        axiosRetry(this._axiosInstance, { retries: this.RETRIES_BEFORE_FAILING });
+        axiosRetry(this._axiosInstance, {
+          retries: this.RETRIES_BEFORE_FAILING,
+          retryDelay: axiosRetry.exponentialDelay
+        });
       }
 
       return this._axiosInstance;
@@ -41,8 +45,7 @@ export class Fetcher {
 
   private static async createRedisStore(): Promise<RedisStore> {
     const redisClient: RedisClient = redis.createClient({
-      url: 'redis://redis-12151.c262.us-east-1-3.ec2.cloud.redislabs.com:12151',
-      password: 'SndMILwCfMeHCMZTXRAVeNK2fYh4nNdU'
+      host: '127.0.0.1'
     });
 
     return new RedisStore(redisClient);

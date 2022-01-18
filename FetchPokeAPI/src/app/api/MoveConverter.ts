@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import { Move } from 'pokenode-ts';
-import { MoveJSON } from '../../model/MoveJSON';
+import { MoveJSON } from '../../model';
 import { AbstractConverter } from './AbstractConverter';
 import { Fetcher } from './Fetcher';
 
