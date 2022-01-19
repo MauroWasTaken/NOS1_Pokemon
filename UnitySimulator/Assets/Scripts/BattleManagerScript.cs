@@ -80,6 +80,6 @@ public class BattleManagerScript : MonoBehaviour
     }
     public void MoveClicked(int index)
     {
-
+        
     }
 }

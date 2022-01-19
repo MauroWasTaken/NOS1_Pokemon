@@ -1,12 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Pokemon
 {
-    int dex = 26;
-    string name;
-    Dictionary<string, int> baseStats = new Dictionary<string, int>()
+    public int Dex { get; protected set; } = 26;
+    public string Name { get; protected set; }
+    public Dictionary<string, int> BaseStats { get; protected set; } = new Dictionary<string, int>()
     {
         {"maxHp",90},
         {"hp",1},
@@ -16,13 +17,14 @@ public class Pokemon
         {"spDefence",90},
         {"speed",90}
     };
-    List<Move> availableMoves = new List<Move>();
-    List<Move> selectedMoves = new List<Move>();
+    public List<Type> Types { get; protected set; } = new List<Type>();
+    public List<Move> AvailableMoves { get; protected set; } = new List<Move>();
+    public List<Move> SelectedMoves { get; protected set; } = new List<Move>();
     //Pokemon from scratch
     public Pokemon(int dex)
     {
-        this.dex = dex;
-        this.name = dex + "";
+        this.Dex = dex;
+        this.Name = dex + "";
     }
     //Pokemon from preset
     public Pokemon(int dex, List<Move> moves)
@@ -31,13 +33,13 @@ public class Pokemon
     }
     private void SetupStats(int hp, int attack, int defense, int spAttack, int spDefence, int speed)
     {
-        baseStats["maxHp"] = hp;
-        baseStats["hp"] = hp;
-        baseStats["attack"] = attack;
-        baseStats["defense"] = defense;
-        baseStats["spAttack"] = spAttack;
-        baseStats["spDefence"] = spDefence;
-        baseStats["speed"] = speed;
+        BaseStats["maxHp"] = hp;
+        BaseStats["hp"] = hp;
+        BaseStats["attack"] = attack;
+        BaseStats["defense"] = defense;
+        BaseStats["spAttack"] = spAttack;
+        BaseStats["spDefence"] = spDefence;
+        BaseStats["speed"] = speed;
     }
     public void UseMove(Move move)
     {
@@ -47,9 +49,4 @@ public class Pokemon
     {
 
     }
-    public int Dex { get { return dex; } }
-    public string Name { get { return name; } }
-    public Dictionary<string, int> BaseStats { get { return baseStats; } }
-    public List<Move> AvailableMoves { get { return availableMoves; } }
-    public List<Move> SelectedMoves { get { return selectedMoves; } }
 }
