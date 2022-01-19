@@ -25,7 +25,6 @@ public class TooltipScript : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(Input.mousePosition);
         this.gameObject.transform.position = Input.mousePosition;
     }
     public void ShowTooltip(string message)
