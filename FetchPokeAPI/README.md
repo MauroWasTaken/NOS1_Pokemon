@@ -25,7 +25,7 @@ npm install
 
 Next installations use Docker.
 
-Go to <https://docs.docker.com/get-docker/> and follow instructions.
+Go to <https://docs.docker.com/get-docker> and follow instructions.
 
 ### Redis
 
@@ -42,7 +42,7 @@ If you choose to sync the database after the files are created
 ```shell
 docker run --name mongodb-server -d -p 27017:27017 mongo
 docker exec -it mongodb-server bash
-mongo
+mongosh
 ```
 
 You will be in a mongo interactive shell, run the commands below to create the database with collections.
@@ -83,6 +83,8 @@ Finally, sync the prod files with the database :
 ```shell
 npm run import-data
 ```
+
+It uses the file `importDataToMongo.ts` to import files to the MongoDB database collections.
 
 You can also make all the steps with one command :
 
