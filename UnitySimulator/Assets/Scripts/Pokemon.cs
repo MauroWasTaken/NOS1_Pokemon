@@ -10,7 +10,7 @@ public class Pokemon
     public Dictionary<string, int> BaseStats { get; protected set; } = new Dictionary<string, int>()
     {
         {"maxHp",90},
-        {"hp",1},
+        {"hp",80},
         {"attack",90},
         {"defense",90},
         {"spAttack",90},
@@ -41,11 +41,17 @@ public class Pokemon
         BaseStats["spDefence"] = spDefence;
         BaseStats["speed"] = speed;
     }
-    public void UseMove(Move move)
+    public void Attack(Move move,Pokemon target )
     {
 
+        //int damage = (int) Math.Round((2*move.Power*(this.BaseStats["attack"]/target.BaseStats["defense"]))/50+2)*target.TypeEffectiveness(move);
     }
-    public void TakeDamage(Move move)
+    public decimal TypeEffectiveness(Move move)
+    {
+
+        return 1;
+    }
+    public void TakeDamage(int amount)
     {
 
     }

@@ -64,7 +64,7 @@ public class BattleManagerScript : MonoBehaviour
     }
     private void GenerateEnemyPokemon()
     {
-        enemyPokemon = new Pokemon(700);
+        enemyPokemon = new Pokemon(25);
     }
     private void LoadSprites()
     {
@@ -80,6 +80,6 @@ public class BattleManagerScript : MonoBehaviour
     }
     public void MoveClicked(int index)
     {
-        
+
     }
 }
