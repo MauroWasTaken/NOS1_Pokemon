@@ -1,6 +1,7 @@
 using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
+using Model;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
