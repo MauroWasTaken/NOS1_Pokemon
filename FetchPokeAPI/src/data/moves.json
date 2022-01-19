@@ -8,7 +8,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -42,7 +42,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -86,7 +86,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -129,7 +129,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -169,7 +169,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -209,7 +209,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -249,7 +249,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -289,7 +289,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -329,7 +329,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -370,7 +370,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -398,7 +398,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -437,7 +437,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -478,7 +478,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -506,7 +506,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -542,7 +542,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -581,7 +581,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -620,7 +620,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -663,7 +663,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -706,7 +706,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -742,7 +742,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -778,7 +778,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -823,7 +823,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -864,7 +864,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -908,7 +908,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -945,7 +945,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -982,7 +982,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -1021,7 +1021,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -1062,7 +1062,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -1108,7 +1108,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -1148,7 +1148,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -1176,7 +1176,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -1216,7 +1216,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -1253,7 +1253,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -1285,7 +1285,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -1330,7 +1330,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -1358,7 +1358,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -1401,7 +1401,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -1435,7 +1435,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -1473,7 +1473,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -1513,7 +1513,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -1558,7 +1558,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -1598,7 +1598,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -1636,7 +1636,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -1673,7 +1673,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -1715,7 +1715,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -1743,7 +1743,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -1781,7 +1781,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -1809,7 +1809,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -1848,7 +1848,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -1885,7 +1885,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -1932,7 +1932,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -1979,7 +1979,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -2021,7 +2021,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -2051,7 +2051,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -2081,7 +2081,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -2111,7 +2111,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -2139,7 +2139,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -2176,7 +2176,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -2213,7 +2213,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -2248,7 +2248,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -2290,7 +2290,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -2332,7 +2332,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -2374,7 +2374,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -2400,7 +2400,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -2444,7 +2444,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -2488,7 +2488,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -2532,7 +2532,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -2577,7 +2577,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -2605,7 +2605,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -2641,7 +2641,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -2679,7 +2679,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -2720,7 +2720,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -2761,7 +2761,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -2802,7 +2802,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -2830,7 +2830,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -2867,7 +2867,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -2904,7 +2904,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -2950,7 +2950,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -2989,7 +2989,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -3027,7 +3027,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -3057,7 +3057,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -3085,7 +3085,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -3126,7 +3126,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -3165,7 +3165,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -3200,7 +3200,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -3237,7 +3237,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -3274,7 +3274,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -3315,7 +3315,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -3358,7 +3358,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -3403,7 +3403,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -3442,7 +3442,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -3487,7 +3487,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -3531,7 +3531,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -3573,7 +3573,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -3617,7 +3617,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -3653,7 +3653,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -3691,7 +3691,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -3721,7 +3721,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -3749,7 +3749,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -3787,7 +3787,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -3815,7 +3815,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -3851,7 +3851,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -3887,7 +3887,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -3925,7 +3925,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -3966,7 +3966,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -3994,7 +3994,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -4035,7 +4035,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -4074,7 +4074,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -4110,7 +4110,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -4146,7 +4146,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -4182,7 +4182,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -4222,7 +4222,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -4265,7 +4265,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -4308,7 +4308,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -4350,7 +4350,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -4380,7 +4380,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -4411,7 +4411,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -4445,7 +4445,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -4483,7 +4483,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -4509,7 +4509,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -4550,7 +4550,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -4595,7 +4595,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -4625,7 +4625,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -4655,7 +4655,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -4683,7 +4683,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -4719,7 +4719,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -4766,7 +4766,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -4813,7 +4813,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -4853,7 +4853,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -4887,7 +4887,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -4931,7 +4931,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -4977,7 +4977,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -5022,7 +5022,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -5052,7 +5052,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -5078,7 +5078,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -5117,7 +5117,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -5155,7 +5155,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -5198,7 +5198,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -5238,7 +5238,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -5277,7 +5277,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -5307,7 +5307,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -5338,7 +5338,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -5374,7 +5374,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -5402,7 +5402,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -5439,7 +5439,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -5476,7 +5476,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -5513,7 +5513,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -5551,7 +5551,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -5587,7 +5587,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -5632,7 +5632,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -5660,7 +5660,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -5702,7 +5702,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -5736,7 +5736,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -5779,7 +5779,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -5815,7 +5815,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -5849,7 +5849,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -5894,7 +5894,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -5935,7 +5935,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -5963,7 +5963,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -6001,7 +6001,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -6035,7 +6035,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -6076,7 +6076,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -6104,7 +6104,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -6153,7 +6153,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -6183,7 +6183,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -6211,7 +6211,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -6258,7 +6258,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -6303,7 +6303,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -6333,7 +6333,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -6361,7 +6361,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6397,7 +6397,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -6436,7 +6436,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6472,7 +6472,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6508,7 +6508,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6544,7 +6544,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6580,7 +6580,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6616,7 +6616,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6652,7 +6652,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6688,7 +6688,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6724,7 +6724,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6760,7 +6760,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -6796,7 +6796,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -6839,7 +6839,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -6877,7 +6877,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -6913,7 +6913,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -6954,7 +6954,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -6991,7 +6991,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -7037,7 +7037,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -7073,7 +7073,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -7112,7 +7112,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -7148,7 +7148,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -7193,7 +7193,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -7234,7 +7234,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -7275,7 +7275,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -7303,7 +7303,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -7339,7 +7339,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -7377,7 +7377,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -7405,7 +7405,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -7441,7 +7441,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -7477,7 +7477,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -7513,7 +7513,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -7549,7 +7549,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -7584,7 +7584,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -7630,7 +7630,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -7660,7 +7660,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -7690,7 +7690,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -7716,7 +7716,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -7764,7 +7764,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -7790,7 +7790,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -7834,7 +7834,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -7870,7 +7870,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -7908,7 +7908,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -7936,7 +7936,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -7974,7 +7974,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -8004,7 +8004,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -8034,7 +8034,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -8062,7 +8062,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -8100,7 +8100,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -8140,7 +8140,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -8168,7 +8168,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -8205,7 +8205,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -8244,7 +8244,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -8272,7 +8272,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -8313,7 +8313,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -8341,7 +8341,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -8376,7 +8376,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -8417,7 +8417,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -8461,7 +8461,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -8498,7 +8498,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -8539,7 +8539,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -8581,7 +8581,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -8623,7 +8623,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -8665,7 +8665,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -8707,7 +8707,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -8749,7 +8749,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -8791,7 +8791,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -8832,7 +8832,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -8873,7 +8873,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -8914,7 +8914,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -8940,7 +8940,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -8982,7 +8982,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -9024,7 +9024,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -9066,7 +9066,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -9108,7 +9108,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -9154,7 +9154,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -9182,7 +9182,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -9229,7 +9229,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -9266,7 +9266,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -9304,7 +9304,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -9339,7 +9339,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -9378,7 +9378,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -9417,7 +9417,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -9455,7 +9455,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -9493,7 +9493,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -9532,7 +9532,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -9575,7 +9575,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -9620,7 +9620,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -9648,7 +9648,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -9693,7 +9693,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -9721,7 +9721,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -9766,7 +9766,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -9792,7 +9792,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -9838,7 +9838,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -9873,7 +9873,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -9911,7 +9911,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -9951,7 +9951,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -9985,7 +9985,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -10023,7 +10023,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -10067,7 +10067,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -10109,7 +10109,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -10139,7 +10139,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -10165,7 +10165,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -10210,7 +10210,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -10238,7 +10238,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -10272,7 +10272,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -10316,7 +10316,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -10352,7 +10352,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -10392,7 +10392,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -10439,7 +10439,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -10486,7 +10486,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -10522,7 +10522,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -10558,7 +10558,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -10606,7 +10606,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -10634,7 +10634,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -10670,7 +10670,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -10704,7 +10704,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -10742,7 +10742,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -10784,7 +10784,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -10812,7 +10812,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -10846,7 +10846,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -10890,7 +10890,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -10934,7 +10934,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -10978,7 +10978,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -11022,7 +11022,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -11066,7 +11066,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -11112,7 +11112,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -11150,7 +11150,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -11180,7 +11180,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -11211,7 +11211,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -11245,7 +11245,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -11281,7 +11281,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -11317,7 +11317,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -11357,7 +11357,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -11385,7 +11385,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -11425,7 +11425,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -11464,7 +11464,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -11509,7 +11509,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -11549,7 +11549,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -11594,7 +11594,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -11624,7 +11624,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -11650,7 +11650,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -11692,7 +11692,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -11718,7 +11718,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -11763,7 +11763,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -11793,7 +11793,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -11821,7 +11821,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -11855,7 +11855,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -11898,7 +11898,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -11934,7 +11934,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -11970,7 +11970,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -12006,7 +12006,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -12040,7 +12040,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -12082,7 +12082,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -12126,7 +12126,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -12175,7 +12175,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12206,7 +12206,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -12242,7 +12242,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12272,7 +12272,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -12311,7 +12311,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -12356,7 +12356,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12386,7 +12386,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12414,7 +12414,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -12453,7 +12453,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12483,7 +12483,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12509,7 +12509,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -12557,7 +12557,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12585,7 +12585,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -12622,7 +12622,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -12659,7 +12659,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -12696,7 +12696,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -12733,7 +12733,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -12774,7 +12774,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12804,7 +12804,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12834,7 +12834,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -12862,7 +12862,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -12899,7 +12899,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -12935,7 +12935,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -12969,7 +12969,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13007,7 +13007,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13045,7 +13045,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13083,7 +13083,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13121,7 +13121,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13159,7 +13159,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13197,7 +13197,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13235,7 +13235,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13273,7 +13273,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13311,7 +13311,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -13351,7 +13351,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -13385,7 +13385,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -13427,7 +13427,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -13469,7 +13469,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -13511,7 +13511,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -13553,7 +13553,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -13594,7 +13594,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -13640,7 +13640,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -13676,7 +13676,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -13712,7 +13712,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -13759,7 +13759,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -13806,7 +13806,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -13853,7 +13853,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -13892,7 +13892,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -13920,7 +13920,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -13961,7 +13961,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -14007,7 +14007,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -14050,7 +14050,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -14086,7 +14086,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -14133,7 +14133,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -14172,7 +14172,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -14213,7 +14213,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -14241,7 +14241,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -14280,7 +14280,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -14306,7 +14306,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -14348,7 +14348,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -14392,7 +14392,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -14436,7 +14436,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -14480,7 +14480,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -14524,7 +14524,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -14565,7 +14565,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -14613,7 +14613,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -14641,7 +14641,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -14682,7 +14682,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -14714,7 +14714,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -14753,7 +14753,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -14791,7 +14791,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -14827,7 +14827,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -14861,7 +14861,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -14902,7 +14902,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -14932,7 +14932,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -14960,7 +14960,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -15003,7 +15003,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -15048,7 +15048,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -15076,7 +15076,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -15110,7 +15110,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -15153,7 +15153,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -15189,7 +15189,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -15232,7 +15232,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -15268,7 +15268,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -15304,7 +15304,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -15338,7 +15338,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -15382,7 +15382,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -15426,7 +15426,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -15473,7 +15473,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -15509,7 +15509,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -15547,7 +15547,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -15586,7 +15586,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -15623,7 +15623,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -15666,7 +15666,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -15705,7 +15705,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -15740,7 +15740,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -15782,7 +15782,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -15823,7 +15823,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -15864,7 +15864,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -15890,7 +15890,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -15930,7 +15930,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -15973,7 +15973,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -16009,7 +16009,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -16045,7 +16045,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -16083,7 +16083,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -16132,7 +16132,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -16168,7 +16168,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -16205,7 +16205,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -16248,7 +16248,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -16286,7 +16286,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -16335,7 +16335,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -16363,7 +16363,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -16401,7 +16401,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -16431,7 +16431,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -16459,7 +16459,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -16493,7 +16493,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -16541,7 +16541,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -16571,7 +16571,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -16597,7 +16597,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -16640,7 +16640,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -16680,7 +16680,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -16714,7 +16714,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -16761,7 +16761,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -16808,7 +16808,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -16855,7 +16855,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -16896,7 +16896,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -16939,7 +16939,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -16988,7 +16988,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -17018,7 +17018,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -17048,7 +17048,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -17074,7 +17074,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -17120,7 +17120,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -17150,7 +17150,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -17178,7 +17178,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -17214,7 +17214,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -17250,7 +17250,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -17289,7 +17289,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -17334,7 +17334,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -17374,7 +17374,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -17410,7 +17410,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -17448,7 +17448,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -17486,7 +17486,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -17527,7 +17527,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -17561,7 +17561,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -17601,7 +17601,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -17631,7 +17631,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -17672,7 +17672,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -17713,7 +17713,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -17754,7 +17754,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -17791,7 +17791,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -17832,7 +17832,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -17858,7 +17858,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -17902,7 +17902,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -17941,7 +17941,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -17971,7 +17971,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -17999,7 +17999,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -18035,7 +18035,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -18084,7 +18084,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18121,7 +18121,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18155,7 +18155,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18195,7 +18195,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18229,7 +18229,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18269,7 +18269,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18303,7 +18303,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -18348,7 +18348,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -18376,7 +18376,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -18412,7 +18412,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -18451,7 +18451,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18486,7 +18486,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -18523,7 +18523,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -18562,7 +18562,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -18607,7 +18607,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -18638,7 +18638,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18670,7 +18670,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -18709,7 +18709,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -18745,7 +18745,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -18779,7 +18779,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -18825,7 +18825,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -18853,7 +18853,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -18889,7 +18889,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18928,7 +18928,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -18956,7 +18956,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -18993,7 +18993,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -19034,7 +19034,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -19060,7 +19060,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -19104,7 +19104,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -19153,7 +19153,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -19187,7 +19187,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -19223,7 +19223,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -19257,7 +19257,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -19300,7 +19300,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -19338,7 +19338,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -19366,7 +19366,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -19404,7 +19404,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -19443,7 +19443,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -19483,7 +19483,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -19523,7 +19523,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -19563,7 +19563,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -19603,7 +19603,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -19643,7 +19643,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -19681,7 +19681,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -19727,7 +19727,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -19763,7 +19763,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -19789,7 +19789,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -19830,7 +19830,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -19868,7 +19868,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -19911,7 +19911,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -19947,7 +19947,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -19983,7 +19983,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20019,7 +20019,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -20056,7 +20056,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -20097,7 +20097,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -20145,7 +20145,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -20186,7 +20186,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -20214,7 +20214,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20252,7 +20252,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -20280,7 +20280,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20318,7 +20318,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -20346,7 +20346,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20382,7 +20382,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20418,7 +20418,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20454,7 +20454,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20490,7 +20490,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20526,7 +20526,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20562,7 +20562,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20598,7 +20598,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20634,7 +20634,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -20672,7 +20672,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -20700,7 +20700,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -20737,7 +20737,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -20777,7 +20777,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -20812,7 +20812,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -20856,7 +20856,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -20895,7 +20895,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -20923,7 +20923,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -20964,7 +20964,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -21009,7 +21009,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21035,7 +21035,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -21076,7 +21076,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -21117,7 +21117,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21143,7 +21143,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -21187,7 +21187,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -21228,7 +21228,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21258,7 +21258,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21288,7 +21288,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21316,7 +21316,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -21354,7 +21354,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21384,7 +21384,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21414,7 +21414,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21442,7 +21442,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -21480,7 +21480,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21510,7 +21510,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21540,7 +21540,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21568,7 +21568,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -21611,7 +21611,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -21654,7 +21654,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -21692,7 +21692,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21720,7 +21720,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -21754,7 +21754,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -21799,7 +21799,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -21825,7 +21825,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -21866,7 +21866,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -21909,7 +21909,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -21950,7 +21950,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -21991,7 +21991,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -22032,7 +22032,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -22075,7 +22075,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -22111,7 +22111,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -22152,7 +22152,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -22195,7 +22195,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -22236,7 +22236,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -22277,7 +22277,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -22303,7 +22303,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -22347,7 +22347,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -22392,7 +22392,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -22422,7 +22422,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -22463,7 +22463,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -22500,7 +22500,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -22541,7 +22541,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -22585,7 +22585,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -22626,7 +22626,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -22667,7 +22667,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -22706,7 +22706,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -22744,7 +22744,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -22774,7 +22774,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -22815,7 +22815,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -22845,7 +22845,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -22871,7 +22871,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -22915,7 +22915,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -22964,7 +22964,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -22992,7 +22992,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -23033,7 +23033,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -23077,7 +23077,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -23123,7 +23123,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -23168,7 +23168,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -23199,7 +23199,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -23236,7 +23236,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -23273,7 +23273,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -23310,7 +23310,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -23347,7 +23347,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -23384,7 +23384,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -23420,7 +23420,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -23448,7 +23448,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -23484,7 +23484,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -23518,7 +23518,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -23558,7 +23558,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -23600,7 +23600,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -23626,7 +23626,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -23670,7 +23670,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -23717,7 +23717,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -23755,7 +23755,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -23792,7 +23792,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -23833,7 +23833,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -23878,7 +23878,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -23908,7 +23908,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -23939,7 +23939,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -23971,7 +23971,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -24017,7 +24017,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24045,7 +24045,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -24079,7 +24079,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -24124,7 +24124,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24152,7 +24152,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -24191,7 +24191,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -24230,7 +24230,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -24275,7 +24275,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24305,7 +24305,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24335,7 +24335,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24361,7 +24361,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -24409,7 +24409,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24437,7 +24437,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -24477,7 +24477,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -24517,7 +24517,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -24555,7 +24555,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -24598,7 +24598,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -24647,7 +24647,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24675,7 +24675,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -24717,7 +24717,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24743,7 +24743,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -24789,7 +24789,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -24826,7 +24826,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -24861,7 +24861,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -24902,7 +24902,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24928,7 +24928,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -24969,7 +24969,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -24995,7 +24995,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -25039,7 +25039,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -25087,7 +25087,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -25118,7 +25118,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -25152,7 +25152,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -25188,7 +25188,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -25222,7 +25222,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -25261,7 +25261,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -25302,7 +25302,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -25336,7 +25336,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -25370,7 +25370,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -25415,7 +25415,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -25445,7 +25445,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -25482,7 +25482,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -25528,7 +25528,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -25569,7 +25569,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -25605,7 +25605,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -25636,7 +25636,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -25672,7 +25672,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -25698,7 +25698,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -25739,7 +25739,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -25776,7 +25776,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -25824,7 +25824,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -25850,7 +25850,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -25891,7 +25891,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -25928,7 +25928,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -25971,7 +25971,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -26018,7 +26018,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -26065,7 +26065,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -26110,7 +26110,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -26155,7 +26155,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -26183,7 +26183,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -26221,7 +26221,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -26251,7 +26251,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -26288,7 +26288,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -26331,7 +26331,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -26367,7 +26367,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -26410,7 +26410,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -26450,7 +26450,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -26476,7 +26476,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -26520,7 +26520,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -26565,7 +26565,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -26591,7 +26591,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -26636,7 +26636,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -26662,7 +26662,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -26708,7 +26708,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -26753,7 +26753,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -26779,7 +26779,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -26817,7 +26817,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -26857,7 +26857,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -26892,7 +26892,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -26936,7 +26936,7 @@
       "noDamageFrom": [
         "poison"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "rock",
         "ice",
         "fairy"
@@ -26985,7 +26985,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27013,7 +27013,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -27058,7 +27058,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27086,7 +27086,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -27125,7 +27125,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -27162,7 +27162,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -27199,7 +27199,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -27240,7 +27240,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27270,7 +27270,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27298,7 +27298,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -27338,7 +27338,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27368,7 +27368,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27396,7 +27396,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -27435,7 +27435,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27463,7 +27463,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -27497,7 +27497,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -27545,7 +27545,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27571,7 +27571,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -27616,7 +27616,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27646,7 +27646,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27674,7 +27674,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -27715,7 +27715,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27741,7 +27741,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -27784,7 +27784,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -27823,7 +27823,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27853,7 +27853,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27883,7 +27883,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -27913,7 +27913,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -27954,7 +27954,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -27995,7 +27995,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -28023,7 +28023,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -28059,7 +28059,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -28097,7 +28097,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -28125,7 +28125,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -28164,7 +28164,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -28205,7 +28205,7 @@
       "noDamageFrom": [
         "electric"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "poison",
         "rock",
         "steel",
@@ -28246,7 +28246,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -28274,7 +28274,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -28311,7 +28311,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -28347,7 +28347,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -28383,7 +28383,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -28419,7 +28419,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -28455,7 +28455,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -28491,7 +28491,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -28527,7 +28527,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -28563,7 +28563,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -28608,7 +28608,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -28636,7 +28636,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -28673,7 +28673,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -28710,7 +28710,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -28750,7 +28750,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -28790,7 +28790,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -28832,7 +28832,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -28862,7 +28862,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -28890,7 +28890,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -28929,7 +28929,7 @@
         "normal",
         "fighting"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -28963,7 +28963,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -28997,7 +28997,7 @@
       "name": "ice",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "ground",
         "grass",
@@ -29037,7 +29037,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -29078,7 +29078,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -29126,7 +29126,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -29152,7 +29152,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -29195,7 +29195,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -29233,7 +29233,7 @@
       "noDamageFrom": [
         "dragon"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "dragon",
         "dark"
@@ -29271,7 +29271,7 @@
         "fairy"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "dragon"
       ],
       "notVeryEffectiveTo": [
@@ -29305,7 +29305,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -29350,7 +29350,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -29376,7 +29376,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -29420,7 +29420,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -29465,7 +29465,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -29493,7 +29493,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -29533,7 +29533,7 @@
         "steel"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "fairy"
       ],
@@ -29575,7 +29575,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -29601,7 +29601,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -29647,7 +29647,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -29690,7 +29690,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -29726,7 +29726,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -29762,7 +29762,7 @@
         "ghost"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "normal",
         "rock",
         "steel",
@@ -29803,7 +29803,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -29840,7 +29840,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -29877,7 +29877,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -29914,7 +29914,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -29951,7 +29951,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -29988,7 +29988,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -30025,7 +30025,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -30066,7 +30066,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -30092,7 +30092,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -30133,7 +30133,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -30161,7 +30161,7 @@
       "noDamageFrom": [
         "psychic"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ghost",
         "psychic"
       ],
@@ -30196,7 +30196,7 @@
       "name": "rock",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "bug",
         "fire",
@@ -30239,7 +30239,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -30273,7 +30273,7 @@
       "name": "fire",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "bug",
         "steel",
         "grass",
@@ -30317,7 +30317,7 @@
       "noDamageFrom": [
         "ground"
       ],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "bug",
         "grass"
@@ -30358,7 +30358,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -30384,7 +30384,7 @@
       "name": "water",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "fire"
@@ -30423,7 +30423,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -30457,7 +30457,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -30505,7 +30505,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -30531,7 +30531,7 @@
       "name": "grass",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "ground",
         "rock",
         "water"
@@ -30579,7 +30579,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -30609,7 +30609,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -30635,7 +30635,7 @@
       "name": "bug",
       "noDamageTo": [],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "grass",
         "psychic",
         "dark"
@@ -30680,7 +30680,7 @@
       "noDamageFrom": [
         "ghost"
       ],
-      "supperEffectiveTo": [],
+      "superEffectiveTo": [],
       "notVeryEffectiveTo": [
         "rock",
         "steel"
@@ -30708,7 +30708,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -30744,7 +30744,7 @@
         "dark"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "fighting",
         "poison"
       ],
@@ -30780,7 +30780,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
@@ -30816,7 +30816,7 @@
         "ground"
       ],
       "noDamageFrom": [],
-      "supperEffectiveTo": [
+      "superEffectiveTo": [
         "flying",
         "water"
       ],
