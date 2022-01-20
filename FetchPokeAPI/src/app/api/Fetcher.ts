@@ -44,9 +44,8 @@ export class Fetcher {
   }
 
   private static async createRedisStore(): Promise<RedisStore> {
-    const redisClient: RedisClient = redis.createClient({
-      host: '127.0.0.1'
-    });
+    const host = '127.0.0.1';
+    const redisClient: RedisClient = redis.createClient({ host });
 
     return new RedisStore(redisClient);
   }

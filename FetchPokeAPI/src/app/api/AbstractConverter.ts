@@ -27,7 +27,7 @@ export abstract class AbstractConverter {
       name: typeApi.name,
       noDamageTo: typeApi.damage_relations.no_damage_to.map(value => value.name),
       noDamageFrom: typeApi.damage_relations.no_damage_from.map(value => value.name),
-      supperEffectiveTo: typeApi.damage_relations.double_damage_to.map(value => value.name),
+      superEffectiveTo: typeApi.damage_relations.double_damage_to.map(value => value.name),
       notVeryEffectiveTo: typeApi.damage_relations.half_damage_to.map(value => value.name),
       strongAgainst: typeApi.damage_relations.half_damage_from.map(value => value.name),
       weakAgainst: typeApi.damage_relations.double_damage_from.map(value => value.name)

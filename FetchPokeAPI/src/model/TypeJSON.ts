@@ -4,6 +4,6 @@ export interface TypeJSON {
   noDamageFrom: string[],
   strongAgainst: string[],
   notVeryEffectiveTo: string[],
-  supperEffectiveTo: string[],
+  superEffectiveTo: string[],
   weakAgainst: string[]
 }
