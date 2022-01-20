@@ -2474,7 +2474,7 @@ GameObject:
   - component: {fileID: 454010151}
   - component: {fileID: 454010150}
   m_Layer: 5
-  m_Name: Move 1
+  m_Name: Move 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3014,7 +3014,7 @@ GameObject:
   - component: {fileID: 656851763}
   - component: {fileID: 656851762}
   m_Layer: 5
-  m_Name: Move 3
+  m_Name: Move 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3268,7 +3268,7 @@ MonoBehaviour:
   - {fileID: 81382694}
   - {fileID: 1799837389}
   - {fileID: 1031605315}
-  - {fileID: 0}
+  - {fileID: 834374803}
   mainMenu: {fileID: 1345195995}
   pokemonSelectionMenu: {fileID: 2084938122}
   myPresetsMenu: {fileID: 1544543418}
@@ -4044,7 +4044,7 @@ GameObject:
   - component: {fileID: 881857579}
   - component: {fileID: 881857578}
   m_Layer: 5
-  m_Name: Move 2
+  m_Name: Move 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6414,7 +6414,7 @@ GameObject:
   - component: {fileID: 1395730129}
   - component: {fileID: 1395730128}
   m_Layer: 5
-  m_Name: Move 4
+  m_Name: Move 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
