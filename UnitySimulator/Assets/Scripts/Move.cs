@@ -7,7 +7,7 @@ public class Move
     public int id;
     public string Name { get; protected set; } = "attack";
     public int Power { get; protected set; } = 192;
-    public int Pp { get; protected set; } = 1;
+    public int Pp { get; protected set; } = 5;
     public int MaxPp { get; protected set; } = 5;
     public int Accuracy { get; protected set; }
     public string DamageClass { get; protected set; } = "special";
@@ -17,6 +17,7 @@ public class Move
     public Type Type { get; protected set; }
     public Move(int id)
     {
+        Type = new Type("fire",new List<string>(),new List<string>(),new List<string>(),new List<string>(),new List<string>(),new List<string>());
         this.id = id;
     }
     public void Use()

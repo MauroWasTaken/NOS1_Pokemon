@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,17 +8,17 @@ using UnityEngine.UI;
 
 public class BattleManagerScript : MonoBehaviour
 {
-    static Pokemon playerPokemon;
+    [SerializeField] GameObject menuControlleur;
+    Pokemon playerPokemon;
     [SerializeField] GameObject playerName;
     [SerializeField] GameObject playerSprite;
     [SerializeField] GameObject playerHpSlider;
     [SerializeField] GameObject playerHpLabel;
-    static Pokemon enemyPokemon;
+    Pokemon enemyPokemon;
     [SerializeField] GameObject enemyName;
     [SerializeField] GameObject enemySprite;
     [SerializeField] GameObject enemyHpSlider;
     [SerializeField] List<GameObject> moveLabels;
-    List<Move> moves = new List<Move>();
     public static BattleManagerScript _instance;
     void Awake()
     {
@@ -28,16 +29,11 @@ public class BattleManagerScript : MonoBehaviour
         else
         {
             _instance = this;
-            playerPokemon = new Pokemon(6);
-            playerPokemon.SelectedMoves.Add(new Move(0));
-            playerPokemon.SelectedMoves.Add(new Move(0));
-            playerPokemon.SelectedMoves.Add(new Move(0));
-            playerPokemon.SelectedMoves.Add(new Move(0));
-            StartGame();
         }
     }
-    private void StartGame()
+    public void StartGame(Pokemon playerPokemon)
     {
+        this.playerPokemon = playerPokemon;
         GenerateEnemyPokemon();
         LoadUi();
     }
@@ -62,12 +58,14 @@ public class BattleManagerScript : MonoBehaviour
         for (int i = 0; i < playerPokemon.SelectedMoves.Count; i++)
         {
             moveLabels[i].GetComponent<TextMeshProUGUI>().text = playerPokemon.SelectedMoves[i].Name;
+            string message = "PP: " + playerPokemon.SelectedMoves[i].Pp + "/" + playerPokemon.SelectedMoves[i].MaxPp + "\n Type: " + playerPokemon.SelectedMoves[i].Type.Name + "\n Class: " + playerPokemon.SelectedMoves[i].DamageClass;
+            moveLabels[i].transform.parent.GetChild(1).gameObject.GetComponent<UseTooltipScript>().Message = message;
         }
     }
     private void UpdateHp(bool player)
     {
-        Pokemon pokemon = new Pokemon(0);
-        GameObject slider = new GameObject();
+        Pokemon pokemon;
+        GameObject slider;
         if (player)
         {
             playerHpLabel.GetComponent<TextMeshProUGUI>().SetText(playerPokemon.BaseStats["hp"] + " / " + playerPokemon.BaseStats["maxHp"]);
@@ -84,11 +82,15 @@ public class BattleManagerScript : MonoBehaviour
     private void GenerateEnemyPokemon()
     {
         enemyPokemon = new Pokemon(25);
+        enemyPokemon.SelectedMoves.Add(new Move(0));
+        enemyPokemon.SelectedMoves.Add(new Move(0));
+        enemyPokemon.SelectedMoves.Add(new Move(0));
+        enemyPokemon.SelectedMoves.Add(new Move(0));
+
     }
     private void LoadSprites()
     {
-        Sprite loadedSprite = Resources.Load<Sprite>("Pokemon/Front/" + enemyPokemon.Dex);
-        enemySprite.GetComponent<SpriteRenderer>().sprite = loadedSprite;
+        enemySprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Front/" + enemyPokemon.Dex);
         playerSprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
     }
     private void LoadMoves()
@@ -97,19 +99,81 @@ public class BattleManagerScript : MonoBehaviour
         enemySprite.GetComponent<SpriteRenderer>().sprite = loadedSprite;
         playerSprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
     }
-    public static void MoveClicked(int index)
+    public void MoveClicked(int index)
     {
-        playerPokemon.Attack(playerPokemon.SelectedMoves[index], enemyPokemon);
-    }
-    public void EndMatch(Pokemon pokemon)
-    {
-        if (pokemon == playerPokemon)
+        if (playerPokemon.SelectedMoves[index].Pp > 0)
         {
-            //player won
+            StartCoroutine(AttackSequence(index));
         }
         else
         {
+            //play error Sound
+        }
+    }
+    IEnumerator AttackSequence(int playerMove)
+    {
+        ToggleButtons();
+        Pokemon fasterPokemon, slowerPokemon;
+        int fastPokemonMove, slowPokemonMove;
+        if (playerPokemon.BaseStats["speed"] > enemyPokemon.BaseStats["speed"])
+        {
+            fasterPokemon = playerPokemon;
+            fastPokemonMove = playerMove;
+            slowerPokemon = enemyPokemon;
+            slowPokemonMove = Random.Range(0, 3);
+        }
+        else if (playerPokemon.BaseStats["speed"] < enemyPokemon.BaseStats["speed"])
+        {
+            fasterPokemon = enemyPokemon;
+            fastPokemonMove = Random.Range(0, 3);
+            slowerPokemon = playerPokemon;
+            slowPokemonMove = playerMove;
+        }
+        else if (Random.value >= 0.5)
+        {
+            fasterPokemon = playerPokemon;
+            fastPokemonMove = playerMove;
+            slowerPokemon = enemyPokemon;
+            slowPokemonMove = Random.Range(0, 3);
+        }
+        else
+        {
+            fasterPokemon = enemyPokemon;
+            fastPokemonMove = Random.Range(0, 3);
+            slowerPokemon = playerPokemon;
+            slowPokemonMove = playerMove;
+        }
+        fasterPokemon.Attack(fasterPokemon.SelectedMoves[fastPokemonMove], slowerPokemon);
+        yield return new WaitForSeconds(1);
+        if (slowerPokemon.BaseStats["hp"] > 0)
+        {
+            slowerPokemon.Attack(slowerPokemon.SelectedMoves[slowPokemonMove], fasterPokemon);
+            yield return new WaitForSeconds(1);
+        }
+        CheckWinner();
+        ToggleButtons();
+    }
+    public void ToggleButtons()
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            moveLabels[i].transform.parent.gameObject.SetActive(!moveLabels[i].transform.parent.gameObject.activeSelf);
+        }
+        TooltipScript._instance.HideTooltip();
+    }
+    public void CheckWinner()
+    {
+
+        if (enemyPokemon.BaseStats["hp"] == 0)
+        {
+            //player won
+
+            menuControlleur.GetComponent<MenuControllerScript>().EndBattle(playerPokemon, "Victory!");
+        }
+        else if (playerPokemon.BaseStats["hp"] == 0)
+        {
             //player lost lol
+            menuControlleur.GetComponent<MenuControllerScript>().EndBattle(enemyPokemon, "Defeat!");
         }
     }
 }

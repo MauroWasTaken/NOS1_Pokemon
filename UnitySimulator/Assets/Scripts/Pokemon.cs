@@ -10,7 +10,7 @@ public class Pokemon
     public Dictionary<string, int> BaseStats { get; protected set; } = new Dictionary<string, int>()
     {
         {"maxHp",90},
-        {"hp",80},
+        {"hp",90},
         {"attack",90},
         {"defense",90},
         {"spAttack",90},
@@ -44,6 +44,7 @@ public class Pokemon
     public void Attack(Move move, Pokemon target)
     {
         int damage = (int)Math.Floor((2 * move.Power * (this.BaseStats["attack"] / target.BaseStats["defense"]) / 50 + 2) * target.TypeEffectiveness(move));
+        move.Use();
         target.TakeDamage(damage);
     }
     public float TypeEffectiveness(Move move)
@@ -51,28 +52,31 @@ public class Pokemon
         float effectiveness = 1;
         foreach (Type type in Types)
         {
-            if (type.WeakAgainst.Contains(move.Type.name))
+            if (type.WeakAgainst.Contains(move.Type.Name))
             {
-                effectiveness=effectiveness*2;
+                effectiveness = effectiveness * 2;
             }
-            if (type.StrongAgainst.Contains(move.Type.name))
+            if (type.StrongAgainst.Contains(move.Type.Name))
             {
-                effectiveness=effectiveness/2;
+                effectiveness = effectiveness / 2;
             }
-            if (type.NoDamageFrom.Contains(move.Type.name))
+            if (type.NoDamageFrom.Contains(move.Type.Name))
             {
-                effectiveness=0;
+                effectiveness = 0;
             }
         }
         return effectiveness;
     }
     public void TakeDamage(int amount)
     {
-        BaseStats["hp"] -= amount;
-        BattleManagerScript._instance.UpdateUi();
-        if (BaseStats["hp"] <= 0)
+        if (amount > BaseStats["hp"])
         {
-            BattleManagerScript._instance.EndMatch(this);
+            BaseStats["hp"] = 0;
         }
+        else
+        {
+            BaseStats["hp"] -= amount;
+        }
+        BattleManagerScript._instance.UpdateUi();
     }
 }

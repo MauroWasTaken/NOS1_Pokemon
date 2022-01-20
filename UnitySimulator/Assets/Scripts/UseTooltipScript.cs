@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UIElements;
 public class UseTooltipScript : MonoBehaviour
 {
-    public string message;
+    public string Message;
     void OnMouseEnter()
     {
-        TooltipScript._instance.ShowTooltip(message);
+        TooltipScript._instance.ShowTooltip(Message);
     }
     void OnMouseExit()
     {

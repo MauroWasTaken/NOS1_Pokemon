@@ -25,7 +25,7 @@ public class TooltipScript : MonoBehaviour
     }
     void Update()
     {
-        this.gameObject.transform.position = Input.mousePosition + new Vector3(4,4,0);
+        this.gameObject.transform.position = Input.mousePosition + new Vector3(-200,20,0);
     }
     public void ShowTooltip(string message)
     {
