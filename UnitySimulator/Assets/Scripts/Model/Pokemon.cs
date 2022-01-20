@@ -1,28 +1,22 @@
 using System.Collections.Generic;
+using MongoDB.Bson.Serialization.Attributes;
+using Newtonsoft.Json;
 
 namespace Model
 {
     public class Pokemon
     {
-        public int Dex { get; protected set; } = 26;
-        public string Name { get; protected set; }
+        public int Dex { get; set; }
 
-        public Dictionary<string, int> BaseStats { get; protected set; } = new Dictionary<string, int>()
-        {
-            { "maxHp", 90 },
-            { "hp", 80 },
-            { "attack", 90 },
-            { "defense", 90 },
-            { "spAttack", 90 },
-            { "spDefence", 90 },
-            { "speed", 90 }
-        };
+        public string Name { get; set; }
 
-        public List<Type> Types { get; protected set; } = new List<Type>();
+        public BaseStats BaseStats { get; set; }
 
-        public List<Move> AvailableMoves { get; protected set; } = new List<Move>();
+        public List<Type> Types { get; set; }
 
-        public List<Move> SelectedMoves { get; protected set; } = new List<Move>();
+        public List<Move> AvailableMoves { get; set; }
+
+        public List<Move> SelectedMoves { get; set; }
 
         //Pokemon from scratch
         public Pokemon(int dex)
@@ -36,15 +30,13 @@ namespace Model
         {
         }
 
-        private void SetupStats(int hp, int attack, int defense, int spAttack, int spDefence, int speed)
+        public Pokemon(int dex, string name, BaseStats baseStats, List<Type> types, List<Move> availableMoves)
         {
-            BaseStats["maxHp"] = hp;
-            BaseStats["hp"] = hp;
-            BaseStats["attack"] = attack;
-            BaseStats["defense"] = defense;
-            BaseStats["spAttack"] = spAttack;
-            BaseStats["spDefence"] = spDefence;
-            BaseStats["speed"] = speed;
+            Dex = dex;
+            Name = name;
+            BaseStats = baseStats;
+            Types = types;
+            AvailableMoves = availableMoves;
         }
 
         public void Attack(Move move, Pokemon target)

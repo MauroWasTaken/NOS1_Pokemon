@@ -64,7 +64,7 @@ export class MongoDatabase {
           name: { type: String, required: true, unique: true, index: 'text' },
           moves: { type: [ String ], required: true },
           types: { type: [ Object ], required: true },
-          baseStats: { type: [ Object ], required: true }
+          baseStats: { type: Object, required: true }
         });
       case 'moves':
         return new Schema<MoveJSON>({
