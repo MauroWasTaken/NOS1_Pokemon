@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Model.Conversion;
 using MongoDB.Bson;
-using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
-using PlasticPipe.Server;
 
 namespace Model
 {
@@ -24,7 +21,7 @@ namespace Model
         /// <summary>
         /// Retrieve all pokemons form the database.
         /// </summary>
-        /// <returns>Pokemons with all properties set, excepted <see cref="Pokemon.SelectedMoves"/>.</returns>
+        /// <returns>Pokemons with all properties sync with the database, except <see cref="Pokemon.SelectedMoves"/>.</returns>
         public List<Pokemon> FindAllPokemons()
         {
             IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("pokemons");
@@ -35,10 +32,39 @@ namespace Model
         }
 
         /// <summary>
-        /// Retrieve a pokemon by name.
+        /// Retrieve a pokemon by pokedex number.
+        /// </summary>
+        /// <param name="dex">The unique pokedex number of the pokemon.</param>
+        /// <returns>A pokemon with all properties sync with the database, except <see cref="Pokemon.SelectedMoves"/></returns>
+        public Pokemon FindPokemonBy(int dex)
+        {
+            IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("pokemons");
+            FilterDefinition<BsonDocument> filter = Builders<BsonDocument>.Filter.Eq("dex", dex);
+            BsonDocument document = collection.Find(filter).Limit(1).First();
+            Pokemon pokemon = PokemonConverter.From(document);
+
+            return pokemon;
+        }
+
+        /// <summary>
+        /// Retrieve moves with a filter.
+        /// </summary>
+        /// <param name="filter">Filter using in the query.</param>
+        /// <returns>Moves filtered with all properties sync with the database.</returns>
+        public List<Move> FindMoves(FilterDefinition<BsonDocument> filter)
+        {
+            IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("moves");
+            List<BsonDocument> documents = collection.Find(filter).ToList();
+            List<Move> moves = documents.Select(MoveConverter.From).ToList();
+
+            return moves;
+        }
+
+        /// <summary>
+        /// Retrieve a move by name.
         /// </summary>
         /// <param name="name">The unique name of the move.</param>
-        /// <returns>A move with all properties set.</returns>
+        /// <returns>A move with all properties sync with the database.</returns>
         public Move FindMoveBy(string name)
         {
             IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("moves");
@@ -47,15 +73,6 @@ namespace Model
             Move move = MoveConverter.From(document);
 
             return move;
-        }
-        
-        public List<Move> FindMoves(FilterDefinition<BsonDocument> filter)
-        {
-            IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("moves");
-            List<BsonDocument> documents = collection.Find(filter).ToList();
-            List<Move> moves = documents.Select(MoveConverter.From).ToList();
-
-            return moves;
         }
     }
 }

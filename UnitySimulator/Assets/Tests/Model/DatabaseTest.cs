@@ -12,7 +12,6 @@ namespace Tests.Model
         [SetUp]
         public void SetUp() => _database = Database.Instance;
 
-
         [Test]
         public void FindAllPokemons_BasicCase_Pokemons()
         {
@@ -28,6 +27,19 @@ namespace Tests.Model
             Pokemon nidoking = pokemons.Find(pokemon => pokemon.Dex == 34);
             Assert.That(nidoking.Name, Is.EqualTo("nidoking"));
             Assert.That(nidoking.Types.First(p => p.Name == "poison"), Is.Not.Null);
+        }
+
+        [Test]
+        public void FindPokemonBy_Dex_Pokemon()
+        {
+            // Given
+            _database = Database.Instance;
+
+            // When
+            Pokemon pokemon = _database.FindPokemonBy(150);
+
+            // Then
+            Assert.That(pokemon.Name, Is.EqualTo("mewtwo"));
         }
         
         [Test]
