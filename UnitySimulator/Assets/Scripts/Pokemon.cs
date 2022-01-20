@@ -41,18 +41,38 @@ public class Pokemon
         BaseStats["spDefence"] = spDefence;
         BaseStats["speed"] = speed;
     }
-    public void Attack(Move move,Pokemon target )
+    public void Attack(Move move, Pokemon target)
     {
-
-        //int damage = (int) Math.Round((2*move.Power*(this.BaseStats["attack"]/target.BaseStats["defense"]))/50+2)*target.TypeEffectiveness(move);
+        int damage = (int)Math.Floor((2 * move.Power * (this.BaseStats["attack"] / target.BaseStats["defense"]) / 50 + 2) * target.TypeEffectiveness(move));
+        target.TakeDamage(damage);
     }
-    public decimal TypeEffectiveness(Move move)
+    public float TypeEffectiveness(Move move)
     {
-
-        return 1;
+        float effectiveness = 1;
+        foreach (Type type in Types)
+        {
+            if (type.WeakAgainst.Contains(move.Type.name))
+            {
+                effectiveness=effectiveness*2;
+            }
+            if (type.StrongAgainst.Contains(move.Type.name))
+            {
+                effectiveness=effectiveness/2;
+            }
+            if (type.NoDamageFrom.Contains(move.Type.name))
+            {
+                effectiveness=0;
+            }
+        }
+        return effectiveness;
     }
     public void TakeDamage(int amount)
     {
-
+        BaseStats["hp"] -= amount;
+        BattleManagerScript._instance.UpdateUi();
+        if (BaseStats["hp"] <= 0)
+        {
+            BattleManagerScript._instance.EndMatch(this);
+        }
     }
 }

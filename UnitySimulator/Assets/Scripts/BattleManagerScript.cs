@@ -7,12 +7,12 @@ using UnityEngine.UI;
 
 public class BattleManagerScript : MonoBehaviour
 {
-    Pokemon playerPokemon;
+    static Pokemon playerPokemon;
     [SerializeField] GameObject playerName;
     [SerializeField] GameObject playerSprite;
     [SerializeField] GameObject playerHpSlider;
     [SerializeField] GameObject playerHpLabel;
-    Pokemon enemyPokemon;
+    static Pokemon enemyPokemon;
     [SerializeField] GameObject enemyName;
     [SerializeField] GameObject enemySprite;
     [SerializeField] GameObject enemyHpSlider;
@@ -29,6 +29,10 @@ public class BattleManagerScript : MonoBehaviour
         {
             _instance = this;
             playerPokemon = new Pokemon(6);
+            playerPokemon.SelectedMoves.Add(new Move(0));
+            playerPokemon.SelectedMoves.Add(new Move(0));
+            playerPokemon.SelectedMoves.Add(new Move(0));
+            playerPokemon.SelectedMoves.Add(new Move(0));
             StartGame();
         }
     }
@@ -37,6 +41,12 @@ public class BattleManagerScript : MonoBehaviour
         GenerateEnemyPokemon();
         LoadUi();
     }
+    public void UpdateUi()
+    {
+        UpdateHp(true);
+        UpdateHp(false);
+        UpdateMoves();
+    }
     private void LoadUi()
     {
         LoadSprites();
@@ -44,6 +54,15 @@ public class BattleManagerScript : MonoBehaviour
         enemyName.GetComponent<TextMeshProUGUI>().SetText(enemyPokemon.Name);
         UpdateHp(true);
         UpdateHp(false);
+        UpdateMoves();
+
+    }
+    private void UpdateMoves()
+    {
+        for (int i = 0; i < playerPokemon.SelectedMoves.Count; i++)
+        {
+            moveLabels[i].GetComponent<TextMeshProUGUI>().text = playerPokemon.SelectedMoves[i].Name;
+        }
     }
     private void UpdateHp(bool player)
     {
@@ -78,8 +97,19 @@ public class BattleManagerScript : MonoBehaviour
         enemySprite.GetComponent<SpriteRenderer>().sprite = loadedSprite;
         playerSprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
     }
-    public void MoveClicked(int index)
+    public static void MoveClicked(int index)
     {
-
+        playerPokemon.Attack(playerPokemon.SelectedMoves[index], enemyPokemon);
+    }
+    public void EndMatch(Pokemon pokemon)
+    {
+        if (pokemon == playerPokemon)
+        {
+            //player won
+        }
+        else
+        {
+            //player lost lol
+        }
     }
 }

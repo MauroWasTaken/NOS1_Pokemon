@@ -5,7 +5,7 @@ using UnityEngine;
 public class Move
 {
     public int id;
-    public string Name { get; protected set; } = "10-000-000-volt-Thunderbolt";
+    public string Name { get; protected set; } = "attack";
     public int Power { get; protected set; } = 192;
     public int Pp { get; protected set; } = 1;
     public int MaxPp { get; protected set; } = 5;
@@ -17,7 +17,7 @@ public class Move
     public Type Type { get; protected set; }
     public Move(int id)
     {
-
+        this.id = id;
     }
     public void Use()
     {
