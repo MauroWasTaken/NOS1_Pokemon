@@ -9,7 +9,7 @@ namespace Model.Conversion
     {
         public static Pokemon From(BsonDocument bson)
         {
-            return new Pokemon
+            var pokemon = new Pokemon
             (
                 bson.GetValue("dex").AsInt32,
                 bson.GetValue("name").AsString,
@@ -20,6 +20,8 @@ namespace Model.Conversion
                     .ToList(),
                 GetMovesFrom(bson)
             );
+
+            return pokemon;
         }
 
         private static BaseStats GetBaseStatsFrom(BsonDocument bson)

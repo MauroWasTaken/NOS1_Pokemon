@@ -15,7 +15,7 @@ namespace Model
 
         public List<Move> AvailableMoves { get; set; }
 
-        public List<Move> SelectedMoves { get; set; }
+        public List<Move> SelectedMoves { get; set; } = new List<Move>();
 
         //Pokemon from scratch
         public Pokemon(int dex)
@@ -44,6 +44,7 @@ namespace Model
             move.Use();
             target.TakeDamage(damage);
         }
+
         public float TypeEffectiveness(Move move)
         {
             float effectiveness = 1;
@@ -53,15 +54,18 @@ namespace Model
                 {
                     effectiveness *= 2;
                 }
+
                 if (type.StrongAgainst.Contains(move.Type.Name))
                 {
                     effectiveness /= 2;
                 }
+
                 if (type.NoDamageFrom.Contains(move.Type.Name))
                 {
                     effectiveness = 0;
                 }
             }
+
             return effectiveness;
         }
 
@@ -75,7 +79,7 @@ namespace Model
             {
                 BaseStats.Hp -= amount;
             }
-            
+
             // TODO : Running below line in this file
             // BattleManagerScript._instance.UpdateUi();
         }

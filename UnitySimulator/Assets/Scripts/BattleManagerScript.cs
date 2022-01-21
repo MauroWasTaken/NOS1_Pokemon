@@ -1,9 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Model;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class BattleManagerScript : MonoBehaviour
 {
@@ -19,6 +22,7 @@ public class BattleManagerScript : MonoBehaviour
     [SerializeField] GameObject enemyHpSlider;
     [SerializeField] List<GameObject> moveLabels;
     public static BattleManagerScript _instance;
+
     void Awake()
     {
         if (_instance != null && _instance != this)
@@ -32,6 +36,7 @@ public class BattleManagerScript : MonoBehaviour
             //StartGame(playerPokemon);
         }
     }
+
     public void StartGame(Pokemon playerPokemon)
     {
         this.playerPokemon = playerPokemon;
@@ -45,6 +50,7 @@ public class BattleManagerScript : MonoBehaviour
         UpdateHp(false);
         UpdateMoves();
     }
+
     private void LoadUi()
     {
         LoadSprites();
@@ -53,14 +59,16 @@ public class BattleManagerScript : MonoBehaviour
         UpdateHp(true);
         UpdateHp(false);
         UpdateMoves();
-
     }
+
     private void UpdateMoves()
     {
         for (int i = 0; i < playerPokemon.SelectedMoves.Count; i++)
         {
             moveLabels[i].GetComponent<TextMeshProUGUI>().text = playerPokemon.SelectedMoves[i].Name;
-            string message = "PP: " + playerPokemon.SelectedMoves[i].Pp + "/" + playerPokemon.SelectedMoves[i].MaxPp + "\n Type: " + playerPokemon.SelectedMoves[i].Type.Name + "\n Class: " + playerPokemon.SelectedMoves[i].DamageClass;
+            string message = "PP: " + playerPokemon.SelectedMoves[i].Pp + "/" + playerPokemon.SelectedMoves[i].MaxPp +
+                             "\n Type: " + playerPokemon.SelectedMoves[i].Type.Name + "\n Class: " +
+                             playerPokemon.SelectedMoves[i].DamageClass;
             moveLabels[i].transform.parent.GetChild(1).gameObject.GetComponent<UseTooltipScript>().Message = message;
         }
     }
@@ -71,7 +79,8 @@ public class BattleManagerScript : MonoBehaviour
         GameObject slider;
         if (player)
         {
-            playerHpLabel.GetComponent<TextMeshProUGUI>().SetText(playerPokemon.BaseStats.Hp + " / " + playerPokemon.BaseStats.MaxHp);
+            playerHpLabel.GetComponent<TextMeshProUGUI>()
+                .SetText(playerPokemon.BaseStats.Hp + " / " + playerPokemon.BaseStats.MaxHp);
             pokemon = playerPokemon;
             slider = playerHpSlider;
         }
@@ -86,18 +95,16 @@ public class BattleManagerScript : MonoBehaviour
 
     private void GenerateEnemyPokemon()
     {
-        enemyPokemon = new Pokemon(25);
-        enemyPokemon.SelectedMoves.Add(new Move(0));
-        enemyPokemon.SelectedMoves.Add(new Move(0));
-        enemyPokemon.SelectedMoves.Add(new Move(0));
-        enemyPokemon.SelectedMoves.Add(new Move(0));
-
+        enemyPokemon = Database.Instance.FindPokemonBy(25);
+        Move move = Database.Instance.FindMoveBy("tackle");
+        enemyPokemon.SelectedMoves.AddRange(Enumerable.Repeat(move, 4).ToList());
     }
 
     private void LoadSprites()
     {
         enemySprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Front/" + enemyPokemon.Dex);
-        playerSprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
+        playerSprite.GetComponent<SpriteRenderer>().sprite =
+            Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
     }
 
     private void LoadMoves()
@@ -119,6 +126,7 @@ public class BattleManagerScript : MonoBehaviour
             //play error Sound
         }
     }
+
     IEnumerator AttackSequence(int playerMove)
     {
         ToggleButtons();
@@ -152,6 +160,7 @@ public class BattleManagerScript : MonoBehaviour
             slowerPokemon = playerPokemon;
             slowPokemonMove = playerMove;
         }
+
         fasterPokemon.Attack(fasterPokemon.SelectedMoves[fastPokemonMove], slowerPokemon);
         yield return new WaitForSeconds(1);
         if (slowerPokemon.BaseStats.Hp > 0)
@@ -159,20 +168,23 @@ public class BattleManagerScript : MonoBehaviour
             slowerPokemon.Attack(slowerPokemon.SelectedMoves[slowPokemonMove], fasterPokemon);
             yield return new WaitForSeconds(1);
         }
+
         CheckWinner();
         ToggleButtons();
     }
+
     public void ToggleButtons()
     {
         for (int i = 0; i < 4; i++)
         {
             moveLabels[i].transform.parent.gameObject.SetActive(!moveLabels[i].transform.parent.gameObject.activeSelf);
         }
+
         TooltipScript._instance.HideTooltip();
     }
+
     public void CheckWinner()
     {
-
         if (enemyPokemon.BaseStats.Hp == 0)
         {
             //player won
