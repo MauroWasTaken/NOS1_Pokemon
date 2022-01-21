@@ -1,9 +1,8 @@
-using System.Globalization;
-using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using Model;
 using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class BattleManagerScript : MonoBehaviour
@@ -24,11 +23,13 @@ public class BattleManagerScript : MonoBehaviour
     {
         if (_instance != null && _instance != this)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
         else
         {
             _instance = this;
+            //playerPokemon = Database.Instance.FindPokemonBy(59);
+            //StartGame(playerPokemon);
         }
     }
     public void StartGame(Pokemon playerPokemon)
@@ -37,6 +38,7 @@ public class BattleManagerScript : MonoBehaviour
         GenerateEnemyPokemon();
         LoadUi();
     }
+
     public void UpdateUi()
     {
         UpdateHp(true);
@@ -62,13 +64,14 @@ public class BattleManagerScript : MonoBehaviour
             moveLabels[i].transform.parent.GetChild(1).gameObject.GetComponent<UseTooltipScript>().Message = message;
         }
     }
+
     private void UpdateHp(bool player)
     {
         Pokemon pokemon;
         GameObject slider;
         if (player)
         {
-            playerHpLabel.GetComponent<TextMeshProUGUI>().SetText(playerPokemon.BaseStats["hp"] + " / " + playerPokemon.BaseStats["maxHp"]);
+            playerHpLabel.GetComponent<TextMeshProUGUI>().SetText(playerPokemon.BaseStats.Hp + " / " + playerPokemon.BaseStats.MaxHp);
             pokemon = playerPokemon;
             slider = playerHpSlider;
         }
@@ -77,8 +80,10 @@ public class BattleManagerScript : MonoBehaviour
             pokemon = enemyPokemon;
             slider = enemyHpSlider;
         }
-        slider.GetComponent<Image>().fillAmount = (1f * pokemon.BaseStats["hp"] / pokemon.BaseStats["maxHp"]);
+
+        slider.GetComponent<Image>().fillAmount = (1f * pokemon.BaseStats.Hp / pokemon.BaseStats.MaxHp);
     }
+
     private void GenerateEnemyPokemon()
     {
         enemyPokemon = new Pokemon(25);
@@ -88,17 +93,21 @@ public class BattleManagerScript : MonoBehaviour
         enemyPokemon.SelectedMoves.Add(new Move(0));
 
     }
+
     private void LoadSprites()
     {
         enemySprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Front/" + enemyPokemon.Dex);
         playerSprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
     }
+
     private void LoadMoves()
     {
         Sprite loadedSprite = Resources.Load<Sprite>("Pokemon/Front/" + enemyPokemon.Dex);
         enemySprite.GetComponent<SpriteRenderer>().sprite = loadedSprite;
-        playerSprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
+        playerSprite.GetComponent<SpriteRenderer>().sprite =
+            Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
     }
+
     public void MoveClicked(int index)
     {
         if (playerPokemon.SelectedMoves[index].Pp > 0)
@@ -115,14 +124,14 @@ public class BattleManagerScript : MonoBehaviour
         ToggleButtons();
         Pokemon fasterPokemon, slowerPokemon;
         int fastPokemonMove, slowPokemonMove;
-        if (playerPokemon.BaseStats["speed"] > enemyPokemon.BaseStats["speed"])
+        if (playerPokemon.BaseStats.Speed > enemyPokemon.BaseStats.Speed)
         {
             fasterPokemon = playerPokemon;
             fastPokemonMove = playerMove;
             slowerPokemon = enemyPokemon;
             slowPokemonMove = Random.Range(0, 3);
         }
-        else if (playerPokemon.BaseStats["speed"] < enemyPokemon.BaseStats["speed"])
+        else if (playerPokemon.BaseStats.Speed < enemyPokemon.BaseStats.Speed)
         {
             fasterPokemon = enemyPokemon;
             fastPokemonMove = Random.Range(0, 3);
@@ -145,7 +154,7 @@ public class BattleManagerScript : MonoBehaviour
         }
         fasterPokemon.Attack(fasterPokemon.SelectedMoves[fastPokemonMove], slowerPokemon);
         yield return new WaitForSeconds(1);
-        if (slowerPokemon.BaseStats["hp"] > 0)
+        if (slowerPokemon.BaseStats.Hp > 0)
         {
             slowerPokemon.Attack(slowerPokemon.SelectedMoves[slowPokemonMove], fasterPokemon);
             yield return new WaitForSeconds(1);
@@ -164,13 +173,13 @@ public class BattleManagerScript : MonoBehaviour
     public void CheckWinner()
     {
 
-        if (enemyPokemon.BaseStats["hp"] == 0)
+        if (enemyPokemon.BaseStats.Hp == 0)
         {
             //player won
 
             menuControlleur.GetComponent<MenuControllerScript>().EndBattle(playerPokemon, "Victory!");
         }
-        else if (playerPokemon.BaseStats["hp"] == 0)
+        else if (playerPokemon.BaseStats.Hp == 0)
         {
             //player lost lol
             menuControlleur.GetComponent<MenuControllerScript>().EndBattle(enemyPokemon, "Defeat!");

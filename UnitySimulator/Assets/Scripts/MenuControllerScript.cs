@@ -1,9 +1,7 @@
-using System.Net.Mime;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+using Model;
 using TMPro;
+using UnityEngine;
 
 public class MenuControllerScript : MonoBehaviour
 {

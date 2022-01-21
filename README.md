@@ -36,3 +36,4 @@ npm run import-data
 
 ## References
 
+[NuGetForUnity](https://github.com/GlitchEnzo/NuGetForUnity) : NuGet client to run inside the Unity Editor
