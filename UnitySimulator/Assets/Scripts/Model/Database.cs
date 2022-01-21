@@ -11,12 +11,18 @@ namespace Model
         private static Database _instance;
         private readonly IMongoDatabase _connection;
 
-        public static Database Instance => _instance ??= new Database();
+        /// <summary>
+        /// Private constructor ton implement the singleton pattern.<br/>
+        /// We don't want the game to use multiple instance of the connection.<br/>
+        /// It will connect to the database the first time the accessor <see cref="Instance"/> is called, but not
+        /// next times.
+        /// </summary>
+        private Database() => _connection = new MongoClient("mongodb://127.0.0.1/pokesims").GetDatabase("pokesim");
 
-        private Database()
-        {
-            _connection = new MongoClient("mongodb://localhost:27017").GetDatabase("pokesim");
-        }
+        /// <summary>
+        /// Single instance of the database.
+        /// </summary>
+        public static Database Instance => _instance ??= new Database();
 
         /// <summary>
         /// Retrieve all pokemons form the database.
