@@ -22,6 +22,7 @@ Create the database with collections.
 use pokesim
 db.createCollection('pokemons')
 db.createCollection('moves')
+db.createCollection('presets')
 exit
 ```
 
