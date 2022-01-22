@@ -12,22 +12,25 @@ namespace Model
         private readonly IMongoDatabase _connection;
 
         /// <summary>
-        /// Private constructor ton implement the singleton pattern.<br/>
-        /// We don't want the game to use multiple instance of the connection.<br/>
-        /// It will connect to the database the first time the accessor <see cref="Instance"/> is called, but not
-        /// next times.
+        ///     Private constructor ton implement the singleton pattern.<br />
+        ///     We don't want the game to use multiple instance of the connection.<br />
+        ///     It will connect to the database the first time the accessor <see cref="Instance" /> is called, but not
+        ///     next times.
         /// </summary>
-        private Database() => _connection = new MongoClient("mongodb://127.0.0.1/pokesims").GetDatabase("pokesim");
+        private Database()
+        {
+            _connection = new MongoClient("mongodb://127.0.0.1/pokesims").GetDatabase("pokesim");
+        }
 
         /// <summary>
-        /// Single instance of the database.
+        ///     Single instance of the database.
         /// </summary>
         public static Database Instance => _instance ??= new Database();
 
         /// <summary>
-        /// Retrieve all pokemons form the database.
+        ///     Retrieve all pokemons form the database.
         /// </summary>
-        /// <returns>Pokemons with all properties sync with the database, except <see cref="Pokemon.SelectedMoves"/>.</returns>
+        /// <returns>Pokemons with all properties sync with the database, except <see cref="Pokemon.SelectedMoves" />.</returns>
         public List<Pokemon> FindAllPokemons()
         {
             IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("pokemons");
@@ -38,10 +41,10 @@ namespace Model
         }
 
         /// <summary>
-        /// Retrieve a pokemon by pokedex number.
+        ///     Retrieve a pokemon by pokedex number.
         /// </summary>
         /// <param name="dex">The unique pokedex number of the pokemon.</param>
-        /// <returns>A pokemon with all properties sync with the database, except <see cref="Pokemon.SelectedMoves"/></returns>
+        /// <returns>A pokemon with all properties sync with the database, except <see cref="Pokemon.SelectedMoves" /></returns>
         public Pokemon FindPokemonBy(int dex)
         {
             IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("pokemons");
@@ -53,7 +56,7 @@ namespace Model
         }
 
         /// <summary>
-        /// Retrieve moves with a filter.
+        ///     Retrieve moves with a filter.
         /// </summary>
         /// <param name="filter">Filter using in the query.</param>
         /// <returns>Moves filtered with all properties sync with the database.</returns>
@@ -67,7 +70,7 @@ namespace Model
         }
 
         /// <summary>
-        /// Retrieve a move by name.
+        ///     Retrieve a move by name.
         /// </summary>
         /// <param name="name">The unique name of the move.</param>
         /// <returns>A move with all properties sync with the database.</returns>

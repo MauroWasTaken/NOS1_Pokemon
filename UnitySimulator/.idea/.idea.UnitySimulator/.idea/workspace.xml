@@ -8,7 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnitySimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnitySimulator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleManagerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleManagerScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuControllerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuControllerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/PokemonConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/PokemonConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Database.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +34,23 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/41/3f2d9dff/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Database.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd0a9f693efa4bb2a8d0097ddd0ec57fb5e00/a2/59310276/MongoClient.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/1d/dd98b1de/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/73/48d793d5/Type.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd0a9f693efa4bb2a8d0097ddd0ec57fb5e00/b8/40bc6a16/MongoClientSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Conversion/MoveConverter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/b9/2583d81d/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/62/1084eaf2/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Conversion/MoveConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Editor.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/1a/97b7eadd/Sprite.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/BattleManagerScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/BattleManagerScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,10 +82,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="23072">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="23072" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -102,7 +106,17 @@
       <workItem from="1642779117159" duration="1176000" />
       <workItem from="1642787336386" duration="39000" />
       <workItem from="1642787421950" duration="3892000" />
+      <workItem from="1642876115996" duration="246000" />
+      <workItem from="1642876409182" duration="6538000" />
     </task>
+    <task id="LOCAL-00001" summary="Move Ui loading outside model&#10;&#10;By making this, the model assembly can be used in tests">
+      <created>1642879753225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642879753225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,5 +138,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Move Ui loading outside model&#10;&#10;By making this, the model assembly can be used in tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move Ui loading outside model&#10;&#10;By making this, the model assembly can be used in tests" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

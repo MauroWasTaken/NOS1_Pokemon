@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,40 +5,33 @@ using Model;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using Random = UnityEngine.Random;
 
 public class BattleManagerScript : MonoBehaviour
 {
-    [SerializeField] GameObject menuControlleur;
-    Pokemon playerPokemon;
-    [SerializeField] GameObject playerName;
-    [SerializeField] GameObject playerSprite;
-    [SerializeField] GameObject playerHpSlider;
-    [SerializeField] GameObject playerHpLabel;
-    Pokemon enemyPokemon;
-    [SerializeField] GameObject enemyName;
-    [SerializeField] GameObject enemySprite;
-    [SerializeField] GameObject enemyHpSlider;
-    [SerializeField] List<GameObject> moveLabels;
-    public static BattleManagerScript _instance;
+    public static BattleManagerScript Instance;
+    [SerializeField] private GameObject menuControlleur;
+    [SerializeField] private GameObject playerName;
+    [SerializeField] private GameObject playerSprite;
+    [SerializeField] private GameObject playerHpSlider;
+    [SerializeField] private GameObject playerHpLabel;
+    [SerializeField] private GameObject enemyName;
+    [SerializeField] private GameObject enemySprite;
+    [SerializeField] private GameObject enemyHpSlider;
+    [SerializeField] private List<GameObject> moveLabels;
+    private Pokemon _enemyPokemon;
+    private Pokemon _playerPokemon;
 
-    void Awake()
+    private void Awake()
     {
-        if (_instance != null && _instance != this)
-        {
+        if (Instance != null && Instance != this)
             Destroy(gameObject);
-        }
         else
-        {
-            _instance = this;
-            //playerPokemon = Database.Instance.FindPokemonBy(59);
-            //StartGame(playerPokemon);
-        }
+            Instance = this;
     }
 
     public void StartGame(Pokemon playerPokemon)
     {
-        this.playerPokemon = playerPokemon;
+        _playerPokemon = playerPokemon;
         GenerateEnemyPokemon();
         LoadUi();
     }
@@ -54,8 +46,8 @@ public class BattleManagerScript : MonoBehaviour
     private void LoadUi()
     {
         LoadSprites();
-        playerName.GetComponent<TextMeshProUGUI>().SetText(playerPokemon.Name);
-        enemyName.GetComponent<TextMeshProUGUI>().SetText(enemyPokemon.Name);
+        playerName.GetComponent<TextMeshProUGUI>().SetText(_playerPokemon.Name);
+        enemyName.GetComponent<TextMeshProUGUI>().SetText(_enemyPokemon.Name);
         UpdateHp(true);
         UpdateHp(false);
         UpdateMoves();
@@ -63,12 +55,12 @@ public class BattleManagerScript : MonoBehaviour
 
     private void UpdateMoves()
     {
-        for (int i = 0; i < playerPokemon.SelectedMoves.Count; i++)
+        for (var i = 0; i < _playerPokemon.SelectedMoves.Count; i++)
         {
-            moveLabels[i].GetComponent<TextMeshProUGUI>().text = playerPokemon.SelectedMoves[i].Name;
-            string message = "PP: " + playerPokemon.SelectedMoves[i].Pp + "/" + playerPokemon.SelectedMoves[i].MaxPp +
-                             "\n Type: " + playerPokemon.SelectedMoves[i].Type.Name + "\n Class: " +
-                             playerPokemon.SelectedMoves[i].DamageClass;
+            moveLabels[i].GetComponent<TextMeshProUGUI>().text = _playerPokemon.SelectedMoves[i].Name;
+            string message = $"PP: {_playerPokemon.SelectedMoves[i].Pp}/{_playerPokemon.SelectedMoves[i].MaxPp}\n" +
+                             $"Type: {_playerPokemon.SelectedMoves[i].Type.Name}\n" +
+                             $"Class: {_playerPokemon.SelectedMoves[i].DamageClass}";
             moveLabels[i].transform.parent.GetChild(1).gameObject.GetComponent<UseTooltipScript>().Message = message;
         }
     }
@@ -80,92 +72,90 @@ public class BattleManagerScript : MonoBehaviour
         if (player)
         {
             playerHpLabel.GetComponent<TextMeshProUGUI>()
-                .SetText(playerPokemon.BaseStats.Hp + " / " + playerPokemon.BaseStats.MaxHp);
-            pokemon = playerPokemon;
+                .SetText(_playerPokemon.BaseStats.Hp + " / " + _playerPokemon.BaseStats.MaxHp);
+            pokemon = _playerPokemon;
             slider = playerHpSlider;
         }
         else
         {
-            pokemon = enemyPokemon;
+            pokemon = _enemyPokemon;
             slider = enemyHpSlider;
         }
 
-        slider.GetComponent<Image>().fillAmount = (1f * pokemon.BaseStats.Hp / pokemon.BaseStats.MaxHp);
+        slider.GetComponent<Image>().fillAmount = 1f * pokemon.BaseStats.Hp / pokemon.BaseStats.MaxHp;
     }
 
     private void GenerateEnemyPokemon()
     {
-        enemyPokemon = Database.Instance.FindPokemonBy(25);
+        _enemyPokemon = Database.Instance.FindPokemonBy(25);
         Move move = Database.Instance.FindMoveBy("tackle");
-        enemyPokemon.SelectedMoves.AddRange(Enumerable.Repeat(move, 4).ToList());
+        _enemyPokemon.SelectedMoves.AddRange(Enumerable.Repeat(move, 4).ToList());
     }
 
     private void LoadSprites()
     {
-        enemySprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Front/" + enemyPokemon.Dex);
+        enemySprite.GetComponent<SpriteRenderer>().sprite =
+            Resources.Load<Sprite>("Pokemon/Front/" + _enemyPokemon.Dex);
         playerSprite.GetComponent<SpriteRenderer>().sprite =
-            Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
+            Resources.Load<Sprite>("Pokemon/Back/" + _playerPokemon.Dex);
     }
 
     private void LoadMoves()
     {
-        Sprite loadedSprite = Resources.Load<Sprite>("Pokemon/Front/" + enemyPokemon.Dex);
+        var loadedSprite = Resources.Load<Sprite>("Pokemon/Front/" + _enemyPokemon.Dex);
         enemySprite.GetComponent<SpriteRenderer>().sprite = loadedSprite;
-        playerSprite.GetComponent<SpriteRenderer>().sprite =
-            Resources.Load<Sprite>("Pokemon/Back/" + playerPokemon.Dex);
+        string path = "Pokemon/Back/" + _playerPokemon.Dex;
+        playerSprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>(path);
     }
 
     public void MoveClicked(int index)
     {
-        if (playerPokemon.SelectedMoves[index].Pp > 0)
-        {
+        if (_playerPokemon.SelectedMoves[index].Pp > 0)
             StartCoroutine(AttackSequence(index));
-        }
-        else
-        {
-            //play error Sound
-        }
+        // TODO : Else, play error Sound
     }
 
-    IEnumerator AttackSequence(int playerMove)
+    private IEnumerator AttackSequence(int playerMove)
     {
         ToggleButtons();
         Pokemon fasterPokemon, slowerPokemon;
         int fastPokemonMove, slowPokemonMove;
-        if (playerPokemon.BaseStats.Speed > enemyPokemon.BaseStats.Speed)
+        if (_playerPokemon.BaseStats.Speed > _enemyPokemon.BaseStats.Speed)
         {
-            fasterPokemon = playerPokemon;
+            fasterPokemon = _playerPokemon;
             fastPokemonMove = playerMove;
-            slowerPokemon = enemyPokemon;
+            slowerPokemon = _enemyPokemon;
             slowPokemonMove = Random.Range(0, 3);
         }
-        else if (playerPokemon.BaseStats.Speed < enemyPokemon.BaseStats.Speed)
+        else if (_playerPokemon.BaseStats.Speed < _enemyPokemon.BaseStats.Speed)
         {
-            fasterPokemon = enemyPokemon;
+            fasterPokemon = _enemyPokemon;
             fastPokemonMove = Random.Range(0, 3);
-            slowerPokemon = playerPokemon;
+            slowerPokemon = _playerPokemon;
             slowPokemonMove = playerMove;
         }
         else if (Random.value >= 0.5)
         {
-            fasterPokemon = playerPokemon;
+            fasterPokemon = _playerPokemon;
             fastPokemonMove = playerMove;
-            slowerPokemon = enemyPokemon;
+            slowerPokemon = _enemyPokemon;
             slowPokemonMove = Random.Range(0, 3);
         }
         else
         {
-            fasterPokemon = enemyPokemon;
+            fasterPokemon = _enemyPokemon;
             fastPokemonMove = Random.Range(0, 3);
-            slowerPokemon = playerPokemon;
+            slowerPokemon = _playerPokemon;
             slowPokemonMove = playerMove;
         }
 
         fasterPokemon.Attack(fasterPokemon.SelectedMoves[fastPokemonMove], slowerPokemon);
+        Instance.UpdateUi();
         yield return new WaitForSeconds(1);
         if (slowerPokemon.BaseStats.Hp > 0)
         {
             slowerPokemon.Attack(slowerPokemon.SelectedMoves[slowPokemonMove], fasterPokemon);
+            Instance.UpdateUi();
             yield return new WaitForSeconds(1);
         }
 
@@ -173,28 +163,21 @@ public class BattleManagerScript : MonoBehaviour
         ToggleButtons();
     }
 
-    public void ToggleButtons()
+    private void ToggleButtons()
     {
-        for (int i = 0; i < 4; i++)
-        {
+        for (var i = 0; i < 4; i++)
             moveLabels[i].transform.parent.gameObject.SetActive(!moveLabels[i].transform.parent.gameObject.activeSelf);
-        }
 
         TooltipScript._instance.HideTooltip();
     }
 
-    public void CheckWinner()
+    private void CheckWinner()
     {
-        if (enemyPokemon.BaseStats.Hp == 0)
-        {
+        if (_enemyPokemon.BaseStats.Hp == 0)
             //player won
-
-            menuControlleur.GetComponent<MenuControllerScript>().EndBattle(playerPokemon, "Victory!");
-        }
-        else if (playerPokemon.BaseStats.Hp == 0)
-        {
+            menuControlleur.GetComponent<MenuControllerScript>().EndBattle(_playerPokemon, "Victory!");
+        else if (_playerPokemon.BaseStats.Hp == 0)
             //player lost lol
-            menuControlleur.GetComponent<MenuControllerScript>().EndBattle(enemyPokemon, "Defeat!");
-        }
+            menuControlleur.GetComponent<MenuControllerScript>().EndBattle(_enemyPokemon, "Defeat!");
     }
 }

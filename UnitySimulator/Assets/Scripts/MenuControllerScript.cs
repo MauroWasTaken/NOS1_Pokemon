@@ -103,7 +103,7 @@ public class MenuControllerScript : MonoBehaviour
         int id = presetDropdown.GetComponent<TMP_Dropdown>().value;
         DisableAll();
         battleMenu.SetActive(true);
-        BattleManagerScript._instance.StartGame(presets[id]);
+        BattleManagerScript.Instance.StartGame(presets[id]);
     }
 
     public void EndBattle(Pokemon pokemon, string text)
