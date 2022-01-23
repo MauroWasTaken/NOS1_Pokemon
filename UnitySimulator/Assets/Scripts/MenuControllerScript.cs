@@ -6,20 +6,27 @@ using UnityEngine;
 
 public class MenuControllerScript : MonoBehaviour
 {
-    [SerializeField] List<Sprite> pokemonSprites;
+    [SerializeField] GameObject mainMenu;
+    [SerializeField] GameObject battleMenu;
+    [SerializeField] GameObject endScreen;
+    //pokemon selection variables
+    [SerializeField] GameObject pokemonSelectionMenu;
     [SerializeField] GameObject presetDropdown;
     [SerializeField] GameObject presetSprite;
     [SerializeField] List<GameObject> presetsMoveLabels;
-    [SerializeField] GameObject mainMenu;
-    [SerializeField] GameObject pokemonSelectionMenu;
+    static List<Pokemon> presets;
+    //preset creator variables
     [SerializeField] GameObject myPresetsMenu;
-    [SerializeField] GameObject battleMenu;
-    [SerializeField] GameObject endScreen;
-    List<Pokemon> presets;
-
+    [SerializeField] GameObject pokemonDropdown;
+    [SerializeField] GameObject movesDropdown;
+    [SerializeField] GameObject pokemonNameInput;
+    [SerializeField] GameObject pokemonSprite;
+    [SerializeField] List<GameObject> pokemonMoveLabels;
+    static List<Pokemon> pokemons;
     public void Start()
     {
         MainMenu();
+        presets = new List<Pokemon>();
     }
 
     public void DisableAll()
@@ -41,71 +48,115 @@ public class MenuControllerScript : MonoBehaviour
     {
         DisableAll();
         myPresetsMenu.SetActive(true);
+        pokemons = GetPokemons();
+        LoadDropdown(pokemonDropdown, pokemons);
+        LoadMoveDropdown(pokemons[0].AvailableMoves);
+        pokemonNameInput.GetComponent<TMP_InputField>().text = pokemons[0].Name;
+        ChangeSelectedPokemon(0);
     }
 
     public void OpenPokemonSelection()
     {
         DisableAll();
         pokemonSelectionMenu.SetActive(true);
-        loadPresets();
-        loadDropdown();
-        ChangeSelectedPokemon(0);
+        LoadPresets();
+        LoadDropdown(presetDropdown, presets);
+        ChangeSelectedPreset(0);
     }
 
-    private void loadDropdown()
+    private void LoadDropdown(GameObject target, List<Pokemon> pokemons)
     {
-        foreach (Pokemon pokemon in presets)
+        target.GetComponent<TMP_Dropdown>().options.Clear();
+        foreach (Pokemon pokemon in pokemons)
         {
-            presetDropdown.GetComponent<TMP_Dropdown>().options.Add(new TMP_Dropdown.OptionData(pokemon.Name));
+            target.GetComponent<TMP_Dropdown>().options.Add(new TMP_Dropdown.OptionData(pokemon.Name));
         }
 
-        presetDropdown.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = presets[0].Name;
+        target.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = pokemons[0].Name;
+    }
+    private void LoadMoveDropdown(List<Move> moves)
+    {
+        movesDropdown.GetComponent<TMP_Dropdown>().options.Clear();
+        foreach (Move move in moves)
+        {
+            movesDropdown.GetComponent<TMP_Dropdown>().options.Add(new TMP_Dropdown.OptionData(move.Name));
+        }
+        movesDropdown.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = moves[0].Name;
     }
 
-    private void loadPresets()
+
+
+    private List<Pokemon> GetPokemons()
     {
-        presets = new List<Pokemon>();
+        List<Pokemon> output = new List<Pokemon>();
         List<Pokemon> pokemons = Database.Instance.FindAllPokemons();
-        Move move = Database.Instance.FindMoveBy("tackle");
 
         pokemons.ForEach(pokemon =>
         {
-            pokemon.SelectedMoves.AddRange(Enumerable.Repeat(move, 4).ToList());
-            presets.Add(pokemon);
+            output.Add(pokemon);
         });
+        return output;
     }
 
-    private void UpdateMoves()
+    private void UpdateMoves(List<GameObject> targets, Pokemon pokemon)
     {
-        int id = presetDropdown.GetComponent<TMP_Dropdown>().value;
-        for (var i = 0; i < presets[id].SelectedMoves.Count; i++)
+        for (var i = 0; i < pokemon.SelectedMoves.Count; i++)
         {
-            presetsMoveLabels[i].GetComponent<TextMeshProUGUI>().text = presets[id].SelectedMoves[i].Name;
-            string message = "PP: " + presets[id].SelectedMoves[i].MaxPp + "\n Type: " +
-                             presets[id].SelectedMoves[i].Type?.Name + "\n Class: " +
-                             presets[id].SelectedMoves[i].DamageClass;
-            presetsMoveLabels[i].transform.parent.GetChild(1).gameObject.GetComponent<UseTooltipScript>().Message =
+            targets[i].GetComponent<TextMeshProUGUI>().text = pokemon.SelectedMoves[i].Name;
+            string message = "PP: " + pokemon.SelectedMoves[i].MaxPp + "\n Type: " +
+                             pokemon.SelectedMoves[i].Type?.Name + "\n Class: " +
+                             pokemon.SelectedMoves[i].DamageClass;
+            targets[i].transform.parent.GetChild(1).gameObject.GetComponent<UseTooltipScript>().Message =
                 message;
         }
+        for (var i = pokemon.SelectedMoves.Count; i < 4; i++)
+        {
+            targets[i].GetComponent<TextMeshProUGUI>().text = " ";
+            targets[i].transform.parent.GetChild(1).gameObject.GetComponent<UseTooltipScript>().Message = "no move selected";
+        }
     }
-
-    public void ChangeSelectedPokemon(int useless)
+    public void ChangeSelectedPreset(int useless)
     {
-        loadPresets();
         int id = presetDropdown.GetComponent<TMP_Dropdown>().value;
         presetSprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Front/" + presets[id].Dex);
-        UpdateMoves();
+        UpdateMoves(presetsMoveLabels, presets[id]);
+    }
+    public void ChangeSelectedPokemon(int useless)
+    {
+        int id = pokemonDropdown.GetComponent<TMP_Dropdown>().value;
+        pokemonSprite.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Pokemon/Front/" + pokemons[id].Dex);
+        pokemons[id].SelectedMoves = new List<Move>() { pokemons[id].AvailableMoves[0] };
+        UpdateMoves(pokemonMoveLabels, pokemons[id]);
+        LoadMoveDropdown(pokemons[id].AvailableMoves);
+        pokemonNameInput.GetComponent<TMP_InputField>().text = pokemons[id].Name;
+    }
+    public void AddMove(int useless)
+    {
+        int id = pokemonDropdown.GetComponent<TMP_Dropdown>().value;
+        int moveId = movesDropdown.GetComponent<TMP_Dropdown>().value;
+        if (4 > pokemons[id].SelectedMoves.Count())
+        {
+            pokemons[id].SelectedMoves.Add(pokemons[id].AvailableMoves[moveId]);
+        }
+        UpdateMoves(pokemonMoveLabels, pokemons[id]);
+    }
+    public void RemoveMove(int index)
+    {
+        int id = pokemonDropdown.GetComponent<TMP_Dropdown>().value;
+        if (index < pokemons[id].SelectedMoves.Count())
+        {
+            pokemons[id].SelectedMoves.RemoveAt(index);
+        }
+        UpdateMoves(pokemonMoveLabels, pokemons[id]);
     }
 
     public void StartBattle()
     {
-        loadPresets();
         int id = presetDropdown.GetComponent<TMP_Dropdown>().value;
         DisableAll();
         battleMenu.SetActive(true);
         BattleManagerScript.Instance.StartGame(presets[id]);
     }
-
     public void EndBattle(Pokemon pokemon, string text)
     {
         DisableAll();
@@ -113,5 +164,17 @@ public class MenuControllerScript : MonoBehaviour
         endScreen.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite =
             Resources.Load<Sprite>("Pokemon/Front/" + pokemon.Dex);
         endScreen.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = text;
+    }
+    private void LoadPresets()
+    {
+        // TODO 
+    }
+    public void SavePreset()
+    {
+        // TODO 
+        int id = pokemonDropdown.GetComponent<TMP_Dropdown>().value;
+        pokemons[id].Name = pokemonNameInput.GetComponent<TMP_InputField>().text;
+        presets.Add(pokemons[id]);
+        MainMenu();
     }
 }
