@@ -1,10 +1,6 @@
-import { StatsJSON } from './StatJSON';
-import { TypeJSON } from './TypeJSON';
+import { MoveJSON } from '.';
+import { TPokemon } from './TPokemon';
 
-export interface PokemonJSON {
-  dex: number;
-  name: string;
-  moves: string[];
-  types: TypeJSON[];
-  baseStats: StatsJSON;
+export interface PokemonJSON extends TPokemon {
+  moves: string[] | MoveJSON[];
 }

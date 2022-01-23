@@ -7,7 +7,7 @@ namespace Model.Conversion
     {
         public static Move From(BsonDocument bson)
         {
-            return new Move
+            var move = new Move
             (
                 bson.GetValue("id").AsInt32,
                 bson.GetValue("name").AsString,
@@ -16,11 +16,13 @@ namespace Model.Conversion
                 GetNullableInt(bson, "pp"),
                 GetNullableInt(bson, "accuracy"),
                 GetNullableString(bson, "damageClass"),
+                GetNullableInt(bson, "priority"),
                 GetNullableString(bson, "ailment"),
                 GetNullableInt(bson, "ailmentChance"),
                 GetNullableInt(bson, "recoilAmount"),
                 TypeConverter.From(bson.GetValue("type").AsBsonDocument)
             );
+            return move;
         }
 
         private static int GetNullableInt(BsonDocument bson, string value)

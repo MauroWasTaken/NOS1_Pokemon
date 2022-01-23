@@ -1,4 +1,4 @@
 import { MoveJSON } from './MoveJSON';
-import { PokemonJSON } from './PokemonJSON';
+import { TPokemon } from './TPokemon';
 
-export type Convertible = PokemonJSON | MoveJSON;
+export type Convertible = TPokemon | MoveJSON;

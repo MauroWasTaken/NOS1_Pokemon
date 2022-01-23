@@ -1,5 +1,7 @@
+import * as Mongoose from 'mongoose';
 import mongoose, { Schema } from 'mongoose';
 import { MoveJSON, PokemonJSON } from '../../model';
+import { PokemonPresetJSON } from '../../model/PokemonPresetJSON';
 import { Log } from '../app';
 import { IO } from '../io';
 
@@ -10,7 +12,7 @@ export class MongoDatabase {
 
   //region Constants
 
-  private static readonly collectionsName: [ 'pokemons', 'moves' ] = [ 'pokemons', 'moves' ];
+  private static readonly collectionsName: string[] = [ 'pokemons', 'moves', 'presets' ];
 
   //endregion
 
@@ -56,20 +58,26 @@ export class MongoDatabase {
     }
   }
 
-  private static getSchema(schemaName: 'pokemons' | 'moves'): Schema {
+  private static getSchema(schemaName: string): Schema {
+    let schema;
+
     switch (schemaName) {
       case 'pokemons':
-        return new Schema<PokemonJSON>({
-          dex: { type: Number, required: true, unique: true },
-          name: { type: String, required: true, unique: true, index: 'text' },
+      default:
+        schema = new Schema<PokemonJSON>({
+          dex: { type: Number, required: true },
+          name: { type: String, required: true },
           moves: { type: [ String ], required: true },
           types: { type: [ Object ], required: true },
           baseStats: { type: Object, required: true }
         });
+        schema.index({ dex: 1 }, { unique: true });
+        schema.index({ name: 'text' });
+        break;
       case 'moves':
-        return new Schema<MoveJSON>({
-          id: { type: Number, required: true, unique: true },
-          name: { type: String, unique: true, index: 'text' },
+        schema = new Schema<MoveJSON>({
+          id: { type: Number, required: true },
+          name: { type: String, required: true },
           power: { type: Number },
           pp: { type: Number },
           type: { type: Object },
@@ -77,9 +85,25 @@ export class MongoDatabase {
           damageClass: { type: String },
           ailment: { type: String },
           ailmentChance: { type: Number },
-          recoilAmount: { type: Number }
+          recoilAmount: { type: Number },
+          priority: { type: Number, required: true }
         });
+        schema.index({ id: 1 }, { unique: true });
+        schema.index({ name: 'text' });
+        break;
+      case 'presets':
+        schema = new Schema<PokemonPresetJSON>({
+          _id: { type: Mongoose.Schema.Types.ObjectId },
+          dex: { type: Number, required: true },
+          name: { type: String, required: true },
+          moves: { type: [ Object ], required: true },
+          types: { type: [ Object ], required: true },
+          baseStats: { type: Object, required: true }
+        });
+        break;
     }
+
+    return schema;
   }
 
   //endregion

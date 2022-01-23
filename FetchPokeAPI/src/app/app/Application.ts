@@ -1,7 +1,9 @@
 import _ from 'lodash';
 import { BaseURL, Endpoints } from 'pokenode-ts';
 import { Convertible, MoveJSON, PokemonJSON } from '../../model';
+import { PokemonPresetJSON } from '../../model/PokemonPresetJSON';
 import { AbstractConverter, Fetcher, MoveConverter, PokemonConverter } from '../api';
+import { PresetConverter } from '../api/PresetConverter';
 import { IO } from '../io';
 import { Log } from './Log';
 
@@ -15,7 +17,6 @@ export class Application {
       const endPoint = `${BaseURL.REST}${Endpoints.Pokemon}`;
 
       Promise.all(firstGen.map(dexNumber => this.fetch(dexNumber, endPoint, pokemons, pokemonConverter))).then(() => {
-        pokemonConverter.cleanValues(pokemons);
         IO.write('src/data/pokemons.min.dev.json', pokemonConverter.toJSONString(pokemons));
         IO.write('src/data/pokemons.dev.json', pokemonConverter.toJSONString(pokemons, true));
         resolve();
@@ -33,6 +34,21 @@ export class Application {
       Promise.all(movesId.map(moveId => this.fetch(moveId, endPoint, moves, moveConverter))).then(() => {
         IO.write('src/data/moves.min.dev.json', moveConverter.toJSONString(moves));
         IO.write('src/data/moves.dev.json', moveConverter.toJSONString(moves, true));
+        resolve();
+      });
+    });
+  }
+
+  async processPreset(): Promise<void> {
+    return new Promise<void>(resolve => {
+      const dexNumbers = [ 151, 65, 112 ];
+      const presets: PokemonPresetJSON[] = [];
+      const endPoint = `${BaseURL.REST}${Endpoints.Pokemon}`;
+      const presetConverter = new PresetConverter();
+
+      Promise.all(dexNumbers.map(moveId => this.fetch(moveId, endPoint, presets, presetConverter))).then(() => {
+        IO.write('src/data/presets.min.dev.json', presetConverter.toJSONString(presets));
+        IO.write('src/data/presets.dev.json', presetConverter.toJSONString(presets, true));
         resolve();
       });
     });

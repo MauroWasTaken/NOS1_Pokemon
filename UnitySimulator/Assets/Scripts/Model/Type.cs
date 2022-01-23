@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace Model
 {
@@ -12,6 +13,7 @@ namespace Model
         public List<string> StrongAgainst { get; }
         public List<string> WeakAgainst { get; }
 
+        [JsonConstructor]
         public Type(
             string name,
             List<string> noDamageTo,

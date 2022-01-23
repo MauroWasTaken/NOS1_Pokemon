@@ -5,12 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10be5779-06a6-4505-b2be-aaf84aed64f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/AbstractTPokemonConverter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/PresetConverter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/data/presets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/data/presets.min.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/model/PokemonPresetJSON.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/model/TPokemon.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/PresetConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/PresetConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/AbstractConverter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/AbstractConverter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/PokemonConverter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/PokemonConverter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/app/app/Application.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/app/Application.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/app/mongodb/MongoDatabase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/mongodb/MongoDatabase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/data/pokemons.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/data/pokemons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/data/pokemons.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/data/pokemons.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/model/Convertible.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/model/Convertible.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/model/PokemonJSON.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/model/PokemonJSON.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/scripts/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/scripts/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/scripts/buildJsonProduction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/scripts/buildJsonProduction.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnitySimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnitySimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleManagerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleManagerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuControllerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuControllerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Tests/DatbaaseTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Tests/DatabaseTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Tests/DatbaaseTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Tests/DatabaseTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Tests/Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Tests/Tests.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/MoveConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/MoveConverter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Database.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Type.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Type.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitySimulator.sln.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/UnitySimulator.sln.DotSettings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +60,29 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Database.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Type.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd0a9f693efa4bb2a8d0097ddd0ec57fb5e00/66/2135798e/MongoCollectionBase`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Conversion/MoveConverter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Editor.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/1a/97b7eadd/Sprite.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/BattleManagerScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/BattleManagerScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10b6135e63434fdba4fc6c109928ab3b50800/d1/076f9d81/Is.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc3985d37b0241b48fc21474b2de25bda7e00/60/13756448/JsonSerializerInternalReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/8e/87d97253/BsonDocument.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10b6135e63434fdba4fc6c109928ab3b50800/60/a0a2df30/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/ea/c8d60cdb/BsonClassMapSerializer`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/2b/56f727ff/BsonDeserializationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb62560c330e4d74aa195b471206277f17a320/2f/308956ca/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc3985d37b0241b48fc21474b2de25bda7e00/94/64929d89/JsonPropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/42/4cd69a23/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Database.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/96/a2935742/ObjectId.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/0e/7f3259bd/BsonSerializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/EventSystem/EventTriggerEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/bb/73331add/BsonValue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Database.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,10 +114,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17584">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="17584" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -107,7 +139,9 @@
       <workItem from="1642787336386" duration="39000" />
       <workItem from="1642787421950" duration="3892000" />
       <workItem from="1642876115996" duration="246000" />
-      <workItem from="1642876409182" duration="6538000" />
+      <workItem from="1642876409182" duration="6643000" />
+      <workItem from="1642910670624" duration="6609000" />
+      <workItem from="1642942905252" duration="17002000" />
     </task>
     <task id="LOCAL-00001" summary="Move Ui loading outside model&#10;&#10;By making this, the model assembly can be used in tests">
       <created>1642879753225</created>
@@ -116,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642879753225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Move Ui loading outside model&#10;&#10;By making this, the model assembly can be used in tests">
+      <created>1642885318492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642885318492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +165,7 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -143,5 +184,35 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet Exception Breakpoints">
+          <properties exception="System.ArgumentNullException" isInternal="false" displayValue="ArgumentNullException" namespaceName="System">
+            <option name="internal" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Model/Database.cs</url>
+          <line>113</line>
+          <properties documentPath="C:\Users\yanni\WebstormProjects\NOS1_Pokemon\project\UnitySimulator\Assets\Scripts\Model\Database.cs" initialLine="113" containingFunctionPresentation="method 'DeletePreset'">
+            <startOffsets>
+              <option value="4904" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5010" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Model.Pokemon" memberName="SelectedMoves" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

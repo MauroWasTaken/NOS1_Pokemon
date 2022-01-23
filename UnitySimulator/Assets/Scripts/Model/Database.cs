@@ -10,6 +10,7 @@ namespace Model
     {
         private static Database _instance;
         private readonly IMongoDatabase _connection;
+        private const string DatabaseName = "pokesim";
 
         /// <summary>
         ///     Private constructor ton implement the singleton pattern.<br />
@@ -19,7 +20,7 @@ namespace Model
         /// </summary>
         private Database()
         {
-            _connection = new MongoClient("mongodb://127.0.0.1/pokesims").GetDatabase("pokesim");
+            _connection = new MongoClient("mongodb://127.0.0.1/pokesims").GetDatabase(DatabaseName);
         }
 
         /// <summary>
@@ -33,7 +34,8 @@ namespace Model
         /// <returns>Pokemons with all properties sync with the database, except <see cref="Pokemon.SelectedMoves" />.</returns>
         public List<Pokemon> FindAllPokemons()
         {
-            IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("pokemons");
+            IMongoCollection<BsonDocument> collection =
+                _connection.GetCollection<BsonDocument>(Meta.Collection.Pokemons);
             List<BsonDocument> documents = collection.Find(new BsonDocument()).ToList();
             List<Pokemon> pokemons = documents.Select(PokemonConverter.From).ToList();
 
@@ -47,7 +49,8 @@ namespace Model
         /// <returns>A pokemon with all properties sync with the database, except <see cref="Pokemon.SelectedMoves" /></returns>
         public Pokemon FindPokemonBy(int dex)
         {
-            IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("pokemons");
+            IMongoCollection<BsonDocument> collection =
+                _connection.GetCollection<BsonDocument>(Meta.Collection.Pokemons);
             FilterDefinition<BsonDocument> filter = Builders<BsonDocument>.Filter.Eq("dex", dex);
             BsonDocument document = collection.Find(filter).Limit(1).First();
             Pokemon pokemon = PokemonConverter.From(document);
@@ -62,7 +65,7 @@ namespace Model
         /// <returns>Moves filtered with all properties sync with the database.</returns>
         public List<Move> FindMoves(FilterDefinition<BsonDocument> filter)
         {
-            IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("moves");
+            IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>(Meta.Collection.Moves);
             List<BsonDocument> documents = collection.Find(filter).ToList();
             List<Move> moves = documents.Select(MoveConverter.From).ToList();
 
@@ -76,12 +79,50 @@ namespace Model
         /// <returns>A move with all properties sync with the database.</returns>
         public Move FindMoveBy(string name)
         {
-            IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>("moves");
+            IMongoCollection<BsonDocument> collection = _connection.GetCollection<BsonDocument>(Meta.Collection.Moves);
             FilterDefinition<BsonDocument> filter = Builders<BsonDocument>.Filter.Eq("name", name);
             BsonDocument document = collection.Find(filter).Limit(1).First();
             Move move = MoveConverter.From(document);
 
             return move;
+        }
+
+        public Pokemon FindPresetBy(string objectId)
+        {
+            IMongoCollection<BsonDocument>
+                collection = _connection.GetCollection<BsonDocument>(Meta.Collection.Presets);
+            FilterDefinition<BsonDocument> filter = Builders<BsonDocument>.Filter.Eq("_id", ObjectId.Parse(objectId));
+            BsonDocument document = collection.Find(filter).Limit(1).First();
+            Pokemon preset = PresetConverter.From(document);
+
+            return preset;
+        }
+
+        public void SavePreset(Pokemon pokemonWithAvailableMoves)
+        {
+            IMongoCollection<BsonDocument>
+                collection = _connection.GetCollection<BsonDocument>(Meta.Collection.Presets);
+            BsonDocument document = PresetConverter.From(pokemonWithAvailableMoves);
+            collection.InsertOne(document);
+            pokemonWithAvailableMoves.Id = document.GetValue("_id").ToString();
+        }
+
+        public void DeletePreset(string presetId)
+        {
+            IMongoCollection<BsonDocument>
+                collection = _connection.GetCollection<BsonDocument>(Meta.Collection.Presets);
+            FilterDefinition<BsonDocument> filter = Builders<BsonDocument>.Filter.Eq("_id", ObjectId.Parse(presetId));
+            collection.DeleteOne(filter);
+        }
+
+        private static class Meta
+        {
+            public static class Collection
+            {
+                public const string Pokemons = "pokemons";
+                public const string Moves = "moves";
+                public const string Presets = "presets";
+            }
         }
     }
 }

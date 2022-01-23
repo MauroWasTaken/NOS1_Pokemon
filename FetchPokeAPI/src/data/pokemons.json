@@ -3420,7 +3420,7 @@
   },
   {
     "dex": 29,
-    "name": "nidoranf",
+    "name": "nidoran-f",
     "types": [
       {
         "name": "poison",
@@ -3842,7 +3842,7 @@
   },
   {
     "dex": 32,
-    "name": "nidoranm",
+    "name": "nidoran-m",
     "types": [
       {
         "name": "poison",
@@ -16069,7 +16069,7 @@
   },
   {
     "dex": 122,
-    "name": "mrmime",
+    "name": "mr-mime",
     "types": [
       {
         "name": "psychic",

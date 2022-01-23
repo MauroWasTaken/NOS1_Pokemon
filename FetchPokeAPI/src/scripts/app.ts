@@ -5,7 +5,7 @@ import { Application, Log } from '../app/app';
   const app = new Application();
 
   await Fetcher.setUp();
-  Promise.all([ app.processPokemons(), app.processMoves() ]).then(() => {
+  Promise.all([ app.processPokemons(), app.processMoves(), app.processPreset() ]).then(() => {
     Log.info('Fetch process terminated successfully.');
     process.exit(0);
   }).catch(reason => {
