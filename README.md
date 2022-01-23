@@ -29,7 +29,7 @@ exit
 ### Insert data
 
 Install dependencies and run the script to import JSON files to collections.
-
+Go to the FetchPokeAPI folder
 ```shell
 npm install
 npm run import-data
