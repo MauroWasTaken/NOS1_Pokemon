@@ -90,6 +90,20 @@ namespace Model
             move.Use();
             target.TakeDamage(damage);
         }
+        public int GetDamage(Move move, Pokemon target){
+            var damage = 0;
+            if (move.Power > 0)
+            {
+                const int levelDmg = 2 * 100 / 5 + 2;
+                int statsDmg = move.DamageClass == "physical"
+                    ? GetRealStat(BaseStats.Attack) / GetRealStat(target.BaseStats.Defense)
+                    : GetRealStat(BaseStats.SpAttack) / GetRealStat(target.BaseStats.SpDefense);
+                int baseDmg = levelDmg * move.Power * statsDmg / 50 + 2;
+
+                damage = (int)Math.Floor(baseDmg * target.TypeEffectiveness(move));
+            }
+            return damage;
+        }
 
         private static int GetRealStat(int stat) => (int)(Math.Floor(0.01 * (2 * stat) * 100) + 5);
 

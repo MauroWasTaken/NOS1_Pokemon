@@ -103,9 +103,10 @@ public class MenuControllerScript : MonoBehaviour
         for (var i = 0; i < pokemon.SelectedMoves.Count; i++)
         {
             targets[i].GetComponent<TextMeshProUGUI>().text = pokemon.SelectedMoves[i].Name;
-            string message = "PP: " + pokemon.SelectedMoves[i].MaxPp + "\n Type: " +
-                             pokemon.SelectedMoves[i].Type?.Name + "\n Class: " +
-                             pokemon.SelectedMoves[i].DamageClass;
+            string message = $"PP: {pokemon.SelectedMoves[i].Pp}/{pokemon.SelectedMoves[i].MaxPp}\n" +
+                             $"Type: {pokemon.SelectedMoves[i].Type.Name}\n" +
+                             $"Class: {pokemon.SelectedMoves[i].DamageClass}\n" +
+                             $"Power: {pokemon.SelectedMoves[i].Power}";
             targets[i].transform.parent.GetChild(1).gameObject.GetComponent<UseTooltipScript>().Message =
                 message;
         }
@@ -172,8 +173,21 @@ public class MenuControllerScript : MonoBehaviour
     public void SavePreset()
     {
         int id = pokemonDropdown.GetComponent<TMP_Dropdown>().value;
-        pokemons[id].Name = pokemonNameInput.GetComponent<TMP_InputField>().text;
-        Database.Instance.SavePreset(pokemons[id]);
-        MainMenu();
+        if (pokemons[id].SelectedMoves.Count() > 0)
+        {
+            pokemons[id].Name = pokemonNameInput.GetComponent<TMP_InputField>().text;
+            Database.Instance.SavePreset(pokemons[id]);
+            MainMenu();
+        }
+    }
+    public void DeletePreset()
+    {
+        int id = presetDropdown.GetComponent<TMP_Dropdown>().value;
+        presetDropdown.GetComponent<TMP_Dropdown>().value=0;
+        Debug.Log(presets[id]);
+        Database.Instance.DeletePresetBy(presets[id].Id);
+        LoadPresets();
+        LoadDropdown(presetDropdown, presets);
+        ChangeSelectedPreset(0);
     }
 }
