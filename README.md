@@ -38,6 +38,20 @@ npm install
 npm run import-data
 ```
 
-## References
+## Game
 
-[NuGetForUnity](https://github.com/GlitchEnzo/NuGetForUnity) : NuGet client to run inside the Unity Editor
+Install [Unity v.2020.3.24f1](https://unity3d.com/get-unity/download/archive)
+
+Open the project from the folder UnitySimulator.
+
+Click on the play button.
+
+## Documentation
+
+A folder Doc/Data Structure is available for the structure of the MongoDb Database. There is a PDf file and a HTML folder. The HTML has a better readbility, so open the file index.html to read it.
+
+We use a [Trello Board](https://trello.com/b/csTjQf9o) for the project management.
+
+## Release
+
+You can download last release in the Github release section.
