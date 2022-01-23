@@ -5,35 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10be5779-06a6-4505-b2be-aaf84aed64f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/AbstractTPokemonConverter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/PresetConverter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/data/presets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/data/presets.min.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/model/PokemonPresetJSON.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/model/TPokemon.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/PresetConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/PresetConverter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/AbstractConverter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/AbstractConverter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/PokemonConverter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/api/PokemonConverter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/app/app/Application.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/app/Application.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/app/mongodb/MongoDatabase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/app/mongodb/MongoDatabase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/data/pokemons.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/data/pokemons.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/data/pokemons.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/data/pokemons.min.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/model/Convertible.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/model/Convertible.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/model/PokemonJSON.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/model/PokemonJSON.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/scripts/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/scripts/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FetchPokeAPI/src/scripts/buildJsonProduction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FetchPokeAPI/src/scripts/buildJsonProduction.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnitySimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnitySimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Tests/DatbaaseTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Tests/DatabaseTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Tests/DatbaaseTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Tests/DatabaseTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Tests/Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Tests/Tests.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/MoveConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/MoveConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Tests/DatabaseTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Tests/DatabaseTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Database.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Type.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Type.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitySimulator.sln.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/UnitySimulator.sln.DotSettings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +115,7 @@
       <workItem from="1642876115996" duration="246000" />
       <workItem from="1642876409182" duration="6643000" />
       <workItem from="1642910670624" duration="6609000" />
-      <workItem from="1642942905252" duration="17002000" />
+      <workItem from="1642942905252" duration="18278000" />
     </task>
     <task id="LOCAL-00001" summary="Move Ui loading outside model&#10;&#10;By making this, the model assembly can be used in tests">
       <created>1642879753225</created>
@@ -194,19 +168,6 @@
           </properties>
           <option name="timeStamp" value="30" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Model/Database.cs</url>
-          <line>113</line>
-          <properties documentPath="C:\Users\yanni\WebstormProjects\NOS1_Pokemon\project\UnitySimulator\Assets\Scripts\Model\Database.cs" initialLine="113" containingFunctionPresentation="method 'DeletePreset'">
-            <startOffsets>
-              <option value="4904" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5010" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>

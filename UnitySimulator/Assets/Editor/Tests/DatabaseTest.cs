@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Model;
 using NUnit.Framework;
@@ -17,7 +16,7 @@ namespace Editor.Tests
         public void FindAllPokemons_BasicCase_Pokemons()
         {
             // Given
-            const int pokemonCount = 151;
+            const int pokemonsCount = 151;
             const int pokemonDex = 34;
             const string pokemonName = "nidoking";
             const string pokemonFirstType = "ground";
@@ -27,7 +26,7 @@ namespace Editor.Tests
             List<Pokemon> pokemons = _database.FindAllPokemons();
 
             // Then
-            Assert.That(pokemons.Count, Is.EqualTo(pokemonCount));
+            Assert.That(pokemons.Count, Is.EqualTo(pokemonsCount));
 
             Pokemon pokemon = pokemons.Find(pokemon => pokemon.Dex == pokemonDex);
             Assert.That(pokemon.Name, Is.EqualTo(pokemonName));
@@ -71,10 +70,26 @@ namespace Editor.Tests
         public void FindAllPreset_BasicCase_Presets()
         {
             // Given
+            const int presetsCount = 3;
+            const string pokemonName = "rhydon";
+            const int pokemonDex = 112;
+            const string pokemonFirstType = "rock";
+            const string pokemonSecondType = "ground";
+            const string moveName = "earthquake";
+            const int defense = 120;
 
             // When
+            List<Pokemon> presets = _database.FindAllPresets();
 
             // Then
+            Assert.That(presets.Count, Is.EqualTo(presetsCount));
+
+            Pokemon preset = presets.Find(preset => preset.Name == pokemonName);
+            Assert.That(preset.Dex, Is.EqualTo(pokemonDex));
+            Assert.That(preset.Types.First(t => t.Name == pokemonFirstType), Is.Not.Null);
+            Assert.That(preset.Types.First(t => t.Name == pokemonSecondType), Is.Not.Null);
+            Assert.That(preset.SelectedMoves.First(m => m.Name == moveName), Is.Not.Null);
+            Assert.That(preset.BaseStats.Defense, Is.EqualTo(defense));
         }
 
         [Test]
@@ -97,7 +112,7 @@ namespace Editor.Tests
             Assert.That(preset.Id, Is.EqualTo(presetObjectId));
             Assert.That(preset.Name, Is.EqualTo(pokemonName));
             Assert.That(preset.Types.First(t => t.Name == pokemonType), Is.Not.Null);
-            Assert.That(preset.SelectedMoves.Find(m => m.Name == moveName), Is.Not.Null);
+            Assert.That(preset.SelectedMoves.First(m => m.Name == moveName), Is.Not.Null);
             Assert.That(preset.BaseStats.SpAttack, Is.EqualTo(spAttack));
         }
 
@@ -112,7 +127,7 @@ namespace Editor.Tests
             _database.SavePreset(preset);
 
             // Then
-            _database.DeletePreset(preset.Id);
+            _database.DeletePresetBy(preset.Id);
         }
 
         [TearDown]

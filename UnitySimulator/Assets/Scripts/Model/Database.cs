@@ -8,9 +8,9 @@ namespace Model
 {
     public class Database
     {
+        private const string DatabaseName = "pokesim";
         private static Database _instance;
         private readonly IMongoDatabase _connection;
-        private const string DatabaseName = "pokesim";
 
         /// <summary>
         ///     Private constructor ton implement the singleton pattern.<br />
@@ -87,6 +87,16 @@ namespace Model
             return move;
         }
 
+        public List<Pokemon> FindAllPresets()
+        {
+            IMongoCollection<BsonDocument>
+                collection = _connection.GetCollection<BsonDocument>(Meta.Collection.Presets);
+            List<BsonDocument> documents = collection.Find(new BsonDocument()).ToList();
+            List<Pokemon> presets = documents.Select(PresetConverter.From).ToList();
+
+            return presets;
+        }
+
         public Pokemon FindPresetBy(string objectId)
         {
             IMongoCollection<BsonDocument>
@@ -107,7 +117,7 @@ namespace Model
             pokemonWithAvailableMoves.Id = document.GetValue("_id").ToString();
         }
 
-        public void DeletePreset(string presetId)
+        public void DeletePresetBy(string presetId)
         {
             IMongoCollection<BsonDocument>
                 collection = _connection.GetCollection<BsonDocument>(Meta.Collection.Presets);
