@@ -1,0 +1,1 @@
+window.repositoryObject = {"object_id":"d10","name":"pokesim@127.0.0.1","description":null,"summary":[{"field":"Host","value":"127.0.0.1"},{"field":"Database","value":"pokesim"},{"field":"DBMS","value":"MongoDB"}],"modules":[{"id":"m117","name":"erd"}],"dbObjects":[{"count":3,"id":"d10t","name":"Tables"}],"show_schema":false};
