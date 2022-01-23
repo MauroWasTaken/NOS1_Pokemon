@@ -69,17 +69,29 @@ namespace Model
         public string Name { get; set; }
         public BaseStats BaseStats { get; set; }
         public List<Type> Types { get; set; }
-        [JsonIgnore] public List<Move> AvailableMoves { get; set; }
-        [JsonProperty("moves")] public List<Move> SelectedMoves { get; set; }
+        [JsonIgnore] public List<Move> AvailableMoves { get; set; } = new List<Move>();
+        [JsonProperty("moves")] public List<Move> SelectedMoves { get; set; } = new List<Move>();
 
         public void Attack(Move move, Pokemon target)
         {
-            var damage =
-                (int)Math.Floor((2 * move.Power * (BaseStats.Attack / target.BaseStats.Defense) / 50 + 2) *
-                                target.TypeEffectiveness(move));
+            var damage = 0;
+
+            if (move.Power > 0)
+            {
+                const int levelDmg = 2 * 100 / 5 + 2;
+                int statsDmg = move.DamageClass == "physical"
+                    ? GetRealStat(BaseStats.Attack) / GetRealStat(target.BaseStats.Defense)
+                    : GetRealStat(BaseStats.SpAttack) / GetRealStat(target.BaseStats.SpDefense);
+                int baseDmg = levelDmg * move.Power * statsDmg / 50 + 2;
+
+                damage = (int)Math.Floor(baseDmg * target.TypeEffectiveness(move));
+            }
+
             move.Use();
             target.TakeDamage(damage);
         }
+
+        private static int GetRealStat(int stat) => (int)(Math.Floor(0.01 * (2 * stat) * 100) + 5);
 
         private float TypeEffectiveness(Move move)
         {

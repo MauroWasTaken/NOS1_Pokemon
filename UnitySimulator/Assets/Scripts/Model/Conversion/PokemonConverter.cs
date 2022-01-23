@@ -29,7 +29,6 @@ namespace Model.Conversion
             return new BaseStats
             (
                 bson.GetValue("hp").AsInt32,
-                bson.GetValue("hp").AsInt32,
                 bson.GetValue("attack").AsInt32,
                 bson.GetValue("defense").AsInt32,
                 bson.GetValue("spAttack").AsInt32,

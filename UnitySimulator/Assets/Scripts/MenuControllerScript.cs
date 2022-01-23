@@ -167,14 +167,13 @@ public class MenuControllerScript : MonoBehaviour
     }
     private void LoadPresets()
     {
-        // TODO 
+        presets = Database.Instance.FindAllPresets();
     }
     public void SavePreset()
     {
-        // TODO 
         int id = pokemonDropdown.GetComponent<TMP_Dropdown>().value;
         pokemons[id].Name = pokemonNameInput.GetComponent<TMP_InputField>().text;
-        presets.Add(pokemons[id]);
+        Database.Instance.SavePreset(pokemons[id]);
         MainMenu();
     }
 }

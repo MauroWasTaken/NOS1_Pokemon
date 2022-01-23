@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -5,6 +6,7 @@ using Model;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class BattleManagerScript : MonoBehaviour
 {
@@ -33,6 +35,10 @@ public class BattleManagerScript : MonoBehaviour
     {
         _playerPokemon = playerPokemon;
         GenerateEnemyPokemon();
+        _playerPokemon.BaseStats.Hp = (int)(Math.Floor(0.01 * (2 * _playerPokemon.BaseStats.Hp) * 100) + 100 + 10);
+        _playerPokemon.BaseStats.MaxHp = _playerPokemon.BaseStats.Hp;
+        _enemyPokemon.BaseStats.Hp = (int)(Math.Floor(0.01 * (2 * _enemyPokemon.BaseStats.Hp) * 100) + 100 + 10);
+        _enemyPokemon.BaseStats.MaxHp = _enemyPokemon.BaseStats.Hp;
         LoadUi();
     }
 
@@ -87,9 +93,14 @@ public class BattleManagerScript : MonoBehaviour
 
     private void GenerateEnemyPokemon()
     {
-        _enemyPokemon = Database.Instance.FindPokemonBy(25);
-        Move move = Database.Instance.FindMoveBy("tackle");
-        _enemyPokemon.SelectedMoves.AddRange(Enumerable.Repeat(move, 4).ToList());
+        _enemyPokemon = Database.Instance.FindPokemonBy(Random.Range(1, 151));
+
+        for (var i = 0; i < 4; i++)
+        {
+            int random = Random.Range(0, _enemyPokemon.AvailableMoves.Count - 1);
+            Move enemyPokemonAvailableMove = _enemyPokemon.AvailableMoves[random];
+            _enemyPokemon.SelectedMoves.Add(enemyPokemonAvailableMove);
+        }
     }
 
     private void LoadSprites()
