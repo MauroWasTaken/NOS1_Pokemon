@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10be5779-06a6-4505-b2be-aaf84aed64f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnitySimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnitySimulator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuControllerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuControllerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/PresetConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Conversion/PresetConverter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Pokemon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,20 +38,30 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd0a9f693efa4bb2a8d0097ddd0ec57fb5e00/66/2135798e/MongoCollectionBase`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Move.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/BattleManagerScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Conversion/MoveConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/1a/97b7eadd/Sprite.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/MenuControllerScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd0a9f693efa4bb2a8d0097ddd0ec57fb5e00/a0/e3cc5061/IMongoCollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/MenuControllerScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10b6135e63434fdba4fc6c109928ab3b50800/d1/076f9d81/Is.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Pokemon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/TooltipScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc3985d37b0241b48fc21474b2de25bda7e00/60/13756448/JsonSerializerInternalReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/BattleManagerScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/8e/87d97253/BsonDocument.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10b6135e63434fdba4fc6c109928ab3b50800/60/a0a2df30/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/ea/c8d60cdb/BsonClassMapSerializer`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/2b/56f727ff/BsonDeserializationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb62560c330e4d74aa195b471206277f17a320/2f/308956ca/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc3985d37b0241b48fc21474b2de25bda7e00/94/64929d89/JsonPropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/42/4cd69a23/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/TooltipScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/yanni/WebstormProjects/NOS1_Pokemon/project/UnitySimulator/Assets/Scripts/Model/Database.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/96/a2935742/ObjectId.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/582e42538c104db3925602d208b5bfc581800/0e/7f3259bd/BsonSerializer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -116,7 +129,7 @@
       <workItem from="1642876115996" duration="246000" />
       <workItem from="1642876409182" duration="6643000" />
       <workItem from="1642910670624" duration="6609000" />
-      <workItem from="1642942905252" duration="27061000" />
+      <workItem from="1642942905252" duration="30254000" />
     </task>
     <task id="LOCAL-00001" summary="Move Ui loading outside model&#10;&#10;By making this, the model assembly can be used in tests">
       <created>1642879753225</created>
@@ -146,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642971717007</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update damage calculation super algorithm">
+      <created>1642971744458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642971744458</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +191,8 @@
     <MESSAGE value="Move Ui loading outside model&#10;&#10;By making this, the model assembly can be used in tests" />
     <MESSAGE value="Add presets methods that interact with Mongodb&#10;&#10;Methods are :&#10;&#10;  - Find all presets&#10;  - Find a preset by object id&#10;  - Save a preset&#10;  - Delete a preset by object id&#10;  &#10;All methods pass tests." />
     <MESSAGE value="Update calculation super algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update calculation super algorithm" />
+    <MESSAGE value="Update damage calculation super algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update damage calculation super algorithm" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -185,6 +206,19 @@
           </properties>
           <option name="timeStamp" value="30" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Model/Conversion/PresetConverter.cs</url>
+          <line>15</line>
+          <properties documentPath="C:\Users\yanni\WebstormProjects\NOS1_Pokemon\project\UnitySimulator\Assets\Scripts\Model\Conversion\PresetConverter.cs" initialLine="15" containingFunctionPresentation="method 'From'">
+            <startOffsets>
+              <option value="504" />
+            </startOffsets>
+            <endOffsets>
+              <option value="569" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>

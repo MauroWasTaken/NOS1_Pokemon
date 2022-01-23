@@ -63,6 +63,7 @@ namespace Model
 
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
+        [JsonIgnore]
         public string Id { get; set; }
 
         public int Dex { get; set; }
@@ -90,7 +91,9 @@ namespace Model
             move.Use();
             target.TakeDamage(damage);
         }
-        public int GetDamage(Move move, Pokemon target){
+
+        public int GetDamage(Move move, Pokemon target)
+        {
             var damage = 0;
             if (move.Power > 0)
             {
@@ -102,6 +105,7 @@ namespace Model
 
                 damage = (int)Math.Floor(baseDmg * target.TypeEffectiveness(move));
             }
+
             return damage;
         }
 
